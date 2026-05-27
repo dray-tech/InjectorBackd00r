@@ -1,0 +1,8829 @@
+local G2L = {};
+
+-- StarterGui.Injecter_Backdoor
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[Injecter_Backdoor]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6
+G2L["2"] = Instance.new("Folder", G2L["1"]);
+G2L["2"]["Name"] = [[injecter_v1.2.6]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts
+G2L["3"] = Instance.new("Folder", G2L["2"]);
+G2L["3"]["Name"] = [[mainScripts]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.LogoH
+G2L["4"] = Instance.new("LocalScript", G2L["3"]);
+G2L["4"]["Name"] = [[LogoH]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.LogoH.olleH
+G2L["5"] = Instance.new("BindableEvent", G2L["4"]);
+G2L["5"]["Name"] = [[olleH]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.hideExecutor
+G2L["6"] = Instance.new("LocalScript", G2L["3"]);
+G2L["6"]["Name"] = [[hideExecutor]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.UIDragMainContainer
+G2L["7"] = Instance.new("LocalScript", G2L["3"]);
+G2L["7"]["Name"] = [[UIDragMainContainer]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.clearIDE
+G2L["8"] = Instance.new("LocalScript", G2L["3"]);
+G2L["8"]["Name"] = [[clearIDE]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.hideIDE
+G2L["9"] = Instance.new("LocalScript", G2L["3"]);
+G2L["9"]["Name"] = [[hideIDE]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.mainScript
+G2L["a"] = Instance.new("LocalScript", G2L["3"]);
+G2L["a"]["Name"] = [[mainScript]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.mainScript.aegis
+G2L["b"] = Instance.new("ModuleScript", G2L["a"]);
+G2L["b"]["Name"] = [[aegis]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.remotePath
+G2L["c"] = Instance.new("StringValue", G2L["3"]);
+G2L["c"]["Name"] = [[remotePath]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI
+G2L["d"] = Instance.new("Folder", G2L["2"]);
+G2L["d"]["Name"] = [[UI]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer
+G2L["e"] = Instance.new("Frame", G2L["d"]);
+G2L["e"]["Visible"] = false;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(215, 215, 215);
+G2L["e"]["Size"] = UDim2.new(0, 937, 0, 285);
+G2L["e"]["Position"] = UDim2.new(0.01297, 0, 0.04925, 0);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Name"] = [[mainContainer]];
+G2L["e"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer
+G2L["f"] = Instance.new("Frame", G2L["e"]);
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["f"]["Size"] = UDim2.new(0, 206, 0, 285);
+G2L["f"]["Position"] = UDim2.new(-0.00059, 0, -0.001, 0);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Name"] = [[buttonsContainer]];
+G2L["f"]["BackgroundTransparency"] = 0.2;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.UIGradient
+G2L["10"] = Instance.new("UIGradient", G2L["f"]);
+G2L["10"]["Rotation"] = 132;
+G2L["10"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.UIGradient.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["10"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2
+G2L["12"] = Instance.new("Frame", G2L["f"]);
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["12"]["Size"] = UDim2.new(0, 171, 0, 177);
+G2L["12"]["Position"] = UDim2.new(0.09878, 0, 0.29673, 0);
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Name"] = [[bc2]];
+G2L["12"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB
+G2L["13"] = Instance.new("TextButton", G2L["12"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["13"]["Size"] = UDim2.new(0, 157, 0, 34);
+G2L["13"]["Name"] = [[HomeB]];
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[Home]];
+G2L["13"]["Position"] = UDim2.new(0.05456, 0, 0.04884, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.LocalScript
+G2L["14"] = Instance.new("LocalScript", G2L["13"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.anim
+G2L["15"] = Instance.new("LocalScript", G2L["13"]);
+G2L["15"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.UIStroke
+G2L["16"] = Instance.new("UIStroke", G2L["13"]);
+G2L["16"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["16"]["Thickness"] = 2;
+G2L["16"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["13"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB
+G2L["18"] = Instance.new("TextButton", G2L["12"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(0, 157, 0, 34);
+G2L["18"]["Name"] = [[ExecutorB]];
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[Executor]];
+G2L["18"]["Position"] = UDim2.new(0.05456, 0, 0.29203, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.LocalScript
+G2L["19"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.anim
+G2L["1a"] = Instance.new("LocalScript", G2L["18"]);
+G2L["1a"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.UIStroke
+G2L["1b"] = Instance.new("UIStroke", G2L["18"]);
+G2L["1b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1b"]["Thickness"] = 2;
+G2L["1b"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.UICorner
+G2L["1c"] = Instance.new("UICorner", G2L["18"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB
+G2L["1d"] = Instance.new("TextButton", G2L["12"]);
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["1d"]["Size"] = UDim2.new(0, 157, 0, 34);
+G2L["1d"]["Name"] = [[ScriptHubB]];
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Text"] = [[Script Hub]];
+G2L["1d"]["Position"] = UDim2.new(0.05456, 0, 0.52807, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.LocalScript
+G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.anim
+G2L["1f"] = Instance.new("LocalScript", G2L["1d"]);
+G2L["1f"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.UIStroke
+G2L["20"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["20"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["20"]["Thickness"] = 2;
+G2L["20"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.UICorner
+G2L["21"] = Instance.new("UICorner", G2L["1d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB
+G2L["22"] = Instance.new("TextButton", G2L["12"]);
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["22"]["TextSize"] = 14;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["22"]["Size"] = UDim2.new(0, 157, 0, 34);
+G2L["22"]["Name"] = [[SettingsB]];
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[Settings]];
+G2L["22"]["Position"] = UDim2.new(0.05456, 0, 0.76781, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.LocalScript
+G2L["23"] = Instance.new("LocalScript", G2L["22"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.anim
+G2L["24"] = Instance.new("LocalScript", G2L["22"]);
+G2L["24"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.UIStroke
+G2L["25"] = Instance.new("UIStroke", G2L["22"]);
+G2L["25"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["25"]["Thickness"] = 2;
+G2L["25"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.UICorner
+G2L["26"] = Instance.new("UICorner", G2L["22"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.UICorner
+G2L["27"] = Instance.new("UICorner", G2L["12"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.UIStroke
+G2L["28"] = Instance.new("UIStroke", G2L["12"]);
+G2L["28"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["28"]["Thickness"] = 2;
+G2L["28"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.UIStroke
+G2L["29"] = Instance.new("UIStroke", G2L["f"]);
+G2L["29"]["Transparency"] = 0.5;
+G2L["29"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["29"]["Thickness"] = 2;
+G2L["29"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.UICorner
+G2L["2a"] = Instance.new("UICorner", G2L["f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.TextLabel
+G2L["2b"] = Instance.new("TextLabel", G2L["f"]);
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["TextSize"] = 22;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["BackgroundTransparency"] = 1;
+G2L["2b"]["Size"] = UDim2.new(0, 162, 0, 36);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Text"] = [[Injecter Backdoor]];
+G2L["2b"]["Position"] = UDim2.new(0.11334, 0, 0.07018, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.Frame
+G2L["2c"] = Instance.new("Frame", G2L["f"]);
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
+G2L["2c"]["Size"] = UDim2.new(0, 172, 0, 3);
+G2L["2c"]["Position"] = UDim2.new(0.09878, 0, 0.22105, 0);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.Frame.UICorner
+G2L["2d"] = Instance.new("UICorner", G2L["2c"]);
+G2L["2d"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor
+G2L["2e"] = Instance.new("Frame", G2L["e"]);
+G2L["2e"]["Visible"] = false;
+G2L["2e"]["BorderSizePixel"] = 0;
+G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2e"]["Size"] = UDim2.new(0, 718, 0, 285);
+G2L["2e"]["Position"] = UDim2.new(0.23553, 0, -0.001, 0);
+G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2e"]["Name"] = [[Executor]];
+G2L["2e"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer
+G2L["2f"] = Instance.new("Frame", G2L["2e"]);
+G2L["2f"]["BorderSizePixel"] = 0;
+G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["2f"]["Size"] = UDim2.new(0, 512, 0, 285);
+G2L["2f"]["Position"] = UDim2.new(-0.00174, 0, 0.00093, 0);
+G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2f"]["Name"] = [[ideContainer]];
+G2L["2f"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.numbersContainer
+G2L["30"] = Instance.new("ScrollingFrame", G2L["2f"]);
+G2L["30"]["Active"] = true;
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["CanvasSize"] = UDim2.new(0, 0, 1, 0);
+G2L["30"]["ScrollingEnabled"] = false;
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["30"]["Name"] = [[numbersContainer]];
+G2L["30"]["Size"] = UDim2.new(0, 30, 0, 205);
+G2L["30"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Position"] = UDim2.new(0.043, 0, 0.054, 0);
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["ScrollBarThickness"] = 0;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.numbersContainer.UIStroke
+G2L["31"] = Instance.new("UIStroke", G2L["30"]);
+G2L["31"]["Thickness"] = 2;
+G2L["31"]["Color"] = Color3.fromRGB(55, 55, 55);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.numbersContainer.tempate
+G2L["32"] = Instance.new("TextLabel", G2L["30"]);
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["TextSize"] = 14;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["32"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["BackgroundTransparency"] = 1;
+G2L["32"]["Size"] = UDim2.new(0, 30, 0, 10);
+G2L["32"]["Visible"] = false;
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Text"] = [[1]];
+G2L["32"]["Name"] = [[tempate]];
+G2L["32"]["Position"] = UDim2.new(0, 0, 0.02713, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.numbersContainer.UICorner
+G2L["33"] = Instance.new("UICorner", G2L["30"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll
+G2L["34"] = Instance.new("ScrollingFrame", G2L["2f"]);
+G2L["34"]["Active"] = true;
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["CanvasSize"] = UDim2.new(0, 0, 1, 0);
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["34"]["Name"] = [[ideScroll]];
+G2L["34"]["Size"] = UDim2.new(0, 434, 0, 205);
+G2L["34"]["Position"] = UDim2.new(0.129, 0, 0.054, 0);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["ScrollBarThickness"] = 5;
+G2L["34"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.H_Handler
+G2L["35"] = Instance.new("LocalScript", G2L["34"]);
+G2L["35"]["Name"] = [[H_Handler]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide
+G2L["36"] = Instance.new("TextBox", G2L["34"]);
+G2L["36"]["Name"] = [[ide]];
+G2L["36"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["36"]["BorderSizePixel"] = 0;
+G2L["36"]["TextWrapped"] = true;
+G2L["36"]["TextTransparency"] = 1;
+G2L["36"]["TextSize"] = 14;
+G2L["36"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["36"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["36"]["RichText"] = true;
+G2L["36"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["36"]["MultiLine"] = true;
+G2L["36"]["ClearTextOnFocus"] = false;
+G2L["36"]["PlaceholderText"] = [[-- Script here btw]];
+G2L["36"]["Size"] = UDim2.new(0, 418, 0, 5570);
+G2L["36"]["Position"] = UDim2.new(0.013, 0, 0, 8);
+G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Text"] = [[-- Injecter Backdoor V1.2.6 Made By @Injecter
+-- Join Our Discord Server ! : https://discord.gg/urnPeEMrjS
+-- Thanks for using! <3]];
+G2L["36"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.size
+G2L["37"] = Instance.new("LocalScript", G2L["36"]);
+G2L["37"]["Name"] = [[size]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.numbers
+G2L["38"] = Instance.new("LocalScript", G2L["36"]);
+G2L["38"]["Name"] = [[numbers]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.SrolSYNC
+G2L["39"] = Instance.new("LocalScript", G2L["36"]);
+G2L["39"]["Name"] = [[SrolSYNC]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.UICorner
+G2L["3a"] = Instance.new("UICorner", G2L["36"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.HLabel
+G2L["3b"] = Instance.new("TextLabel", G2L["36"]);
+G2L["3b"]["BorderSizePixel"] = 0;
+G2L["3b"]["TextSize"] = 14;
+G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["3b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3b"]["BackgroundTransparency"] = 1;
+G2L["3b"]["Size"] = UDim2.new(0, 418, 0, 5570);
+G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3b"]["Name"] = [[HLabel]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.UICorner
+G2L["3c"] = Instance.new("UICorner", G2L["34"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.UIStroke
+G2L["3d"] = Instance.new("UIStroke", G2L["34"]);
+G2L["3d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["3d"]["Thickness"] = 2;
+G2L["3d"]["Color"] = Color3.fromRGB(46, 46, 46);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.UIGradient
+G2L["3e"] = Instance.new("UIGradient", G2L["2f"]);
+G2L["3e"]["Rotation"] = 132;
+G2L["3e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 18))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.UIGradient.LocalScript
+G2L["3f"] = Instance.new("LocalScript", G2L["3e"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.UIStroke
+G2L["40"] = Instance.new("UIStroke", G2L["2f"]);
+G2L["40"]["Transparency"] = 0.5;
+G2L["40"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["40"]["Thickness"] = 2;
+G2L["40"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.galaxyThemeGradient
+G2L["41"] = Instance.new("UIGradient", G2L["2f"]);
+G2L["41"]["Enabled"] = false;
+G2L["41"]["Rotation"] = 132;
+G2L["41"]["Name"] = [[galaxyThemeGradient]];
+G2L["41"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 18, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.galaxyThemeGradient.LocalScript
+G2L["42"] = Instance.new("LocalScript", G2L["41"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.lunarThemeGradient
+G2L["43"] = Instance.new("UIGradient", G2L["2f"]);
+G2L["43"]["Enabled"] = false;
+G2L["43"]["Rotation"] = 132;
+G2L["43"]["Name"] = [[lunarThemeGradient]];
+G2L["43"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.lunarThemeGradient.LocalScript
+G2L["44"] = Instance.new("LocalScript", G2L["43"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame
+G2L["45"] = Instance.new("Frame", G2L["2f"]);
+G2L["45"]["Visible"] = false;
+G2L["45"]["BorderSizePixel"] = 0;
+G2L["45"]["BackgroundColor3"] = Color3.fromRGB(32, 32, 32);
+G2L["45"]["Size"] = UDim2.new(0, 512, 0, 285);
+G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["Name"] = [[saveScriptFrame]];
+G2L["45"]["BackgroundTransparency"] = 0.2;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.UIStroke
+G2L["46"] = Instance.new("UIStroke", G2L["45"]);
+G2L["46"]["Transparency"] = 0.5;
+G2L["46"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["46"]["Thickness"] = 2;
+G2L["46"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.UICorner
+G2L["47"] = Instance.new("UICorner", G2L["45"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName
+G2L["48"] = Instance.new("Frame", G2L["45"]);
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["48"]["Size"] = UDim2.new(0, 300, 0, 159);
+G2L["48"]["Position"] = UDim2.new(0.20703, 0, 0.20702, 0);
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Name"] = [[scriptName]];
+G2L["48"]["BackgroundTransparency"] = 0.45;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.UIStroke
+G2L["49"] = Instance.new("UIStroke", G2L["48"]);
+G2L["49"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["49"]["Thickness"] = 2;
+G2L["49"]["Color"] = Color3.fromRGB(44, 44, 44);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.UICorner
+G2L["4a"] = Instance.new("UICorner", G2L["48"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.TextLabel
+G2L["4b"] = Instance.new("TextLabel", G2L["48"]);
+G2L["4b"]["BorderSizePixel"] = 0;
+G2L["4b"]["TextSize"] = 22;
+G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4b"]["BackgroundTransparency"] = 1;
+G2L["4b"]["Size"] = UDim2.new(0, 146, 0, 36);
+G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4b"]["Text"] = [[Enter Script Name]];
+G2L["4b"]["Position"] = UDim2.new(0.2558, 0, 0.07355, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.TextBox
+G2L["4c"] = Instance.new("TextBox", G2L["48"]);
+G2L["4c"]["BorderSizePixel"] = 0;
+G2L["4c"]["TextSize"] = 32;
+G2L["4c"]["TextColor3"] = Color3.fromRGB(230, 230, 230);
+G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["4c"]["Size"] = UDim2.new(0, 233, 0, 50);
+G2L["4c"]["Position"] = UDim2.new(0.11, 0, 0.34591, 0);
+G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4c"]["Text"] = [[]];
+G2L["4c"]["BackgroundTransparency"] = 0.95;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.TextBox.UICorner
+G2L["4d"] = Instance.new("UICorner", G2L["4c"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.TextBox.UIStroke
+G2L["4e"] = Instance.new("UIStroke", G2L["4c"]);
+G2L["4e"]["Transparency"] = 0.5;
+G2L["4e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["4e"]["Thickness"] = 2;
+G2L["4e"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.saveButton
+G2L["4f"] = Instance.new("TextButton", G2L["48"]);
+G2L["4f"]["BorderSizePixel"] = 0;
+G2L["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["TextSize"] = 21;
+G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["4f"]["Size"] = UDim2.new(0, 161, 0, 26);
+G2L["4f"]["Name"] = [[saveButton]];
+G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4f"]["Text"] = [[Save Script]];
+G2L["4f"]["Position"] = UDim2.new(0.22958, 0, 0.74577, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.saveButton.UICorner
+G2L["50"] = Instance.new("UICorner", G2L["4f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.scriptName.saveButton.UIStroke
+G2L["51"] = Instance.new("UIStroke", G2L["4f"]);
+G2L["51"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["51"]["Thickness"] = 2;
+G2L["51"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.saveScriptFrame.lunarThemeGradient
+G2L["52"] = Instance.new("UIGradient", G2L["45"]);
+G2L["52"]["Rotation"] = 132;
+G2L["52"]["Name"] = [[lunarThemeGradient]];
+G2L["52"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons
+G2L["53"] = Instance.new("Frame", G2L["2f"]);
+G2L["53"]["BorderSizePixel"] = 0;
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["53"]["Size"] = UDim2.new(0, 374, 0, 40);
+G2L["53"]["Position"] = UDim2.new(0.04297, 0, 0.82456, 0);
+G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["Name"] = [[buttons]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.UICorner
+G2L["54"] = Instance.new("UICorner", G2L["53"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.erase
+G2L["55"] = Instance.new("ImageButton", G2L["53"]);
+G2L["55"]["BorderSizePixel"] = 0;
+G2L["55"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["Image"] = [[rbxassetid://121016277461554]];
+G2L["55"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["55"]["Size"] = UDim2.new(0, 37, 0, 28);
+G2L["55"]["BackgroundTransparency"] = 1;
+G2L["55"]["HoverImage"] = [[rbxassetid://121016277461554]];
+G2L["55"]["Name"] = [[erase]];
+G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["Position"] = UDim2.new(0.14885, 0, 0.12997, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.erase.LocalScript
+G2L["56"] = Instance.new("LocalScript", G2L["55"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.execute
+G2L["57"] = Instance.new("ImageButton", G2L["53"]);
+G2L["57"]["BorderSizePixel"] = 0;
+G2L["57"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["57"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["57"]["Image"] = [[rbxassetid://134072189046076]];
+G2L["57"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["57"]["Size"] = UDim2.new(0, 31, 0, 30);
+G2L["57"]["BackgroundTransparency"] = 1;
+G2L["57"]["HoverImage"] = [[rbxassetid://100706145441699]];
+G2L["57"]["Name"] = [[execute]];
+G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["57"]["Position"] = UDim2.new(0.03775, 0, 0.13086, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.execute.LocalScript
+G2L["58"] = Instance.new("LocalScript", G2L["57"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.hide
+G2L["59"] = Instance.new("ImageButton", G2L["53"]);
+G2L["59"]["BorderSizePixel"] = 0;
+G2L["59"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["59"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["59"]["ImageColor3"] = Color3.fromRGB(239, 239, 239);
+G2L["59"]["Image"] = [[rbxassetid://94012694340315]];
+G2L["59"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["59"]["Size"] = UDim2.new(0, 37, 0, 27);
+G2L["59"]["BackgroundTransparency"] = 1;
+G2L["59"]["HoverImage"] = [[rbxassetid://94012694340315]];
+G2L["59"]["Name"] = [[hide]];
+G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["Position"] = UDim2.new(0.54308, 0, 0.15586, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.hide.LocalScript
+G2L["5a"] = Instance.new("LocalScript", G2L["59"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.hide.ImageLabel
+G2L["5b"] = Instance.new("ImageLabel", G2L["59"]);
+G2L["5b"]["BorderSizePixel"] = 0;
+G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5b"]["Image"] = [[rbxassetid://103368374828764]];
+G2L["5b"]["Size"] = UDim2.new(0, 434, 0, 205);
+G2L["5b"]["Visible"] = false;
+G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5b"]["Position"] = UDim2.new(-4.29903, 0, -8.40165, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.hide.ImageLabel.UICorner
+G2L["5c"] = Instance.new("UICorner", G2L["5b"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.inject
+G2L["5d"] = Instance.new("ImageButton", G2L["53"]);
+G2L["5d"]["BorderSizePixel"] = 0;
+G2L["5d"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["5d"]["Image"] = [[rbxassetid://115563288273504]];
+G2L["5d"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["5d"]["Size"] = UDim2.new(0, 37, 0, 29);
+G2L["5d"]["BackgroundTransparency"] = 1;
+G2L["5d"]["HoverImage"] = [[rbxassetid://115563288273504]];
+G2L["5d"]["Name"] = [[inject]];
+G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5d"]["Position"] = UDim2.new(0.85383, 0, 0.12997, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.inject.LocalScript
+G2L["5e"] = Instance.new("LocalScript", G2L["5d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript
+G2L["5f"] = Instance.new("ImageButton", G2L["53"]);
+G2L["5f"]["BorderSizePixel"] = 0;
+G2L["5f"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["5f"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["5f"]["ImageColor3"] = Color3.fromRGB(192, 192, 192);
+G2L["5f"]["Image"] = [[rbxassetid://136165653382678]];
+G2L["5f"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["5f"]["Size"] = UDim2.new(0, 37, 0, 28);
+G2L["5f"]["BackgroundTransparency"] = 1;
+G2L["5f"]["HoverImage"] = [[rbxassetid://136165653382678]];
+G2L["5f"]["Name"] = [[saveScript]];
+G2L["5f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5f"]["Position"] = UDim2.new(0.40628, 0, 0.15586, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.LocalScript
+G2L["60"] = Instance.new("LocalScript", G2L["5f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.LocalScript
+G2L["61"] = Instance.new("LocalScript", G2L["5f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.ImageLabel
+G2L["62"] = Instance.new("ImageLabel", G2L["5f"]);
+G2L["62"]["BorderSizePixel"] = 0;
+G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["62"]["Image"] = [[rbxassetid://123768708651808]];
+G2L["62"]["Size"] = UDim2.new(0, 434, 0, 205);
+G2L["62"]["Visible"] = false;
+G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Position"] = UDim2.new(-4.05405, 0, -6.15016, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.ImageLabel.Frame
+G2L["63"] = Instance.new("Frame", G2L["62"]);
+G2L["63"]["BorderSizePixel"] = 0;
+G2L["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["63"]["Size"] = UDim2.new(0, 94, 0, 26);
+G2L["63"]["Position"] = UDim2.new(0.76959, 0, 0.86374, 0);
+G2L["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.ImageLabel.UICorner
+G2L["64"] = Instance.new("UICorner", G2L["62"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.UIStroke
+G2L["65"] = Instance.new("UIStroke", G2L["53"]);
+G2L["65"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["65"]["Thickness"] = 2;
+G2L["65"]["Color"] = Color3.fromRGB(35, 35, 35);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.Frame
+G2L["66"] = Instance.new("Frame", G2L["53"]);
+G2L["66"]["BorderSizePixel"] = 0;
+G2L["66"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
+G2L["66"]["Size"] = UDim2.new(0, 2, 0, 41);
+G2L["66"]["Position"] = UDim2.new(0.7946, 0, -0, 0);
+G2L["66"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["66"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.Frame
+G2L["67"] = Instance.new("Frame", G2L["53"]);
+G2L["67"]["BorderSizePixel"] = 0;
+G2L["67"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
+G2L["67"]["Size"] = UDim2.new(0, 2, 0, 40);
+G2L["67"]["Position"] = UDim2.new(0.26955, 0, -0, 0);
+G2L["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["67"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.reset
+G2L["68"] = Instance.new("ImageButton", G2L["53"]);
+G2L["68"]["BorderSizePixel"] = 0;
+G2L["68"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["68"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["68"]["Image"] = [[rbxassetid://129091995582201]];
+G2L["68"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["68"]["Size"] = UDim2.new(0, 26, 0, 38);
+G2L["68"]["BackgroundTransparency"] = 1;
+G2L["68"]["HoverImage"] = [[rbxassetid://129091995582201]];
+G2L["68"]["Name"] = [[reset]];
+G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["68"]["Position"] = UDim2.new(0.30407, 0, 0.03086, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.R6
+G2L["69"] = Instance.new("ImageButton", G2L["53"]);
+G2L["69"]["BorderSizePixel"] = 0;
+G2L["69"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["69"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["69"]["Image"] = [[rbxassetid://105666235200467]];
+G2L["69"]["TileSize"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["69"]["Size"] = UDim2.new(0, 29, 0, 38);
+G2L["69"]["BackgroundTransparency"] = 1;
+G2L["69"]["HoverImage"] = [[rbxassetid://105666235200467]];
+G2L["69"]["Name"] = [[R6]];
+G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["69"]["Position"] = UDim2.new(0.68375, 0, 0.03086, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.UICorner
+G2L["6a"] = Instance.new("UICorner", G2L["2f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer
+G2L["6b"] = Instance.new("Frame", G2L["2e"]);
+G2L["6b"]["BorderSizePixel"] = 0;
+G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["6b"]["Size"] = UDim2.new(0, 192, 0, 286);
+G2L["6b"]["Position"] = UDim2.new(0.7303, 0, 0, 0);
+G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6b"]["Name"] = [[savedScriptsContainer]];
+G2L["6b"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.saveScriptSystem
+G2L["6c"] = Instance.new("LocalScript", G2L["6b"]);
+G2L["6c"]["Name"] = [[saveScriptSystem]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.lunarThemeGradient
+G2L["6d"] = Instance.new("UIGradient", G2L["6b"]);
+G2L["6d"]["Rotation"] = 132;
+G2L["6d"]["Name"] = [[lunarThemeGradient]];
+G2L["6d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.lunarThemeGradient.LocalScript
+G2L["6e"] = Instance.new("LocalScript", G2L["6d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.UIStroke
+G2L["6f"] = Instance.new("UIStroke", G2L["6b"]);
+G2L["6f"]["Transparency"] = 0.5;
+G2L["6f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["6f"]["Thickness"] = 2;
+G2L["6f"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.UICorner
+G2L["70"] = Instance.new("UICorner", G2L["6b"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.TextLabel
+G2L["71"] = Instance.new("TextLabel", G2L["6b"]);
+G2L["71"]["BorderSizePixel"] = 0;
+G2L["71"]["TextSize"] = 22;
+G2L["71"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["71"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["71"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["71"]["BackgroundTransparency"] = 1;
+G2L["71"]["Size"] = UDim2.new(0, 146, 0, 36);
+G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["71"]["Text"] = [[Saved Scripts]];
+G2L["71"]["Position"] = UDim2.new(0.11642, 0, 0.04211, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.ScrollingFrame
+G2L["72"] = Instance.new("ScrollingFrame", G2L["6b"]);
+G2L["72"]["Active"] = true;
+G2L["72"]["BorderSizePixel"] = 0;
+G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["72"]["Size"] = UDim2.new(0, 192, 0, 237);
+G2L["72"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["72"]["Position"] = UDim2.new(0, 0, 0.17133, 0);
+G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["72"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC
+G2L["73"] = Instance.new("ScrollingFrame", G2L["2e"]);
+G2L["73"]["Visible"] = false;
+G2L["73"]["Active"] = true;
+G2L["73"]["BorderSizePixel"] = 0;
+G2L["73"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+G2L["73"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+G2L["73"]["TopImage"] = [[rbxassetid://99314165892296]];
+G2L["73"]["MidImage"] = [[rbxassetid://99314165892296]];
+G2L["73"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["73"]["Name"] = [[AC]];
+G2L["73"]["BottomImage"] = [[rbxassetid://99314165892296]];
+G2L["73"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+G2L["73"]["Size"] = UDim2.new(0, 279, 0, 82);
+G2L["73"]["ScrollBarImageColor3"] = Color3.fromRGB(241, 244, 255);
+G2L["73"]["BorderColor3"] = Color3.fromRGB(3, 5, 9);
+G2L["73"]["ScrollBarThickness"] = 3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.AC_Handler
+G2L["74"] = Instance.new("LocalScript", G2L["73"]);
+G2L["74"]["Name"] = [[AC_Handler]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.UIListLayout
+G2L["75"] = Instance.new("UIListLayout", G2L["73"]);
+G2L["75"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["75"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.UIStroke
+G2L["76"] = Instance.new("UIStroke", G2L["73"]);
+G2L["76"]["Thickness"] = 2;
+G2L["76"]["Color"] = Color3.fromRGB(31, 31, 31);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.UICorner
+G2L["77"] = Instance.new("UICorner", G2L["73"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.TextButton
+G2L["78"] = Instance.new("TextButton", G2L["73"]);
+G2L["78"]["BorderSizePixel"] = 0;
+G2L["78"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["78"]["AutoButtonColor"] = false;
+G2L["78"]["TextSize"] = 14;
+G2L["78"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["78"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["78"]["Size"] = UDim2.new(0, 248, 0, 20);
+G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["78"]["Text"] = [[]];
+G2L["78"]["Position"] = UDim2.new(0.05376, 0, 0.14634, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.TextButton.ImageLabel
+G2L["79"] = Instance.new("ImageLabel", G2L["78"]);
+G2L["79"]["BorderSizePixel"] = 0;
+G2L["79"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["79"]["Image"] = [[rbxassetid://1166953370462404]];
+G2L["79"]["Size"] = UDim2.new(0, 16, 0, 16);
+G2L["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["79"]["BackgroundTransparency"] = 1;
+G2L["79"]["Position"] = UDim2.new(0, 5, 0, 2);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.TextButton.TextLabel
+G2L["7a"] = Instance.new("TextLabel", G2L["78"]);
+G2L["7a"]["BorderSizePixel"] = 0;
+G2L["7a"]["TextSize"] = 14;
+G2L["7a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["7a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["7a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7a"]["BackgroundTransparency"] = 1;
+G2L["7a"]["Size"] = UDim2.new(0, 172, 0, 20);
+G2L["7a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7a"]["Position"] = UDim2.new(0.14032, -9, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.TextButton.UICorner
+G2L["7b"] = Instance.new("UICorner", G2L["78"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home
+G2L["7c"] = Instance.new("Frame", G2L["e"]);
+G2L["7c"]["BorderSizePixel"] = 0;
+G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["7c"]["Size"] = UDim2.new(0, 515, 0, 285);
+G2L["7c"]["Position"] = UDim2.new(0.23493, 0, -0.001, 0);
+G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7c"]["Name"] = [[Home]];
+G2L["7c"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.userINFO
+G2L["7d"] = Instance.new("LocalScript", G2L["7c"]);
+G2L["7d"]["Name"] = [[userINFO]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.UICorner
+G2L["7e"] = Instance.new("UICorner", G2L["7c"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.UIGradient
+G2L["7f"] = Instance.new("UIGradient", G2L["7c"]);
+G2L["7f"]["Rotation"] = 132;
+G2L["7f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 18))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.UIGradient.LocalScript
+G2L["80"] = Instance.new("LocalScript", G2L["7f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.UIStroke
+G2L["81"] = Instance.new("UIStroke", G2L["7c"]);
+G2L["81"]["Transparency"] = 0.5;
+G2L["81"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["81"]["Thickness"] = 2;
+G2L["81"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.wlcmsg
+G2L["82"] = Instance.new("TextLabel", G2L["7c"]);
+G2L["82"]["TextWrapped"] = true;
+G2L["82"]["BorderSizePixel"] = 0;
+G2L["82"]["TextSize"] = 24;
+G2L["82"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["82"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["82"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["82"]["BackgroundTransparency"] = 1;
+G2L["82"]["RichText"] = true;
+G2L["82"]["Size"] = UDim2.new(0, 357, 0, 33);
+G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["82"]["Text"] = [[Welcome, (DISPLAY) !]];
+G2L["82"]["Name"] = [[wlcmsg]];
+G2L["82"]["Position"] = UDim2.new(0.27296, 0, 0.17957, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.ImageLabel
+G2L["83"] = Instance.new("ImageLabel", G2L["7c"]);
+G2L["83"]["BorderSizePixel"] = 0;
+G2L["83"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["83"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["83"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["83"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["83"]["Position"] = UDim2.new(0.04173, 0, 0.06534, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.ImageLabel.UICorner
+G2L["84"] = Instance.new("UICorner", G2L["83"]);
+G2L["84"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.ImageLabel.UIStroke
+G2L["85"] = Instance.new("UIStroke", G2L["83"]);
+G2L["85"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["85"]["Thickness"] = 2;
+G2L["85"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.galaxyThemeGradient
+G2L["86"] = Instance.new("UIGradient", G2L["7c"]);
+G2L["86"]["Enabled"] = false;
+G2L["86"]["Rotation"] = 132;
+G2L["86"]["Name"] = [[galaxyThemeGradient]];
+G2L["86"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 18, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.galaxyThemeGradient.LocalScript
+G2L["87"] = Instance.new("LocalScript", G2L["86"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lunarThemeGradient
+G2L["88"] = Instance.new("UIGradient", G2L["7c"]);
+G2L["88"]["Enabled"] = false;
+G2L["88"]["Rotation"] = 132;
+G2L["88"]["Name"] = [[lunarThemeGradient]];
+G2L["88"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lunarThemeGradient.LocalScript
+G2L["89"] = Instance.new("LocalScript", G2L["88"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer
+G2L["8a"] = Instance.new("Frame", G2L["7c"]);
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["8a"]["Size"] = UDim2.new(0, 195, 0, 140);
+G2L["8a"]["Position"] = UDim2.new(0.04078, 0, 0.47108, 0);
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Name"] = [[lilcontainer]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.UICorner
+G2L["8b"] = Instance.new("UICorner", G2L["8a"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.UIStroke
+G2L["8c"] = Instance.new("UIStroke", G2L["8a"]);
+G2L["8c"]["Transparency"] = 0.3;
+G2L["8c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["8c"]["Thickness"] = 2;
+G2L["8c"]["Color"] = Color3.fromRGB(21, 21, 21);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.TextLabel
+G2L["8d"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["8d"]["BorderSizePixel"] = 0;
+G2L["8d"]["TextSize"] = 14;
+G2L["8d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["8d"]["TextColor3"] = Color3.fromRGB(224, 191, 6);
+G2L["8d"]["BackgroundTransparency"] = 1;
+G2L["8d"]["Size"] = UDim2.new(0, 195, 0, 22);
+G2L["8d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8d"]["Text"] = [[-- Update Logs --]];
+G2L["8d"]["Position"] = UDim2.new(0, 0, 0.04286, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.TextLabel
+G2L["8e"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["8e"]["BorderSizePixel"] = 0;
+G2L["8e"]["TextSize"] = 10;
+G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8e"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["8e"]["TextColor3"] = Color3.fromRGB(98, 224, 0);
+G2L["8e"]["BackgroundTransparency"] = 1;
+G2L["8e"]["Size"] = UDim2.new(0, 195, 0, 21);
+G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8e"]["Text"] = [[- Added Adonis Anticheat bypass !!]];
+G2L["8e"]["Position"] = UDim2.new(0, 0, 0.29286, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.Frame
+G2L["8f"] = Instance.new("Frame", G2L["8a"]);
+G2L["8f"]["BorderSizePixel"] = 0;
+G2L["8f"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["8f"]["Size"] = UDim2.new(0, 195, 0, 2);
+G2L["8f"]["Position"] = UDim2.new(0, 0, 0.24286, 0);
+G2L["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8f"]["BackgroundTransparency"] = 0.2;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.TextLabel
+G2L["90"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["90"]["BorderSizePixel"] = 0;
+G2L["90"]["TextSize"] = 14;
+G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["90"]["TextColor3"] = Color3.fromRGB(72, 224, 0);
+G2L["90"]["BackgroundTransparency"] = 1;
+G2L["90"]["Size"] = UDim2.new(0, 195, 0, 29);
+G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"]["Text"] = [[- Fixed the scanner]];
+G2L["90"]["Position"] = UDim2.new(0, 0, 0.44128, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.TextLabel
+G2L["91"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["91"]["BorderSizePixel"] = 0;
+G2L["91"]["TextSize"] = 14;
+G2L["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["91"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["91"]["TextColor3"] = Color3.fromRGB(72, 224, 0);
+G2L["91"]["BackgroundTransparency"] = 1;
+G2L["91"]["Size"] = UDim2.new(0, 195, 0, 27);
+G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["91"]["Text"] = [[- Added remote security !]];
+G2L["91"]["Position"] = UDim2.new(0, 0, 0.62143, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lilcontainer.TextLabel
+G2L["92"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["92"]["BorderSizePixel"] = 0;
+G2L["92"]["TextSize"] = 11;
+G2L["92"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["92"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["92"]["TextColor3"] = Color3.fromRGB(224, 210, 210);
+G2L["92"]["BackgroundTransparency"] = 1;
+G2L["92"]["Size"] = UDim2.new(0, 195, 0, 21);
+G2L["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["92"]["Text"] = [[- More things are coming for V1.2.7... -]];
+G2L["92"]["Position"] = UDim2.new(0, 0, 0.85, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.thnks
+G2L["93"] = Instance.new("TextLabel", G2L["7c"]);
+G2L["93"]["TextWrapped"] = true;
+G2L["93"]["BorderSizePixel"] = 0;
+G2L["93"]["TextSize"] = 21;
+G2L["93"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["93"]["TextColor3"] = Color3.fromRGB(107, 255, 99);
+G2L["93"]["BackgroundTransparency"] = 1;
+G2L["93"]["RichText"] = true;
+G2L["93"]["Size"] = UDim2.new(0, 269, 0, 142);
+G2L["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["93"]["Text"] = [[<font color='#800080'>Thanks for using</font> ! Also, to everyone in my discord server, we've finally got the <font color='#FF0000'>1K MEMBERSSS</font>, i still can't believe we did it so fast :D, <font color='#00FFFF'>thanks y'all</font> ??]];
+G2L["93"]["Name"] = [[thnks]];
+G2L["93"]["Position"] = UDim2.new(0.44383, 0, 0.46564, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub
+G2L["94"] = Instance.new("Frame", G2L["e"]);
+G2L["94"]["Visible"] = false;
+G2L["94"]["BorderSizePixel"] = 0;
+G2L["94"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["94"]["Size"] = UDim2.new(0, 511, 0, 284);
+G2L["94"]["Position"] = UDim2.new(0.23491, 0, 0.00091, 0);
+G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["94"]["Name"] = [[ScriptHub]];
+G2L["94"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame
+G2L["95"] = Instance.new("ScrollingFrame", G2L["94"]);
+G2L["95"]["Active"] = true;
+G2L["95"]["BorderSizePixel"] = 0;
+G2L["95"]["BackgroundColor3"] = Color3.fromRGB(166, 166, 166);
+G2L["95"]["Size"] = UDim2.new(0, 487, 0, 255);
+G2L["95"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["95"]["Position"] = UDim2.new(0.02257, 0, 0.04739, 0);
+G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["95"]["ScrollBarThickness"] = 0;
+G2L["95"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UICorner
+G2L["96"] = Instance.new("UICorner", G2L["95"]);
+G2L["96"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Decal
+G2L["97"] = Instance.new("TextButton", G2L["95"]);
+G2L["97"]["TextWrapped"] = true;
+G2L["97"]["BorderSizePixel"] = 0;
+G2L["97"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["97"]["TextSize"] = 24;
+G2L["97"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["97"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["97"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["97"]["Name"] = [[Decal]];
+G2L["97"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["97"]["Text"] = [[Set Decal]];
+G2L["97"]["Position"] = UDim2.new(0.03593, 0, 0.02993, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Decal.LocalScript
+G2L["98"] = Instance.new("LocalScript", G2L["97"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Decal.UICorner
+G2L["99"] = Instance.new("UICorner", G2L["97"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Decal.UIStroke
+G2L["9a"] = Instance.new("UIStroke", G2L["97"]);
+G2L["9a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9a"]["Thickness"] = 2;
+G2L["9a"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Particles
+G2L["9b"] = Instance.new("TextButton", G2L["95"]);
+G2L["9b"]["TextWrapped"] = true;
+G2L["9b"]["BorderSizePixel"] = 0;
+G2L["9b"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["9b"]["TextSize"] = 20;
+G2L["9b"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["9b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["9b"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["9b"]["Name"] = [[Particles]];
+G2L["9b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9b"]["Text"] = [[Set Particles]];
+G2L["9b"]["Position"] = UDim2.new(0.36308, 0, 0.02969, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Particles.LocalScript
+G2L["9c"] = Instance.new("LocalScript", G2L["9b"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Particles.UICorner
+G2L["9d"] = Instance.new("UICorner", G2L["9b"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Particles.UIStroke
+G2L["9e"] = Instance.new("UIStroke", G2L["9b"]);
+G2L["9e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9e"]["Thickness"] = 2;
+G2L["9e"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.666
+G2L["9f"] = Instance.new("TextButton", G2L["95"]);
+G2L["9f"]["TextWrapped"] = true;
+G2L["9f"]["BorderSizePixel"] = 0;
+G2L["9f"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["9f"]["TextSize"] = 24;
+G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["9f"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["9f"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["9f"]["Name"] = [[666]];
+G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9f"]["Text"] = [[666]];
+G2L["9f"]["Position"] = UDim2.new(0.69162, 0, 0.02849, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.666.LocalScript
+G2L["a0"] = Instance.new("LocalScript", G2L["9f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.666.UICorner
+G2L["a1"] = Instance.new("UICorner", G2L["9f"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.666.UIStroke
+G2L["a2"] = Instance.new("UIStroke", G2L["9f"]);
+G2L["a2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a2"]["Thickness"] = 2;
+G2L["a2"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Hint
+G2L["a3"] = Instance.new("TextButton", G2L["95"]);
+G2L["a3"]["TextWrapped"] = true;
+G2L["a3"]["BorderSizePixel"] = 0;
+G2L["a3"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["a3"]["TextSize"] = 24;
+G2L["a3"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["a3"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a3"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["a3"]["Name"] = [[Hint]];
+G2L["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a3"]["Text"] = [[Set Hint]];
+G2L["a3"]["Position"] = UDim2.new(0.03454, 0, 0.13834, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Hint.LocalScript
+G2L["a4"] = Instance.new("LocalScript", G2L["a3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Hint.UICorner
+G2L["a5"] = Instance.new("UICorner", G2L["a3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Hint.UIStroke
+G2L["a6"] = Instance.new("UIStroke", G2L["a3"]);
+G2L["a6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a6"]["Thickness"] = 2;
+G2L["a6"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Message
+G2L["a7"] = Instance.new("TextButton", G2L["95"]);
+G2L["a7"]["TextWrapped"] = true;
+G2L["a7"]["BorderSizePixel"] = 0;
+G2L["a7"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["a7"]["TextSize"] = 20;
+G2L["a7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["a7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a7"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["a7"]["Name"] = [[Message]];
+G2L["a7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a7"]["Text"] = [[Set Message]];
+G2L["a7"]["Position"] = UDim2.new(0.36308, 0, 0.13832, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Message.LocalScript
+G2L["a8"] = Instance.new("LocalScript", G2L["a7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Message.UICorner
+G2L["a9"] = Instance.new("UICorner", G2L["a7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Message.UIStroke
+G2L["aa"] = Instance.new("UIStroke", G2L["a7"]);
+G2L["aa"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["aa"]["Thickness"] = 2;
+G2L["aa"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Disco
+G2L["ab"] = Instance.new("TextButton", G2L["95"]);
+G2L["ab"]["TextWrapped"] = true;
+G2L["ab"]["BorderSizePixel"] = 0;
+G2L["ab"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["ab"]["TextSize"] = 24;
+G2L["ab"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["ab"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ab"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["ab"]["Name"] = [[Disco]];
+G2L["ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ab"]["Text"] = [[Disco]];
+G2L["ab"]["Position"] = UDim2.new(0.69162, 0, 0.13849, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Disco.LocalScript
+G2L["ac"] = Instance.new("LocalScript", G2L["ab"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Disco.UICorner
+G2L["ad"] = Instance.new("UICorner", G2L["ab"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Disco.UIStroke
+G2L["ae"] = Instance.new("UIStroke", G2L["ab"]);
+G2L["ae"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ae"]["Thickness"] = 2;
+G2L["ae"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Skybox
+G2L["af"] = Instance.new("TextButton", G2L["95"]);
+G2L["af"]["TextWrapped"] = true;
+G2L["af"]["BorderSizePixel"] = 0;
+G2L["af"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["af"]["TextSize"] = 24;
+G2L["af"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["af"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["af"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["af"]["Name"] = [[Skybox]];
+G2L["af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["af"]["Text"] = [[Set Skybox]];
+G2L["af"]["Position"] = UDim2.new(0.03454, 0, 0.24569, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Skybox.LocalScript
+G2L["b0"] = Instance.new("LocalScript", G2L["af"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Skybox.UICorner
+G2L["b1"] = Instance.new("UICorner", G2L["af"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Skybox.UIStroke
+G2L["b2"] = Instance.new("UIStroke", G2L["af"]);
+G2L["b2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b2"]["Thickness"] = 2;
+G2L["b2"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Sound
+G2L["b3"] = Instance.new("TextButton", G2L["95"]);
+G2L["b3"]["TextWrapped"] = true;
+G2L["b3"]["BorderSizePixel"] = 0;
+G2L["b3"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["b3"]["TextSize"] = 24;
+G2L["b3"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["b3"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b3"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["b3"]["Name"] = [[Sound]];
+G2L["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b3"]["Text"] = [[Set Sound]];
+G2L["b3"]["Position"] = UDim2.new(0.363, 0, 0.246, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Sound.LocalScript
+G2L["b4"] = Instance.new("LocalScript", G2L["b3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Sound.UICorner
+G2L["b5"] = Instance.new("UICorner", G2L["b3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Sound.UIStroke
+G2L["b6"] = Instance.new("UIStroke", G2L["b3"]);
+G2L["b6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b6"]["Thickness"] = 2;
+G2L["b6"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedHint
+G2L["b7"] = Instance.new("TextButton", G2L["95"]);
+G2L["b7"]["BorderSizePixel"] = 0;
+G2L["b7"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["b7"]["TextSize"] = 14;
+G2L["b7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["b7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b7"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["b7"]["Name"] = [[AnimatedHint]];
+G2L["b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b7"]["Text"] = [[Set Animated Hint]];
+G2L["b7"]["Position"] = UDim2.new(0.69162, 0, 0.24513, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedHint.LocalScript
+G2L["b8"] = Instance.new("LocalScript", G2L["b7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedHint.UICorner
+G2L["b9"] = Instance.new("UICorner", G2L["b7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedHint.new
+G2L["ba"] = Instance.new("UIStroke", G2L["b7"]);
+G2L["ba"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ba"]["Name"] = [[new]];
+G2L["ba"]["Thickness"] = 2;
+G2L["ba"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedMessage
+G2L["bb"] = Instance.new("TextButton", G2L["95"]);
+G2L["bb"]["BorderSizePixel"] = 0;
+G2L["bb"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["bb"]["TextSize"] = 12;
+G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["bb"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["bb"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["bb"]["Name"] = [[AnimatedMessage]];
+G2L["bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bb"]["Text"] = [[Set Animated Message]];
+G2L["bb"]["Position"] = UDim2.new(0.69162, 0, 0.35011, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedMessage.LocalScript
+G2L["bc"] = Instance.new("LocalScript", G2L["bb"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedMessage.UICorner
+G2L["bd"] = Instance.new("UICorner", G2L["bb"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedMessage.new
+G2L["be"] = Instance.new("UIStroke", G2L["bb"]);
+G2L["be"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["be"]["Name"] = [[new]];
+G2L["be"]["Thickness"] = 2;
+G2L["be"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.JohnDoe
+G2L["bf"] = Instance.new("TextButton", G2L["95"]);
+G2L["bf"]["TextWrapped"] = true;
+G2L["bf"]["BorderSizePixel"] = 0;
+G2L["bf"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["bf"]["TextSize"] = 16;
+G2L["bf"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["bf"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["bf"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["bf"]["Name"] = [[JohnDoe]];
+G2L["bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bf"]["Text"] = [[Be John Doe (R6 ONLY)]];
+G2L["bf"]["Position"] = UDim2.new(0.36308, 0, 0.45363, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.JohnDoe.LocalScript
+G2L["c0"] = Instance.new("LocalScript", G2L["bf"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.JohnDoe.UICorner
+G2L["c1"] = Instance.new("UICorner", G2L["bf"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.JohnDoe.new
+G2L["c2"] = Instance.new("UIStroke", G2L["bf"]);
+G2L["c2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["c2"]["Name"] = [[new]];
+G2L["c2"]["Thickness"] = 2;
+G2L["c2"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Jumpscare
+G2L["c3"] = Instance.new("TextButton", G2L["95"]);
+G2L["c3"]["BorderSizePixel"] = 0;
+G2L["c3"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["c3"]["TextSize"] = 18;
+G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["c3"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c3"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["c3"]["Name"] = [[Jumpscare]];
+G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c3"]["Text"] = [[Set Jumpscare]];
+G2L["c3"]["Position"] = UDim2.new(0.03454, 0, 0.45347, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Jumpscare.LocalScript
+G2L["c4"] = Instance.new("LocalScript", G2L["c3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Jumpscare.UICorner
+G2L["c5"] = Instance.new("UICorner", G2L["c3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Jumpscare.new
+G2L["c6"] = Instance.new("UIStroke", G2L["c3"]);
+G2L["c6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["c6"]["Name"] = [[new]];
+G2L["c6"]["Thickness"] = 2;
+G2L["c6"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.RandomC
+G2L["c7"] = Instance.new("TextButton", G2L["95"]);
+G2L["c7"]["TextWrapped"] = true;
+G2L["c7"]["BorderSizePixel"] = 0;
+G2L["c7"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["c7"]["TextSize"] = 18;
+G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["c7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c7"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["c7"]["Name"] = [[RandomC]];
+G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c7"]["Text"] = [[Random Colors]];
+G2L["c7"]["Position"] = UDim2.new(0.03454, 0, 0.55405, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.RandomC.LocalScript
+G2L["c8"] = Instance.new("LocalScript", G2L["c7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.RandomC.UICorner
+G2L["c9"] = Instance.new("UICorner", G2L["c7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.RandomC.new
+G2L["ca"] = Instance.new("UIStroke", G2L["c7"]);
+G2L["ca"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ca"]["Name"] = [[new]];
+G2L["ca"]["Thickness"] = 2;
+G2L["ca"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Shutdown
+G2L["cb"] = Instance.new("TextButton", G2L["95"]);
+G2L["cb"]["TextWrapped"] = true;
+G2L["cb"]["BorderSizePixel"] = 0;
+G2L["cb"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["cb"]["TextSize"] = 16;
+G2L["cb"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["cb"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["cb"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["cb"]["Name"] = [[Shutdown]];
+G2L["cb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cb"]["Text"] = [[Shutdown (Set Reason)]];
+G2L["cb"]["Position"] = UDim2.new(0.69162, 0, 0.45344, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Shutdown.LocalScript
+G2L["cc"] = Instance.new("LocalScript", G2L["cb"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Shutdown.UICorner
+G2L["cd"] = Instance.new("UICorner", G2L["cb"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Shutdown.new
+G2L["ce"] = Instance.new("UIStroke", G2L["cb"]);
+G2L["ce"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ce"]["Name"] = [[new]];
+G2L["ce"]["Thickness"] = 2;
+G2L["ce"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UnAnchor
+G2L["cf"] = Instance.new("TextButton", G2L["95"]);
+G2L["cf"]["BorderSizePixel"] = 0;
+G2L["cf"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["cf"]["TextSize"] = 20;
+G2L["cf"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["cf"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["cf"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["cf"]["Name"] = [[UnAnchor]];
+G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cf"]["Text"] = [[UnAnchor All]];
+G2L["cf"]["Position"] = UDim2.new(0.03659, 0, 0.34892, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UnAnchor.LocalScript
+G2L["d0"] = Instance.new("LocalScript", G2L["cf"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UnAnchor.UICorner
+G2L["d1"] = Instance.new("UICorner", G2L["cf"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UnAnchor.new
+G2L["d2"] = Instance.new("UIStroke", G2L["cf"]);
+G2L["d2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["d2"]["Name"] = [[new]];
+G2L["d2"]["Thickness"] = 2;
+G2L["d2"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.popups
+G2L["d3"] = Instance.new("TextButton", G2L["95"]);
+G2L["d3"]["BorderSizePixel"] = 0;
+G2L["d3"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["d3"]["TextSize"] = 22;
+G2L["d3"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["d3"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d3"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["d3"]["Name"] = [[popups]];
+G2L["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d3"]["Text"] = [[Set Popups]];
+G2L["d3"]["Position"] = UDim2.new(0.36103, 0, 0.34961, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.popups.LocalScript
+G2L["d4"] = Instance.new("LocalScript", G2L["d3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.popups.UICorner
+G2L["d5"] = Instance.new("UICorner", G2L["d3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.popups.new
+G2L["d6"] = Instance.new("UIStroke", G2L["d3"]);
+G2L["d6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["d6"]["Name"] = [[new]];
+G2L["d6"]["Thickness"] = 2;
+G2L["d6"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Exser
+G2L["d7"] = Instance.new("TextButton", G2L["95"]);
+G2L["d7"]["TextWrapped"] = true;
+G2L["d7"]["BorderSizePixel"] = 0;
+G2L["d7"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["d7"]["TextSize"] = 35;
+G2L["d7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["d7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d7"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["d7"]["Name"] = [[Exser]];
+G2L["d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d7"]["Text"] = [[Exser]];
+G2L["d7"]["Position"] = UDim2.new(0.69162, 0, 0.55558, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Exser.LocalScript
+G2L["d8"] = Instance.new("LocalScript", G2L["d7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Exser.UICorner
+G2L["d9"] = Instance.new("UICorner", G2L["d7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Exser.new
+G2L["da"] = Instance.new("UIStroke", G2L["d7"]);
+G2L["da"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["da"]["Name"] = [[new]];
+G2L["da"]["Thickness"] = 2;
+G2L["da"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminInsert
+G2L["db"] = Instance.new("TextButton", G2L["95"]);
+G2L["db"]["TextWrapped"] = true;
+G2L["db"]["BorderSizePixel"] = 0;
+G2L["db"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["db"]["TextSize"] = 20;
+G2L["db"]["TextScaled"] = true;
+G2L["db"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["db"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["db"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["db"]["Name"] = [[HdAdminInsert]];
+G2L["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["db"]["Text"] = [[Insert HD Admin]];
+G2L["db"]["Position"] = UDim2.new(0.692, 0, 0.655, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminInsert.LocalScript
+G2L["dc"] = Instance.new("LocalScript", G2L["db"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminInsert.UICorner
+G2L["dd"] = Instance.new("UICorner", G2L["db"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminInsert.new
+G2L["de"] = Instance.new("UIStroke", G2L["db"]);
+G2L["de"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["de"]["Name"] = [[new]];
+G2L["de"]["Thickness"] = 2;
+G2L["de"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminRank
+G2L["df"] = Instance.new("TextButton", G2L["95"]);
+G2L["df"]["TextWrapped"] = true;
+G2L["df"]["BorderSizePixel"] = 0;
+G2L["df"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["df"]["TextSize"] = 20;
+G2L["df"]["TextScaled"] = true;
+G2L["df"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["df"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["df"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["df"]["Name"] = [[HdAdminRank]];
+G2L["df"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["df"]["Text"] = [[HD Admin Ranker]];
+G2L["df"]["Position"] = UDim2.new(0.36279, 0, 0.55577, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminRank.LocalScript
+G2L["e0"] = Instance.new("LocalScript", G2L["df"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminRank.UICorner
+G2L["e1"] = Instance.new("UICorner", G2L["df"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminRank.new
+G2L["e2"] = Instance.new("UIStroke", G2L["df"]);
+G2L["e2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e2"]["Name"] = [[new]];
+G2L["e2"]["Thickness"] = 2;
+G2L["e2"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.c00lgui
+G2L["e3"] = Instance.new("TextButton", G2L["95"]);
+G2L["e3"]["TextWrapped"] = true;
+G2L["e3"]["BorderSizePixel"] = 0;
+G2L["e3"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["e3"]["TextSize"] = 35;
+G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["e3"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e3"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["e3"]["Name"] = [[c00lgui]];
+G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e3"]["Text"] = [[c00lgui]];
+G2L["e3"]["Position"] = UDim2.new(0.035, 0, 0.655, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.c00lgui.LocalScript
+G2L["e4"] = Instance.new("LocalScript", G2L["e3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.c00lgui.UICorner
+G2L["e5"] = Instance.new("UICorner", G2L["e3"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.c00lgui.new
+G2L["e6"] = Instance.new("UIStroke", G2L["e3"]);
+G2L["e6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e6"]["Name"] = [[new]];
+G2L["e6"]["Thickness"] = 2;
+G2L["e6"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.youareanidiot
+G2L["e7"] = Instance.new("TextButton", G2L["95"]);
+G2L["e7"]["TextWrapped"] = true;
+G2L["e7"]["BorderSizePixel"] = 0;
+G2L["e7"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["e7"]["TextSize"] = 20;
+G2L["e7"]["TextScaled"] = true;
+G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["e7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e7"]["Size"] = UDim2.new(0, 133, 0, 43);
+G2L["e7"]["Name"] = [[youareanidiot]];
+G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e7"]["Text"] = [[YouAreAnIdiot (Put victim name in textbox)]];
+G2L["e7"]["Position"] = UDim2.new(0.363, 0, 0.655, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.youareanidiot.LocalScript
+G2L["e8"] = Instance.new("LocalScript", G2L["e7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.youareanidiot.UICorner
+G2L["e9"] = Instance.new("UICorner", G2L["e7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.youareanidiot.new
+G2L["ea"] = Instance.new("UIStroke", G2L["e7"]);
+G2L["ea"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ea"]["Name"] = [[new]];
+G2L["ea"]["Thickness"] = 2;
+G2L["ea"]["Color"] = Color3.fromRGB(41, 41, 41);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.TextLabel
+G2L["eb"] = Instance.new("TextLabel", G2L["95"]);
+G2L["eb"]["BorderSizePixel"] = 0;
+G2L["eb"]["TextSize"] = 34;
+G2L["eb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["eb"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["eb"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["eb"]["BackgroundTransparency"] = 1;
+G2L["eb"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["eb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["eb"]["Text"] = [[-- More scripts coming soon --]];
+G2L["eb"]["Position"] = UDim2.new(0.306, 0, 0.811, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.UICorner
+G2L["ec"] = Instance.new("UICorner", G2L["94"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.UIGradient
+G2L["ed"] = Instance.new("UIGradient", G2L["94"]);
+G2L["ed"]["Rotation"] = 132;
+G2L["ed"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.UIGradient.LocalScript
+G2L["ee"] = Instance.new("LocalScript", G2L["ed"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.UIStroke
+G2L["ef"] = Instance.new("UIStroke", G2L["94"]);
+G2L["ef"]["Transparency"] = 0.5;
+G2L["ef"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ef"]["Thickness"] = 2;
+G2L["ef"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.galaxyThemeGradient
+G2L["f0"] = Instance.new("UIGradient", G2L["94"]);
+G2L["f0"]["Enabled"] = false;
+G2L["f0"]["Rotation"] = 132;
+G2L["f0"]["Name"] = [[galaxyThemeGradient]];
+G2L["f0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 18, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.galaxyThemeGradient.LocalScript
+G2L["f1"] = Instance.new("LocalScript", G2L["f0"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.lunarThemeGradient
+G2L["f2"] = Instance.new("UIGradient", G2L["94"]);
+G2L["f2"]["Enabled"] = false;
+G2L["f2"]["Rotation"] = 132;
+G2L["f2"]["Name"] = [[lunarThemeGradient]];
+G2L["f2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.lunarThemeGradient.LocalScript
+G2L["f3"] = Instance.new("LocalScript", G2L["f2"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.txt
+G2L["f4"] = Instance.new("TextBox", G2L["94"]);
+G2L["f4"]["Name"] = [[txt]];
+G2L["f4"]["PlaceholderColor3"] = Color3.fromRGB(179, 179, 179);
+G2L["f4"]["BorderSizePixel"] = 0;
+G2L["f4"]["TextWrapped"] = true;
+G2L["f4"]["TextSize"] = 14;
+G2L["f4"]["TextColor3"] = Color3.fromRGB(246, 246, 246);
+G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["f4"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f4"]["PlaceholderText"] = [[Text for Hint/Message here...]];
+G2L["f4"]["Size"] = UDim2.new(0, 231, 0, 42);
+G2L["f4"]["Position"] = UDim2.new(0, 0, 1.03873, 0);
+G2L["f4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f4"]["Text"] = [[]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.txt.UICorner
+G2L["f5"] = Instance.new("UICorner", G2L["f4"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.txt.UIStroke
+G2L["f6"] = Instance.new("UIStroke", G2L["f4"]);
+G2L["f6"]["Transparency"] = 0.5;
+G2L["f6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["f6"]["Thickness"] = 2;
+G2L["f6"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ID
+G2L["f7"] = Instance.new("TextBox", G2L["94"]);
+G2L["f7"]["Name"] = [[ID]];
+G2L["f7"]["PlaceholderColor3"] = Color3.fromRGB(179, 179, 179);
+G2L["f7"]["BorderSizePixel"] = 0;
+G2L["f7"]["TextWrapped"] = true;
+G2L["f7"]["TextSize"] = 11;
+G2L["f7"]["TextColor3"] = Color3.fromRGB(246, 246, 246);
+G2L["f7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["f7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f7"]["PlaceholderText"] = [[ID For Decal/Particles/Sound/Popups here...]];
+G2L["f7"]["Size"] = UDim2.new(0, 231, 0, 42);
+G2L["f7"]["Position"] = UDim2.new(0.54599, 0, 1.03873, 0);
+G2L["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f7"]["Text"] = [[]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ID.UICorner
+G2L["f8"] = Instance.new("UICorner", G2L["f7"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ID.UIStroke
+G2L["f9"] = Instance.new("UIStroke", G2L["f7"]);
+G2L["f9"]["Transparency"] = 0.5;
+G2L["f9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["f9"]["Thickness"] = 2;
+G2L["f9"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings
+G2L["fa"] = Instance.new("Frame", G2L["e"]);
+G2L["fa"]["Visible"] = false;
+G2L["fa"]["BorderSizePixel"] = 0;
+G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["fa"]["Size"] = UDim2.new(0, 512, 0, 284);
+G2L["fa"]["Position"] = UDim2.new(0.23493, 0, -0.001, 0);
+G2L["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fa"]["Name"] = [[Settings]];
+G2L["fa"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.UICorner
+G2L["fb"] = Instance.new("UICorner", G2L["fa"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.UIGradient
+G2L["fc"] = Instance.new("UIGradient", G2L["fa"]);
+G2L["fc"]["Rotation"] = 132;
+G2L["fc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 18))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.UIGradient.LocalScript
+G2L["fd"] = Instance.new("LocalScript", G2L["fc"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.UIStroke
+G2L["fe"] = Instance.new("UIStroke", G2L["fa"]);
+G2L["fe"]["Transparency"] = 0.5;
+G2L["fe"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["fe"]["Thickness"] = 2;
+G2L["fe"]["Color"] = Color3.fromRGB(25, 25, 25);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame
+G2L["ff"] = Instance.new("ScrollingFrame", G2L["fa"]);
+G2L["ff"]["Active"] = true;
+G2L["ff"]["BorderSizePixel"] = 0;
+G2L["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["Size"] = UDim2.new(0, 502, 0, 284);
+G2L["ff"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["Position"] = UDim2.new(0.01953, 0, -0, 0);
+G2L["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame
+G2L["100"] = Instance.new("Frame", G2L["ff"]);
+G2L["100"]["BorderSizePixel"] = 0;
+G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["100"]["Size"] = UDim2.new(0, 502, 0, 264);
+G2L["100"]["Position"] = UDim2.new(0.02, 0, 0.042, 0);
+G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["100"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon
+G2L["101"] = Instance.new("Frame", G2L["100"]);
+G2L["101"]["BorderSizePixel"] = 0;
+G2L["101"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["101"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["101"]["Position"] = UDim2.new(-0.00103, 0, -0.04819, 0);
+G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["101"]["Name"] = [[noIcon]];
+G2L["101"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.UICorner
+G2L["102"] = Instance.new("UICorner", G2L["101"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextLabel
+G2L["103"] = Instance.new("TextLabel", G2L["101"]);
+G2L["103"]["BorderSizePixel"] = 0;
+G2L["103"]["TextSize"] = 24;
+G2L["103"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["103"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["103"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["103"]["BackgroundTransparency"] = 1;
+G2L["103"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["103"]["Text"] = [[No Logo]];
+G2L["103"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton
+G2L["104"] = Instance.new("TextButton", G2L["101"]);
+G2L["104"]["BorderSizePixel"] = 0;
+G2L["104"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["104"]["TextSize"] = 14;
+G2L["104"]["BackgroundColor3"] = Color3.fromRGB(224, 0, 0);
+G2L["104"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["104"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["104"]["BackgroundTransparency"] = 0.6;
+G2L["104"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["104"]["Text"] = [[]];
+G2L["104"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.anim
+G2L["105"] = Instance.new("LocalScript", G2L["104"]);
+G2L["105"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.UICorner
+G2L["106"] = Instance.new("UICorner", G2L["104"]);
+G2L["106"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.UIStroke
+G2L["107"] = Instance.new("UIStroke", G2L["104"]);
+G2L["107"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["107"]["Thickness"] = 1.5;
+G2L["107"]["Color"] = Color3.fromRGB(84, 6, 6);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.UIStroke.LocalScript
+G2L["108"] = Instance.new("LocalScript", G2L["107"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.Frame
+G2L["109"] = Instance.new("Frame", G2L["104"]);
+G2L["109"]["BorderSizePixel"] = 0;
+G2L["109"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["109"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["109"]["Position"] = UDim2.new(0.111, 0, 0.231, 0);
+G2L["109"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.Frame.UICorner
+G2L["10a"] = Instance.new("UICorner", G2L["109"]);
+G2L["10a"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.Frame.UIStroke
+G2L["10b"] = Instance.new("UIStroke", G2L["109"]);
+G2L["10b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["10b"]["Thickness"] = 1.5;
+G2L["10b"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.UIStroke
+G2L["10c"] = Instance.new("UIStroke", G2L["101"]);
+G2L["10c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["10c"]["Thickness"] = 2.5;
+G2L["10c"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme
+G2L["10d"] = Instance.new("Frame", G2L["100"]);
+G2L["10d"]["BorderSizePixel"] = 0;
+G2L["10d"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["10d"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["10d"]["Position"] = UDim2.new(-0.00103, 0, 0.33818, 0);
+G2L["10d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10d"]["Name"] = [[normalTheme]];
+G2L["10d"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.UICorner
+G2L["10e"] = Instance.new("UICorner", G2L["10d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.UIStroke
+G2L["10f"] = Instance.new("UIStroke", G2L["10d"]);
+G2L["10f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["10f"]["Thickness"] = 2.5;
+G2L["10f"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextLabel
+G2L["110"] = Instance.new("TextLabel", G2L["10d"]);
+G2L["110"]["BorderSizePixel"] = 0;
+G2L["110"]["TextSize"] = 24;
+G2L["110"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["110"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["110"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["110"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["110"]["BackgroundTransparency"] = 1;
+G2L["110"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["110"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["110"]["Text"] = [[Classic Theme (Green to red)]];
+G2L["110"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton
+G2L["111"] = Instance.new("TextButton", G2L["10d"]);
+G2L["111"]["BorderSizePixel"] = 0;
+G2L["111"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["111"]["TextSize"] = 14;
+G2L["111"]["BackgroundColor3"] = Color3.fromRGB(23, 224, 0);
+G2L["111"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["111"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["111"]["BackgroundTransparency"] = 0.6;
+G2L["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["111"]["Text"] = [[]];
+G2L["111"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.anim
+G2L["112"] = Instance.new("LocalScript", G2L["111"]);
+G2L["112"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.UICorner
+G2L["113"] = Instance.new("UICorner", G2L["111"]);
+G2L["113"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.UIStroke
+G2L["114"] = Instance.new("UIStroke", G2L["111"]);
+G2L["114"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["114"]["Thickness"] = 1.5;
+G2L["114"]["Color"] = Color3.fromRGB(25, 59, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.UIStroke.LocalScript
+G2L["115"] = Instance.new("LocalScript", G2L["114"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.Frame
+G2L["116"] = Instance.new("Frame", G2L["111"]);
+G2L["116"]["BorderSizePixel"] = 0;
+G2L["116"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["116"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["116"]["Position"] = UDim2.new(0.653, 0, 0.231, 0);
+G2L["116"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.Frame.UICorner
+G2L["117"] = Instance.new("UICorner", G2L["116"]);
+G2L["117"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.Frame.UIStroke
+G2L["118"] = Instance.new("UIStroke", G2L["116"]);
+G2L["118"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["118"]["Thickness"] = 1.5;
+G2L["118"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.TextLabel
+G2L["119"] = Instance.new("TextLabel", G2L["100"]);
+G2L["119"]["BorderSizePixel"] = 0;
+G2L["119"]["TextSize"] = 24;
+G2L["119"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["119"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["119"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["119"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["119"]["BackgroundTransparency"] = 1;
+G2L["119"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["119"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["119"]["Text"] = [[-- Themes --]];
+G2L["119"]["Position"] = UDim2.new(-0.00293, 0, 0.14773, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme
+G2L["11a"] = Instance.new("Frame", G2L["100"]);
+G2L["11a"]["BorderSizePixel"] = 0;
+G2L["11a"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["11a"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["11a"]["Position"] = UDim2.new(-0.00103, 0, 0.56545, 0);
+G2L["11a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11a"]["Name"] = [[galaxyTheme]];
+G2L["11a"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.UICorner
+G2L["11b"] = Instance.new("UICorner", G2L["11a"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.UIStroke
+G2L["11c"] = Instance.new("UIStroke", G2L["11a"]);
+G2L["11c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["11c"]["Thickness"] = 2.5;
+G2L["11c"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextLabel
+G2L["11d"] = Instance.new("TextLabel", G2L["11a"]);
+G2L["11d"]["BorderSizePixel"] = 0;
+G2L["11d"]["TextSize"] = 24;
+G2L["11d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["11d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["11d"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["11d"]["BackgroundTransparency"] = 1;
+G2L["11d"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["11d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11d"]["Text"] = [[Galaxy Theme]];
+G2L["11d"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton
+G2L["11e"] = Instance.new("TextButton", G2L["11a"]);
+G2L["11e"]["BorderSizePixel"] = 0;
+G2L["11e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11e"]["TextSize"] = 14;
+G2L["11e"]["BackgroundColor3"] = Color3.fromRGB(224, 0, 0);
+G2L["11e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11e"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["11e"]["BackgroundTransparency"] = 0.6;
+G2L["11e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11e"]["Text"] = [[]];
+G2L["11e"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.anim
+G2L["11f"] = Instance.new("LocalScript", G2L["11e"]);
+G2L["11f"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.UICorner
+G2L["120"] = Instance.new("UICorner", G2L["11e"]);
+G2L["120"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.UIStroke
+G2L["121"] = Instance.new("UIStroke", G2L["11e"]);
+G2L["121"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["121"]["Thickness"] = 1.5;
+G2L["121"]["Color"] = Color3.fromRGB(84, 6, 6);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.UIStroke.LocalScript
+G2L["122"] = Instance.new("LocalScript", G2L["121"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.Frame
+G2L["123"] = Instance.new("Frame", G2L["11e"]);
+G2L["123"]["BorderSizePixel"] = 0;
+G2L["123"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["123"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["123"]["Position"] = UDim2.new(0.111, 0, 0.231, 0);
+G2L["123"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.Frame.UICorner
+G2L["124"] = Instance.new("UICorner", G2L["123"]);
+G2L["124"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.Frame.UIStroke
+G2L["125"] = Instance.new("UIStroke", G2L["123"]);
+G2L["125"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["125"]["Thickness"] = 1.5;
+G2L["125"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme
+G2L["126"] = Instance.new("Frame", G2L["100"]);
+G2L["126"]["BorderSizePixel"] = 0;
+G2L["126"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["126"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["126"]["Position"] = UDim2.new(-0.00103, 0, 0.78893, 0);
+G2L["126"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["126"]["Name"] = [[lunarTheme]];
+G2L["126"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.UICorner
+G2L["127"] = Instance.new("UICorner", G2L["126"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.UIStroke
+G2L["128"] = Instance.new("UIStroke", G2L["126"]);
+G2L["128"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["128"]["Thickness"] = 2.5;
+G2L["128"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextLabel
+G2L["129"] = Instance.new("TextLabel", G2L["126"]);
+G2L["129"]["BorderSizePixel"] = 0;
+G2L["129"]["TextSize"] = 24;
+G2L["129"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["129"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["129"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["129"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["129"]["BackgroundTransparency"] = 1;
+G2L["129"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["129"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["129"]["Text"] = [[Lunar Theme]];
+G2L["129"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton
+G2L["12a"] = Instance.new("TextButton", G2L["126"]);
+G2L["12a"]["BorderSizePixel"] = 0;
+G2L["12a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12a"]["TextSize"] = 14;
+G2L["12a"]["BackgroundColor3"] = Color3.fromRGB(224, 0, 0);
+G2L["12a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12a"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["12a"]["BackgroundTransparency"] = 0.6;
+G2L["12a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12a"]["Text"] = [[]];
+G2L["12a"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.anim
+G2L["12b"] = Instance.new("LocalScript", G2L["12a"]);
+G2L["12b"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.UICorner
+G2L["12c"] = Instance.new("UICorner", G2L["12a"]);
+G2L["12c"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.UIStroke
+G2L["12d"] = Instance.new("UIStroke", G2L["12a"]);
+G2L["12d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["12d"]["Thickness"] = 1.5;
+G2L["12d"]["Color"] = Color3.fromRGB(84, 6, 6);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.UIStroke.LocalScript
+G2L["12e"] = Instance.new("LocalScript", G2L["12d"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.Frame
+G2L["12f"] = Instance.new("Frame", G2L["12a"]);
+G2L["12f"]["BorderSizePixel"] = 0;
+G2L["12f"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["12f"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["12f"]["Position"] = UDim2.new(0.111, 0, 0.231, 0);
+G2L["12f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.Frame.UICorner
+G2L["130"] = Instance.new("UICorner", G2L["12f"]);
+G2L["130"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.Frame.UIStroke
+G2L["131"] = Instance.new("UIStroke", G2L["12f"]);
+G2L["131"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["131"]["Thickness"] = 1.5;
+G2L["131"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger
+G2L["132"] = Instance.new("Frame", G2L["100"]);
+G2L["132"]["BorderSizePixel"] = 0;
+G2L["132"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["132"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["132"]["Position"] = UDim2.new(-0.00103, 0, 1.13742, 0);
+G2L["132"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["132"]["Name"] = [[gameLogger]];
+G2L["132"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.UICorner
+G2L["133"] = Instance.new("UICorner", G2L["132"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.UIStroke
+G2L["134"] = Instance.new("UIStroke", G2L["132"]);
+G2L["134"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["134"]["Thickness"] = 2.5;
+G2L["134"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextLabel
+G2L["135"] = Instance.new("TextLabel", G2L["132"]);
+G2L["135"]["BorderSizePixel"] = 0;
+G2L["135"]["TextSize"] = 24;
+G2L["135"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["135"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["135"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["135"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["135"]["BackgroundTransparency"] = 1;
+G2L["135"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["135"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["135"]["Text"] = [[Game Logger]];
+G2L["135"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton
+G2L["136"] = Instance.new("TextButton", G2L["132"]);
+G2L["136"]["BorderSizePixel"] = 0;
+G2L["136"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["136"]["TextSize"] = 14;
+G2L["136"]["BackgroundColor3"] = Color3.fromRGB(23, 224, 0);
+G2L["136"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["136"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["136"]["BackgroundTransparency"] = 0.6;
+G2L["136"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["136"]["Text"] = [[]];
+G2L["136"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.anim
+G2L["137"] = Instance.new("LocalScript", G2L["136"]);
+G2L["137"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.UICorner
+G2L["138"] = Instance.new("UICorner", G2L["136"]);
+G2L["138"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.UIStroke
+G2L["139"] = Instance.new("UIStroke", G2L["136"]);
+G2L["139"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["139"]["Thickness"] = 1.5;
+G2L["139"]["Color"] = Color3.fromRGB(25, 59, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.UIStroke.LocalScript
+G2L["13a"] = Instance.new("LocalScript", G2L["139"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.Frame
+G2L["13b"] = Instance.new("Frame", G2L["136"]);
+G2L["13b"]["BorderSizePixel"] = 0;
+G2L["13b"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["13b"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["13b"]["Position"] = UDim2.new(0.653, 0, 0.231, 0);
+G2L["13b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.Frame.UICorner
+G2L["13c"] = Instance.new("UICorner", G2L["13b"]);
+G2L["13c"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.Frame.UIStroke
+G2L["13d"] = Instance.new("UIStroke", G2L["13b"]);
+G2L["13d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["13d"]["Thickness"] = 1.5;
+G2L["13d"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.enb
+G2L["13e"] = Instance.new("BoolValue", G2L["136"]);
+G2L["13e"]["Name"] = [[enb]];
+G2L["13e"]["Value"] = true;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.TextLabel
+G2L["13f"] = Instance.new("TextLabel", G2L["100"]);
+G2L["13f"]["BorderSizePixel"] = 0;
+G2L["13f"]["TextSize"] = 24;
+G2L["13f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["13f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13f"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["13f"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["13f"]["BackgroundTransparency"] = 1;
+G2L["13f"]["Size"] = UDim2.new(0, 200, 0, 37);
+G2L["13f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13f"]["Text"] = [[-- Executor Functionalities --]];
+G2L["13f"]["Position"] = UDim2.new(-0.00293, 0, 0.98485, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.TextLabel
+G2L["140"] = Instance.new("TextLabel", G2L["100"]);
+G2L["140"]["BorderSizePixel"] = 0;
+G2L["140"]["TextSize"] = 24;
+G2L["140"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["140"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["140"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["140"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["140"]["BackgroundTransparency"] = 1;
+G2L["140"]["Size"] = UDim2.new(0, 200, 0, 37);
+G2L["140"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["140"]["Text"] = [[-- Extra Things --]];
+G2L["140"]["Position"] = UDim2.new(-0.00293, 0, 1.56061, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor
+G2L["141"] = Instance.new("Frame", G2L["100"]);
+G2L["141"]["BorderSizePixel"] = 0;
+G2L["141"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["141"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["141"]["Position"] = UDim2.new(-0.00302, 0, 1.72075, 0);
+G2L["141"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["141"]["Name"] = [[KillExecutor]];
+G2L["141"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.UICorner
+G2L["142"] = Instance.new("UICorner", G2L["141"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.UIStroke
+G2L["143"] = Instance.new("UIStroke", G2L["141"]);
+G2L["143"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["143"]["Thickness"] = 2.5;
+G2L["143"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextLabel
+G2L["144"] = Instance.new("TextLabel", G2L["141"]);
+G2L["144"]["BorderSizePixel"] = 0;
+G2L["144"]["TextSize"] = 24;
+G2L["144"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["144"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["144"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["144"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["144"]["BackgroundTransparency"] = 1;
+G2L["144"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["144"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["144"]["Text"] = [[Kill Executor]];
+G2L["144"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton
+G2L["145"] = Instance.new("TextButton", G2L["141"]);
+G2L["145"]["BorderSizePixel"] = 0;
+G2L["145"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["145"]["TextSize"] = 14;
+G2L["145"]["BackgroundColor3"] = Color3.fromRGB(224, 0, 0);
+G2L["145"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["145"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["145"]["BackgroundTransparency"] = 0.6;
+G2L["145"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["145"]["Text"] = [[]];
+G2L["145"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton.LocalScript
+G2L["146"] = Instance.new("LocalScript", G2L["145"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton.UICorner
+G2L["147"] = Instance.new("UICorner", G2L["145"]);
+G2L["147"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton.UIStroke
+G2L["148"] = Instance.new("UIStroke", G2L["145"]);
+G2L["148"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["148"]["Thickness"] = 1.5;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton.TextLabel
+G2L["149"] = Instance.new("TextLabel", G2L["145"]);
+G2L["149"]["BorderSizePixel"] = 0;
+G2L["149"]["TextSize"] = 24;
+G2L["149"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["149"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["149"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["149"]["BackgroundTransparency"] = 1;
+G2L["149"]["RichText"] = true;
+G2L["149"]["Size"] = UDim2.new(0, 43, 0, 14);
+G2L["149"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["149"]["Text"] = [[Kill]];
+G2L["149"]["Position"] = UDim2.new(0.19555, 0, 0.22453, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight
+G2L["14a"] = Instance.new("Frame", G2L["100"]);
+G2L["14a"]["BorderSizePixel"] = 0;
+G2L["14a"]["BackgroundColor3"] = Color3.fromRGB(10, 10, 10);
+G2L["14a"]["Size"] = UDim2.new(0, 471, 0, 45);
+G2L["14a"]["Position"] = UDim2.new(-0.00103, 0, 1.37605, 0);
+G2L["14a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14a"]["Name"] = [[syntaxHighlight]];
+G2L["14a"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.UICorner
+G2L["14b"] = Instance.new("UICorner", G2L["14a"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.UIStroke
+G2L["14c"] = Instance.new("UIStroke", G2L["14a"]);
+G2L["14c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["14c"]["Thickness"] = 2.5;
+G2L["14c"]["Color"] = Color3.fromRGB(18, 18, 18);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextLabel
+G2L["14d"] = Instance.new("TextLabel", G2L["14a"]);
+G2L["14d"]["BorderSizePixel"] = 0;
+G2L["14d"]["TextSize"] = 24;
+G2L["14d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["14d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["14d"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["14d"]["BackgroundTransparency"] = 1;
+G2L["14d"]["Size"] = UDim2.new(0, 200, 0, 45);
+G2L["14d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14d"]["Text"] = [[Syntax Highlight]];
+G2L["14d"]["Position"] = UDim2.new(0.015, 0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton
+G2L["14e"] = Instance.new("TextButton", G2L["14a"]);
+G2L["14e"]["BorderSizePixel"] = 0;
+G2L["14e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14e"]["TextSize"] = 14;
+G2L["14e"]["BackgroundColor3"] = Color3.fromRGB(23, 224, 0);
+G2L["14e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14e"]["Size"] = UDim2.new(0, 72, 0, 26);
+G2L["14e"]["BackgroundTransparency"] = 0.6;
+G2L["14e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14e"]["Text"] = [[]];
+G2L["14e"]["Position"] = UDim2.new(0.82359, 0, 0.2, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.anim
+G2L["14f"] = Instance.new("LocalScript", G2L["14e"]);
+G2L["14f"]["Name"] = [[anim]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.UICorner
+G2L["150"] = Instance.new("UICorner", G2L["14e"]);
+G2L["150"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.UIStroke
+G2L["151"] = Instance.new("UIStroke", G2L["14e"]);
+G2L["151"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["151"]["Thickness"] = 1.5;
+G2L["151"]["Color"] = Color3.fromRGB(25, 59, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.UIStroke.LocalScript
+G2L["152"] = Instance.new("LocalScript", G2L["151"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.Frame
+G2L["153"] = Instance.new("Frame", G2L["14e"]);
+G2L["153"]["BorderSizePixel"] = 0;
+G2L["153"]["BackgroundColor3"] = Color3.fromRGB(142, 142, 142);
+G2L["153"]["Size"] = UDim2.new(0, 15, 0, 15);
+G2L["153"]["Position"] = UDim2.new(0.653, 0, 0.231, 0);
+G2L["153"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.Frame.UICorner
+G2L["154"] = Instance.new("UICorner", G2L["153"]);
+G2L["154"]["CornerRadius"] = UDim.new(1, 5);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.Frame.UIStroke
+G2L["155"] = Instance.new("UIStroke", G2L["153"]);
+G2L["155"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["155"]["Thickness"] = 1.5;
+G2L["155"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.galaxyThemeGradient
+G2L["156"] = Instance.new("UIGradient", G2L["fa"]);
+G2L["156"]["Enabled"] = false;
+G2L["156"]["Rotation"] = 132;
+G2L["156"]["Name"] = [[galaxyThemeGradient]];
+G2L["156"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 18, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.galaxyThemeGradient.LocalScript
+G2L["157"] = Instance.new("LocalScript", G2L["156"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.lunarThemeGradient
+G2L["158"] = Instance.new("UIGradient", G2L["fa"]);
+G2L["158"]["Enabled"] = false;
+G2L["158"]["Rotation"] = 132;
+G2L["158"]["Name"] = [[lunarThemeGradient]];
+G2L["158"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.lunarThemeGradient.LocalScript
+G2L["159"] = Instance.new("LocalScript", G2L["158"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO
+G2L["15a"] = Instance.new("Frame", G2L["d"]);
+G2L["15a"]["BorderSizePixel"] = 0;
+G2L["15a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15a"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["15a"]["Position"] = UDim2.new(0.44481, 0, 0.37913, 0);
+G2L["15a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15a"]["Name"] = [[LOGO]];
+G2L["15a"]["BackgroundTransparency"] = 0.6;
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Main2
+G2L["15b"] = Instance.new("ImageLabel", G2L["15a"]);
+G2L["15b"]["ZIndex"] = 3;
+G2L["15b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15b"]["ImageTransparency"] = 1;
+G2L["15b"]["Image"] = [[rbxassetid://7102276469]];
+G2L["15b"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["15b"]["BorderColor3"] = Color3.fromRGB(29, 44, 55);
+G2L["15b"]["BackgroundTransparency"] = 1;
+G2L["15b"]["Name"] = [[Main2]];
+G2L["15b"]["Position"] = UDim2.new(0, 321312480, 0, 321312384);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Orbit
+G2L["15c"] = Instance.new("ImageLabel", G2L["15a"]);
+G2L["15c"]["ZIndex"] = 2;
+G2L["15c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15c"]["Image"] = [[http://www.roblox.com/asset/?id=6208815613]];
+G2L["15c"]["BorderColor3"] = Color3.fromRGB(29, 44, 55);
+G2L["15c"]["BackgroundTransparency"] = 1;
+G2L["15c"]["Name"] = [[Orbit]];
+G2L["15c"]["Position"] = UDim2.new(2.38923, 0, 1.40715, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring
+G2L["15d"] = Instance.new("TextButton", G2L["15a"]);
+G2L["15d"]["Interactable"] = false;
+G2L["15d"]["BorderSizePixel"] = 0;
+G2L["15d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15d"]["TextSize"] = 14;
+G2L["15d"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["15d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15d"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["15d"]["Name"] = [[Ring]];
+G2L["15d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15d"]["Text"] = [[]];
+G2L["15d"]["Position"] = UDim2.new(-0.0045, 0, -0.00762, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.TextLabel
+G2L["15e"] = Instance.new("TextLabel", G2L["15d"]);
+G2L["15e"]["TextWrapped"] = true;
+G2L["15e"]["BorderSizePixel"] = 0;
+G2L["15e"]["TextSize"] = 14;
+G2L["15e"]["TextScaled"] = true;
+G2L["15e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15e"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["15e"]["TextColor3"] = Color3.fromRGB(207, 207, 207);
+G2L["15e"]["BackgroundTransparency"] = 1;
+G2L["15e"]["Size"] = UDim2.new(0, 75, 0, 81);
+G2L["15e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15e"]["Text"] = [[S]];
+G2L["15e"]["Position"] = UDim2.new(0.12, 0, 0.09, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.TextLabel
+G2L["15f"] = Instance.new("TextLabel", G2L["15d"]);
+G2L["15f"]["TextWrapped"] = true;
+G2L["15f"]["BorderSizePixel"] = 0;
+G2L["15f"]["TextSize"] = 14;
+G2L["15f"]["TextScaled"] = true;
+G2L["15f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15f"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["15f"]["TextColor3"] = Color3.fromRGB(209, 209, 209);
+G2L["15f"]["BackgroundTransparency"] = 1;
+G2L["15f"]["Size"] = UDim2.new(0, 34, 0, 36);
+G2L["15f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15f"]["Text"] = [[B]];
+G2L["15f"]["Position"] = UDim2.new(0.66, 0, 0.63, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.version
+G2L["160"] = Instance.new("TextLabel", G2L["15d"]);
+G2L["160"]["TextWrapped"] = true;
+G2L["160"]["BorderSizePixel"] = 0;
+G2L["160"]["TextSize"] = 14;
+G2L["160"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["160"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["160"]["TextColor3"] = Color3.fromRGB(231, 231, 231);
+G2L["160"]["BackgroundTransparency"] = 1;
+G2L["160"]["Size"] = UDim2.new(0, 47, 0, 26);
+G2L["160"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["160"]["Text"] = [[V1.2.6]];
+G2L["160"]["Name"] = [[version]];
+G2L["160"]["Position"] = UDim2.new(0.0045, 0, 0.00762, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.UICorner
+G2L["161"] = Instance.new("UICorner", G2L["15d"]);
+G2L["161"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.UIGradient
+G2L["162"] = Instance.new("UIGradient", G2L["15d"]);
+G2L["162"]["Rotation"] = 132;
+G2L["162"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))};
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.UIGradient.LocalScript
+G2L["163"] = Instance.new("LocalScript", G2L["162"]);
+
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.UIStroke
+G2L["164"] = Instance.new("UIStroke", G2L["15d"]);
+G2L["164"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["164"]["Thickness"] = 2;
+G2L["164"]["Color"] = Color3.fromRGB(36, 36, 36);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.inj
+G2L["165"] = Instance.new("Frame", G2L["15d"]);
+G2L["165"]["Visible"] = false;
+G2L["165"]["BorderSizePixel"] = 0;
+G2L["165"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 39);
+G2L["165"]["Size"] = UDim2.new(0, 14, 0, 14);
+G2L["165"]["Position"] = UDim2.new(0.8, 0, 0.05, 0);
+G2L["165"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["165"]["Name"] = [[inj]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.inj.UICorner
+G2L["166"] = Instance.new("UICorner", G2L["165"]);
+G2L["166"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.notinj
+G2L["167"] = Instance.new("Frame", G2L["15d"]);
+G2L["167"]["Visible"] = false;
+G2L["167"]["BorderSizePixel"] = 0;
+G2L["167"]["BackgroundColor3"] = Color3.fromRGB(255, 40, 40);
+G2L["167"]["Size"] = UDim2.new(0, 14, 0, 14);
+G2L["167"]["Position"] = UDim2.new(0.8, 0, 0.05, 0);
+G2L["167"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["167"]["Name"] = [[notinj]];
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.notinj.UICorner
+G2L["168"] = Instance.new("UICorner", G2L["167"]);
+G2L["168"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.UICorner
+G2L["169"] = Instance.new("UICorner", G2L["15a"]);
+G2L["169"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Outline
+G2L["16a"] = Instance.new("Frame", G2L["15a"]);
+G2L["16a"]["Visible"] = false;
+G2L["16a"]["ZIndex"] = 2;
+G2L["16a"]["BackgroundColor3"] = Color3.fromRGB(18, 154, 255);
+G2L["16a"]["Size"] = UDim2.new(0.24, 0, 0.24, 0);
+G2L["16a"]["BorderColor3"] = Color3.fromRGB(18, 154, 255);
+G2L["16a"]["Name"] = [[Outline]];
+G2L["16a"]["BackgroundTransparency"] = 0.9;
+
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+	local ModuleState = G2L_MODULES[Module];
+	if ModuleState then
+		if not ModuleState.Required then
+			ModuleState.Required = true;
+			ModuleState.Value = ModuleState.Closure();
+		end
+		return ModuleState.Value;
+	end;
+	return G2L_REQUIRE(Module);
+end
+
+G2L_MODULES[G2L["b"]] = {
+	Closure = function(...)
+		local script = G2L["b"];
+		return(function(...)local u={"\055\055\070\053\112\116\101\115\118\084\079\088\089\055\106\051\084\103\048\101\050\119\078\047\085\072\098\065\122\090\066\043\109\117\083\082\080\102\097\065\083\043\052\086\086\071\109\122\053\079\088\076\120\068\106\050\084\068\069\104\120\047\115\078\047\088\086\079\074\087\109\073\056\101\112\116\056\117\057\102\085\048\052\047\078\115\048\102\080\087\089\121\080\113\116\109\099\109\055\119\118\048\053\106\077\072\073\111\052\067\075\072\069\111\111\084\047\106\068\104\112\102\083\054\056\070\085\070\098\111\078\116\102\078\083\103\121\054\102\077\080\085\087\048\104\111\097\118\116\105\097\081\087\055\113\112\052\101\080\088\052\074\107\087\116\103\067\081\109\117\109\054\049\118\121\077\118\073\078\122\105\121\089\115\069\117\083\067\121\107\071\079\082\078\104\077\089\089\104\102\099\055\097\075\100\113\083\075\049\081\076\051\087\054\090\048\112\053\117\120\111\122\106\048\066\054\088\047\073\097\121\047\081\086\080\097\105\088\053\043\057\056\076\068\117\077\118\090\122\090\118\120\068\115\067\112\089\087\104\056\090\077\087\122\054\081\069\101\102\065\084\087\047\121\083\100\070\099\071\051\053\085\054\052\101\120\107\051\056\080\043\048\069\116\076\090\053\082\043\067\119\097\081\068\051\106\082\087\112\085\070\115\108\057\065\081\109\099\101\105\083\047\115\053\102\069\065\117\100\108\065\117\049\101\076\048\111\051\068\056\043\121\073\078\055\100\071\090\043\120\066\119\113\085\118\120\077\117\055\086\082\086\090\097\099\055\088\047\075\108\075\049\052\054\084\049\082\055\108\110\098\053\049\043\099\050\068\080\076\072\115\065\116\067\082\090\082\067\118\082\065\101\080\097\117\122\071\061";"\082\067\065\122\081\067\055\080","\099\101\080\119\097\115\112\122\053\043\066\068","\089\120\051\101\068\120\051\100\082\043\047\083\097\056\061\061","\049\086\056\112\049\106\116\061","\052\076\074\085\073\104\083\051\051\097\110\110\047\057\069\112\047\112\072\106\109\066\105\075\070\056\089\050\105\071\054\102\112\110\106\050\116\122\061\061";"\100\088\047\103\065\067\084\061","\085\052\061\061","\057\118\086\056\088\088\103\117\119\105\080\107\109\113\100\108\075\089\086\099\077\073\069\115\110\077\114\120\072\108\048\061";"\071\051\089\109\113\074\116\108\056\083\085\068\089\098\051\070\081\052\061\061","\119\071\082\116\112\055\075\061";"\053\100\115\108\048\113\118\076\066\048\098\067\077\107\085\087\069\086\097\097\047\057\088\099\069\067\075\051\116\097\101\061";"\120\074\066\122\074\048\061\061","\081\120\053\114\081\120\090\101","\051\077\090\121\102\077\051\100\116\086\089\047\082\077\051\083\082\077\051\075\116\056\061\061";"\097\043\057\070\112\108\116\061","\112\117\081\121\078\113\105\081\102\110\088\072\097\112\068\075\053\074\047\111\116\065\102\074\122\109\119\106\089\070\110\108";"\102\120\051\101\112\067\051\101\081\076\089\099\081\043\057\047";"\075\053\057\109\102\082\053\086","\066\106\073\077\110\069\071\069\122\113\047\100\082\054\099\079\107\106\112\080\090\066\090\072\043\047\076\054\088\084\107\116\070\099\084\111\098\048\109\075\054\047\055\122\068\118\080\057\090\099\067\117\098\101\119\056\078\115\049\098\080\056\053\107\121\050\111\100\085\077\116\054";"\104\068\121\071\112\101\082\114\113\068\082\051\089\086\047\049";"\097\108\055\098\081\052\061\061";"\089\043\047\114\097\086\097\049\102\106\055\101\056\120\099\049\112\077\056\061";"\051\109\055\105\102\086\090\097\056\106\051\049\088\077\082\079\071\052\061\061","\076\066\083\104","\076\098\053\121\097\076\089\099\082\077\090\119\112\077\068\061","\056\120\053\114\112\043\051\083\082\048\061\061","\097\120\090\121\097\056\061\061","\083\056\061\061";"\109\068\054\122\108\048\061\061";"\068\071\084\050\055\052\061\061";"\076\098\053\106\081\122\061\061","\117\083\089\109\088\077\049\119\088\086\098\105\104\101\049\068\104\108\048\061","\067\102\053\069\056\087\086\115","\115\122\119\083\065\073\068\071\077\090\087\071\048\068\116\061","\055\067\055\054\082\077\055\097\088\109\082\087\068\083\097\071";"\052\055\069\097\077\106\068\061";"\068\074\086\071\115\108\068\103\087\078\118\052\057\048\061\061";"\104\099\097\056\054\102\097\043\072\065\051\069\050\108\073\097\118\108\048\061";"\119\122\051\114";"\051\076\085\121\112\043\090\067\056\075\090\054\104\076\097\068\069\101\081\061","\101\108\068\055\121\084\102\118\051\117\097\076\066\122\121\066\097\113\102\061";"\097\076\105\100\112\108\116\061","\098\077\077\083\089\054\078\061";"\081\106\047\101\097\056\061\061";"\071\076\049\101\097\077\054\107\112\075\052\098\117\048\061\061";"\069\067\065\120\112\120\121\047\068\120\051\100\082\043\051\100";"\051\111\109\089\109\054\103\097\122\043\082\054\108\081\107\083\112\122\061\061","\089\043\047\100\097\051\055\047\102\106\097\047\102\052\061\061";"\115\107\079\047\049\048\061\061";"\051\120\090\049\082\086\097\070\102\075\055\078\117\067\057\075","\105\055\090\052\048\080\074\108";"\076\098\053\054\097\067\073\061";"\085\056\083\116\048\043\055\108\078\099\088\084\104\052\083\114\078\071\086\061","\082\077\053\107\082\109\105\049\112\043\102\061";"\115\117\076\099\122\099\068\061","\113\074\047\109\081\043\086\120\051\120\049\076\117\107\081\065\081\106\056\061";"\104\105\076\100\082\048\061\061","\051\104\099\107\051\083\105\055\117\067\047\075\051\107\099\081","\113\076\099\116\104\068\065\078\069\043\047\079\071\120\098\107\117\052\061\061","\102\043\090\114\097\077\053\121";"\084\084\079\122\106\048\086\061","\112\108\071\061";"\056\075\089\049\117\120\121\077\112\068\099\120\113\086\057\103","\102\109\105\049\112\106\056\061","\076\117\105\111\082\099\070\050","";"\080\102\120\101\100\048\061\061","\102\108\089\100\117\067\065\106";"\043\056\061\061";"\102\043\051\121\112\108\097\047";"\071\068\082\105\088\076\048\065\117\067\053\122\051\074\089\103\117\122\061\061";"\097\087\070\097\082\048\061\061";"\112\121\105\102\049\097\101\061","\112\067\089\051\082\098\082\050\071\098\116\120\082\067\097\089";"\110\086\113\122\073\112\053\052\085\075\085\083\057\100\057\103\121\067\054\061";"\056\114\043\121\087\050\068\061","\121\111\113\119\110\068\122\061","\086\056\061\061","\076\098\053\049\112\043\089\047\088\048\061\061";"\113\078\065\071\067\120\054\061","\120\048\119\122\083\122\061\061";"\048\052\089\113\104\047\083\084\097\118\072\084\087\056\081\097\100\072\111\072\118\079\081\106\051\051\102\053\066\110\119\122\102\110\097\087\068\115\071\122\106\083\115\099\108\052\073\085\049\113\068\049\056\071\073\084";"\120\070\104\081\043\047\088\114\104\079\103\115\047\056\061\061";"\073\104\089\068\081\121\085\072\068\100\071\118\118\121\078\066\076\051\114\077\087\081\112\100\051\051\055\066\099\052\061\061";"\112\074\086\061";"\049\101\122\048\099\087\080\116","\103\056\051\122\116\117\075\104\112\103\067\099\070\082\068\075\089\097\054\061";"\081\120\099\099\102\052\061\061";"\087\055\106\115\119\068\081\049\077\085\079\108\078\087\099\122\052\115\069\105\090\051\107\111\069\083\107\109\090\104\043\083\111\055\107\115\121\118\085\084\111\099\106\074\082\056\103\107\072\072\051\065\054\077\054\066\117\055\122\072\071\049\069\102\056\105\056\106\068\119\048\053\077\114\099\118";"\070\071\050\104\047\121\079\055\118\102\079\057\082\048\061\061";"\090\070\101\114\055\080\112\110\043\119\075\052\122\071\113\119\100\106\075\061";"\069\076\055\085";"\099\085\120\078\076\048\061\061";"\101\070\084\109\083\067\069\083\065\100\075\098";"\084\066\106\056\084\056\089\099\104\119\054\069\075\112\053\072\072\115\081\061","\066\122\104\111\050\048\070\080\071\108\109\088\057\113\067\086\098\075\116\061";"\090\071\057\121\047\119\115\111\068\115\113\087\082\110\051\068\099\079\121\057\117\099\102\056\075\090\089\048\082\112\102\122\071\080\050\079\100\099\073\090\110\115\115\051\056\098\077\078\087\108\052\075\114\052\061\061";"\089\077\047\107\081\120\053\114\112\043\051\083\082\048\061\061","\121\071\049\113\081\111\054\106\065\100\112\106","\055\043\110\079\081\074\097\053";"\113\076\085\100\081\068\049\075\067\077\089\057\071\076\099\083\082\048\061\061","\087\113\065\051\099\110\116\061","\089\120\051\101\089\106\051\054\112\086\065\099\112\067\068\061","\097\120\098\099\082\077\055\078","\108\052\090\110\047\053\079\118\088\087\051\066\068\053\120\103\081\119\052\061";"\082\077\090\119\112\077\068\061","\114\113\085\068\115\076\100\110\089\116\103\078\116\085\117\112\086\121\043\105\090\107\050\071\056\055\065\104\052\100\066\076\048\110\068\069\050\086\103\083\073\082\072\074\075\073\120\049\121\118\109\072\082\066\119\084\053\083\115\047\066\078\104\073","\116\076\111\106\043\122\061\061","\102\106\051\114","\113\052\061\061","\051\077\071\065\104\106\055\119\097\104\105\098\089\047\097\069\055\122\061\061","\103\110\054\070\070\087\122\061";"\071\075\047\077\104\077\089\121\069\106\055\100\102\043\071\122\051\048\061\061","\112\067\090\101\117\048\061\061","\102\076\047\049\055\090\047\056\068\067\055\115\088\043\053\097\068\047\056\061";"\113\119\052\047\097\050\078\049\113\052\061\061";"\087\089\056\061","\089\120\051\101\089\077\051\107\081\120\051\114\097\077\090\114\082\109\071\061","\090\108\120\073\117\102\048\061","\114\065\077\090\052\075\076\105";"\070\055\050\106\120\084\101\061","\102\077\055\099\112\077\122\061";"\117\121\057\105\089\118\072\112\087\121\118\047\115\101\066\111\120\065\078\089\122\121\101\061";"\100\102\082\069\098\056\048\061";"\051\065\051\087\107\120\055\110\117\070\112\107\083\050\081\070\101\106\056\103\104\089\075\097\121\122\061\061";"\082\120\099\068\068\076\102\122\081\067\105\074";"\072\097\103\070\089\087\084\061","\103\065\068\116","\117\067\065\103\097\067\055\101";"\051\090\099\083\056\107\097\121\097\067\105\107\051\067\056\100";"\106\083\116\080\102\112\075\061","\082\077\090\107\117\122\061\061";"\117\077\084\057\112\086\051\104\089\104\085\113\056\067\049\057","\112\077\051\114";"\098\068\077\097\116\088\076\067\103\112\111\116","\051\098\051\055\117\104\089\050\104\067\090\083\089\075\049\097\102\052\061\061","\117\067\054\061";"\115\076\057\084\112\043\101\061";"\104\116\102\116\090\078\069\098\074\057\049\119\120\078\077\110\084\083\102\061","\073\121\051\085\065\070\119\119","\104\057\078\086\066\078\084\061";"\117\076\085\099\117\076\105\107","\080\057\090\050\120\053\089\078";"\054\105\106\074\078\075\107\102\116\101\085\083\078\121\114\053\104\049\121\048\110\115\047\048\050\112\097\055\100\078\071\120\097\102\056\081\053\079\121\066","\082\077\053\114\082\067\098\119\097\076\116\061","\112\074\116\061";"\056\097\117\116\097\107\073\052\057\066\089\080\101\099\048\061";"\107\074\109\050\100\071\102\061";"\056\084\073\061","\051\086\082\047\088\086\055\099\069\067\089\049\117\120\089\074";"\053\111\105\072\112\081\097\077";"\102\083\081\061","\055\085\043\083\089\048\061\061","\081\104\105\051\056\043\121\067\056\120\099\050\071\106\097\110\082\083\102\061","\103\090\101\079\055\120\104\120\088\074\043\100\070\113\057\052\084\043\108\068\112\056\067\065\054\099\067\108\103\084\069\048\112\043\072\088";"\067\083\085\056\081\067\102\057\055\107\085\090\067\077\121\105\068\052\061\061"}for X,e in ipairs({{1046766-1046765,-566179-(-566336)},{-1023647+1023648;-599986-(-600113)};{-708282+708410,133008-132851}})do while e[-867584+867585]<e[403229-403227]do u[e[-715003+715004]],u[e[-821036+821038]],e[-577221+577222],e[-907281-(-907283)]=u[e[-120830+120832]],u[e[-387727-(-387728)]],e[848561+-848560]+(593353+-593352),e[-695463+695465]-(-125854-(-125855))end end local function X(X)return u[X+(-539544-(-553152))]end do local X=string.char local e=table.insert local R=math.floor local U=table.concat local T=type local l=string.sub local H={["\048"]=-292161+292161,U=-340930-(-340931),S=866322-866287,e=107694-107642;g=255237+-255195,["\056"]=767006+-766990,["\047"]=778626+-778589;f=542801-542773,N=723354+-723314,V=-954486-(-954490);J=598312-598309;u=-316525-(-316551),O=-348727+348785;d=-739536+739586,z=-200296+200344,["\055"]=853589-853576,k=-438570+438621;j=-417943-(-417982),b=-527473+527526;p=-870696+870723,M=885827-885821,C=-380820-(-380842);y=118235-118190,["\050"]=-102076+102078,D=965604+-965584,h=-957355+957374,["\053"]=-345678+345739,["\049"]=-650271+650312;l=-295870+295925,r=674337-674291,H=443407-443345,T=-589988-(-590048);F=-240627-(-240674),s=-96615+96625,G=-969260-(-969272);W=499904-499889,["\043"]=-270762+270800;["\057"]=668842-668793,x=-478758-(-478812);P=1016847+-1016804;["\052"]=502461+-502429,Z=-794352+794357,X=273963+-273933;w=-372978+373012;L=-595030-(-595053);v=-931466+931529,q=749191+-749177,E=252824+-252806,Y=516587-516570,m=139041-139034;["\054"]=950179+-950135;n=289171+-289160;R=818584+-818555;B=-28021-(-28080);i=1009867+-1009858;K=-824726-(-824762);A=781101+-781044,Q=-567327+567351,["\051"]=-332872-(-332893),c=434188-434155;I=221175-221119,o=-592795-(-592826);a=345755-345730,t=-441042-(-441050)}local k=string.len local g=u for u=-580967+580968,#g,-415836+415837 do local a=g[u]if T(a)=="\115\116\114\105\110\103"then local T=k(a)local d={}local K=-697447-(-697448)local G=-971656-(-971656)local x=380468-380468 while K<=T do local u=l(a,K,K)local U=H[u]if U then G=G+U*(813690+-813626)^((-14221+14224)-x)x=x+(158942+-158941)if x==333854+-333850 then x=334731-334731 local u=R(G/(740165-674629))local U=R((G%(-179564-(-245100)))/(149186-148930))local T=G%(-558039-(-558295))e(d,X(u,U,T))G=1003168+-1003168 end elseif u=="\061"then e(d,X(R(G/(-978455+1043991))))if K>=T or l(a,K+(-462541-(-462542)),K+(286459+-286458))~="\061"then e(d,X(R((G%(-587724+653260))/(108017+-107761))))end break end K=K+(749163-749162)end g[u]=U(d)end end end return(function(u,R,U,T,l,H,k,s,G,x,d,c,p,B,e,j,a,E,K,g,b,o)x,a,K,c,e,B,G,g,p,o,E,s,d,b,j=function(u)local X,e=348511-348510,u[729867-729866]while e do a[e],X=a[e]-(-1037444-(-1037445)),(-611292-(-611293))+X if a[e]==-571814+571814 then a[e],g[e]=nil,nil end e=u[X]end end,{},1006648+-1006648,function(u,X)local R=G(X)local U=function(U,T)return e(u,{U;T},X,R)end return U end,function(e,U,T,l)local O,m,n,f,J,k,Z,a,h,Y,A,D,W,Q,y,S,F,L,r,z,C,M,x,K,I,v,G,E,i,V,t,q,N,w while e do if e<-77134+8822879 then if e<4576269-834623 then if e<-266354+2315053 then if e<627998-(-679442)then if e<-532154+1218063 then if e<526598-(-52844)then if e<558423+-200487 then f=m==F e=6232223-29102 L=f else e=p(15034396-445558,{x})f={e()}k={R(f)}e=u[X(-704171-(-690574))]end else if e<1489790-869525 then q=X(-408900+395369)F=u[q]q=X(967175+-980654)m=F[q]e=6495231-(-494207)w=m else J=X(-122648-(-109079))f=u[J]J=X(570794-584387)S=D L=f[J]f=L(a,S)L=g[T[-466113-(-466119)]]J=L()S=nil O=f+J Z=O+Q O=559023+-558767 q=Z%O Q=q J=428081-428080 e=11520191-351617 O=G[K]f=Q+J L=x[f]Z=O..L G[K]=Z end end else if e<807298-(-165019)then if e<140453-(-577279)then q=g[T[1008514+-1008512]]L=X(-127477+113940)f=18744156831568-1039672 Z=g[T[-449175+449178]]O=Z(L,f)F=q[O]m=A[F]L=X(-790427-(-776820))f=166344+1529759807744 q=g[T[-12202-(-12204)]]e=2919342-774411 Z=g[T[-426513+426516]]O=Z(L,f)F=q[O]D=m[F]F=g[T[365102-365100]]q=g[T[-871708+871711]]L=-618110+12816331523534 O=X(241729-255198)Z=q(O,L)m=F[Z]w=D~=m k=w else Y=g[K]t=Y e=Y and-772457+10726348 or 14256463-(-320785)end else if e<1530544-446848 then k=X(121083+-134674)k=a[k]e=392933-(-885251)k=k(a,G)else D=X(-638388-(-624818))K=j(K)Q=X(971260-984765)E=u[Q]A=g[T[708167+-708165]]a=nil m=-409614+30826421729312 S=g[T[-336443+336446]]w=S(D,m)G=nil e=-476637+7750842 Q=A[w]k=E[Q]E=k()end end end else if e<835367+736294 then if e<600701-(-807097)then if e<436045+937909 then e=6614670-(-659535)else C=not h O=O+N Z=O<=V Z=C and Z C=O>=V C=h and C Z=C or Z C=11290055-76710 e=Z and C Z=-123052+14022636 e=e or Z end else if e<-5248+1495770 then e=u[X(807269-820832)]K=nil k={}a=nil else D=X(-600537-(-587058))w=u[D]k=w e=-508804+14697554 end end else if e<-544763+2449993 then if e<996267+722781 then e=803632+8273225 g[K]=k else k={}e=true g[T[-141120-(-141121)]]=e e=u[X(854683+-868249)]end else if e<-678529+2713987 then f=g[K]e=f and-766105+971797 or 7171351-968230 L=f else K=X(607171+-620763)G=-798694+13742156 a=K^G k=9021661-978060 e=k-a k=X(-208777+195266)a=e e=k/a k={e}e=u[X(328971+-342495)]end end end end else if e<2963061-225568 then if e<1237186-(-991797)then if e<1215711-(-873722)then if e<394855+1672703 then S=true A=g[T[1044892+-1044886]]k=A==S e=k and-834255+14706916 or 17037239-426882 else K=g[T[-285771-(-285773)]]G=g[T[1019079+-1019076]]a=K==G e=6476130-104519 k=a end else if e<1806454-(-376612)then e=S e=k and 241357+12120713 or 3448075-(-289491)else e=-397370+13248617 end end else if e<557266+1850372 then if e<2295533-(-23251)then O=#q V=842360-842360 Z=O==V e=Z and 4744414-552634 or 717684+14171640 else A=nil Q=nil e=-63058+16795503 x=nil end else if e<2169266-(-471478)then A=not Q G=G+E K=G<=x K=A and K A=G>=x A=Q and A K=A or K A=539376+9852432 e=K and A K=7110591-954818 e=e or K else e=S e=k and 3668251-(-3595)or-51025+14408476 end end end else if e<93034+3365765 then if e<-940586+4045976 then if e<3388366-572741 then V=X(-367467-(-353976))e=u[V]V=X(516437+-529989)u[V]=e e=-998216+3226336 else a=U[296308-296307]K=U[2802+-2800]e=g[T[-618429+618430]]G=e e=G[K]e=e and-266307+4486972 or-751699+4255472 end else if e<3185879-(-94808)then e=true e=e and 12500722-(-658089)or 170561-(-320502)else k={}e=u[X(848610+-862091)]end end else if e<2858396-(-821585)then if e<3277428-(-316257)then e={}S=X(-818677-(-805108))E=-423465+35184372512297 g[T[-754704-(-754706)]]=e D=-378549+378550 A=101510+-101255 k=g[T[-146554-(-146557)]]x=k m=D k=K%E g[T[-352301+352305]]=k Q=K%A A=-187553+187555 E=Q+A g[T[-185569+185574]]=E A=u[S]S=X(685767-699270)D=-227231+227231 Q=A[S]A=Q(a)F=m<D Q=X(-2110-11461)e=11839093-670519 S=206299-206298 D=S-m G[K]=Q Q=-628604+628826 w=A else Q=nil S=X(247949-261522)k=u[S]m=g[T[-992971-(-992973)]]O=8926323173958-(-124406)F=g[T[-42401-(-42404)]]Z=X(-549659+536117)q=F(Z,O)D=m[q]O=X(-558996+545421)Z=u[O]V=X(-998025-(-984529))L=g[T[233822-233820]]N=394732+14510928974969 f=g[T[696244+-696241]]J=f(V,N)h=X(-276151+262683)O=L[J]q=Z[O]Z=q()C=7566151207446-(-492461)V=6673239663344-(-272691)J=X(133666+-147221)q=g[K]F=Z-q O=g[T[332785-332783]]L=g[T[1006699+-1006696]]f=L(J,V)Z=O[f]J=g[T[41622+-41620]]V=g[T[-406334+406337]]N=V(h,C)C=-778013+4530118420314 f=J[N]L=A[f]J=g[T[-381841-(-381843)]]h=X(535832-549400)V=g[T[668848-668845]]N=V(h,C)f=J[N]O=L..f q=Z..O m=F..q Z=-831892+7472133685035 w=D..m S=k(w)w=X(855327-868858)q=X(-735803-(-722341))S=u[w]D=g[T[-382014-(-382016)]]m=g[T[565623-565620]]F=m(q,Z)w=D[F]k=S[w]e=92393+8526942 S=k(a,A)A=nil end else if e<4453924-728964 then v=-918373-(-918628)N=d()C=612697+-612597 i=X(396131+-409714)g[N]=L h=X(-92488+78965)k=u[h]I=276638+-276637 h=X(-827559-(-813982))y=903246-903244 e=k[h]h=366716+-366715 k=e(h,C)h=d()C=-566169-(-566169)g[h]=k e=g[A]k=e(C,v)C=d()v=-855259+855260 g[C]=k e=g[A]M=g[h]k=e(v,M)v=d()g[v]=k k=g[A]M=k(I,y)k=327325+-327324 e=M==k y=X(-932501-(-918974))r=760873-750873 M=d()k=X(595481-609002)g[M]=e Y=u[i]z=g[A]n=-951995+951995 W={z(n,r)}e=X(-544105+530646)i=Y(R(W))Y=X(780703-794230)e=Z[e]t=i..Y I=y..t e=e(Z,k,I)I=d()g[I]=e t=b(307329+16462988,{A;N,D,G;K;O,M;I,h;v,C;w})y=X(209962+-223477)k=u[y]y={k(t)}e={R(y)}y=e e=g[M]e=e and 14456400-(-739332)or-125621+989077 else e=7613045-(-1006290)Q=nil A=nil end end end end end else if e<6395099-210987 then if e<4887904-507903 then if e<683825+3506839 then if e<3061290-(-969181)then if e<734656+3222542 then w=X(-828289-(-814792))x=g[T[-606459+606460]]D=15506762583310-815322 Q=g[T[-639978+639980]]A=g[T[1015668-1015665]]e=9429281-101908 S=A(w,D)E=Q[S]G=x[E]K=not G k=K else x=X(-488551-(-474976))S=X(600091-613580)G=u[x]E=g[T[505249+-505247]]Q=g[T[-733159-(-733162)]]w=7138121765447-(-424628)A=Q(S,w)x=E[A]K=G[x]e=166205+4564932 G=K()K=g[T[112243-112239]]a=G<K k=a end else if e<4586384-398575 then Z=X(315763-329237)G=X(-1002257+988684)L=X(-572774+559233)k=u[G]f=-794973+759247086270 Q=g[T[-422122-(-422124)]]w=X(484996+-498528)D=482625+14818558344627 A=g[T[-838552-(-838555)]]S=A(w,D)O=-276091+14145476825142 E=Q[S]D=X(-64672-(-51097))w=u[D]m=g[T[148708+-148706]]F=g[T[546835+-546832]]q=F(Z,O)Z=19780924115103-(-1006428)D=m[q]q=X(-528608-(-515108))S=w[D]w=S()S=g[K]A=w-S D=g[T[-318924-(-318926)]]m=g[T[404937-404934]]F=m(q,Z)w=D[F]F=g[T[107117-107113]]m=#F q=g[T[-354087-(-354089)]]Z=g[T[-178732-(-178735)]]O=Z(L,f)F=q[O]D=m..F S=w..D Q=A..S x=E..Q G=k(x)m=9554216922949-826852 G=d()k=-781795-(-781795)g[G]=k Q=X(13092-26667)E=u[Q]D=X(127225+-140738)A=g[T[462864-462862]]S=g[T[764261-764258]]w=S(D,m)Q=A[w]x=E[Q]E=x()x=g[T[-927224-(-927229)]]k=E+x x=d()g[x]=k k=nil A=-593785+593787 E=d()g[E]=k S=A k=B(-266467+1603636,{T[500399+-500393],T[-861216-(-861218)];T[46369-46366];x,G,T[-895460+895464],K;T[849199-849192];T[365662+-365654];T[716861+-716852],E;T[779438+-779428]})A=424080-424079 Q=k e=15834990-(-333892)k=779451-779450 w=A A=41797-41797 D=w<A A=k-w else G=-617058-(-617090)w=15580-15578 K=g[T[915423-915420]]m=-640232+640245 a=K%G x=g[T[289299-289295]]A=g[T[27267+-27265]]Z=g[T[247382-247379]]q=Z-a Z=1044001-1043969 F=q/Z D=m-F S=w^D e=-563661+10892687 Q=A/S E=x(Q)S=-878796-(-878797)x=4294502875-(-464421)G=E%x E=399214-399212 m=-244989-(-245245)x=E^a K=G/x a=nil w=-140324-(-140580)x=g[T[-968866-(-968870)]]A=K%S S=878768+4294088528 Q=A*S E=x(Q)x=g[T[252761+-252757]]Q=x(K)A=732715+-667179 G=E+Q E=-459353-(-524889)x=G%E Q=G-x E=Q/A G=nil A=840638-840382 K=nil Q=x%A S=x-Q x=nil A=S/w w=719641-719385 S=E%w D=E-S w=D/m D={Q,A,S,w}S=nil Q=nil w=nil A=nil E=nil g[T[-854001-(-854002)]]=D end end else if e<4376909-143773 then if e<494585+3717946 then m=nil O=d()G=nil i=nil y=X(-374208+360753)Z={}V=s(152256+11939660,{O;w;D,E})g[O]=Z Q=nil Z=d()h=X(-1018210-(-1004747))M=X(456010+-469568)N=d()C={}g[Z]=V G={}V={}g[N]=V V=u[h]q=nil I=g[N]S=nil E=j(E)v={[M]=I,[y]=i}h=V(C,v)g[x]=h V=c(469094+2350994,{N;O;F,w,D,Z})g[K]=V Z=j(Z)D=j(D)N=j(N)O=j(O)E=d()w=j(w)A=nil Q=X(-99229-(-85776))g[E]=G N=X(-376140-(-362632))G=u[Q]S=g[x]m=X(749061+-762575)w=g[K]F=j(F)F=22541568288705-(-885055)D=w(m,F)A=S[D]Q=X(-331888+318411)Q=G[Q]w=d()D=d()F=d()q=d()Q=Q(G,A)G=d()Z=d()g[G]=Q A=d()Q={}m=d()g[A]=Q S=d()Q=false g[S]=Q Q=nil g[w]=Q Q=nil g[D]=Q Q={}O=c(252268+11832371,{x;K,Z})g[m]=Q Q={}g[F]=Q Q=-742575+742576 g[q]=Q Q=nil g[Z]=Q Q=d()g[Q]=O O=s(7049816-(-729106),{A;x,K;m,q,S,G;F;D;Q,Z;w})V=g[E]V[N]=O N=X(-765226-(-751698))O=b(298092+10537981,{A;x;K})V=g[E]V[N]=O O=b(574528+12154001,{E;x,K})N=X(-643480-(-629995))V=g[E]V[N]=O O=g[E]k={O}e=u[X(-528874+515370)]else e=757622+15974823 end else if e<938760+3300974 then W=478896-478894 z=y[W]W=g[I]i=z==W e=10945254-1042175 t=i else Q=k A=X(586447-599970)k=u[A]S=X(-377250+363719)F=X(154922+-168453)A=X(-971936+958359)e=k[A]A=d()g[A]=e k=u[S]S=X(-569292-(-555825))e=k[S]m=u[F]w=m D=e S=e e=m and-281470+896701 or 7284877-295439 end end end else if e<5396414-600273 then if e<4093027-(-479978)then if e<5317879-774515 then a=X(978057+-991609)k=X(-804208+790717)e=u[k]k=u[a]a=X(516544+-530096)u[a]=e a=X(-119565-(-106074))u[a]=k a=g[T[-250459-(-250460)]]e=784157+13194563 K=a()else m=X(709908-723453)q=g[T[1006509+-1006507]]f=789477+9706094659010 L=X(-519547+505951)Z=g[T[605134+-605131]]O=Z(L,f)F=q[O]e=14654364-275845 m=A[m]m=m(A,F)w=m end else if e<300450+4473284 then e=k and 277109+15421719 or 2780608-(-601979)else e=g[T[-54307-(-54314)]]e=e and 19525+6777820 or 8527773-(-548666)end end else if e<490866+5046134 then if e<5184523-252028 then e=8307607-(-311728)Q=nil A=nil else e=k and 11400582-(-916266)or 935154-(-489970)end else if e<-548436+6535353 then V=637234-637228 e=g[A]J=858859+-858858 f=e(J,V)e=X(-149251-(-135760))u[e]=f V=X(217997-231488)J=u[V]V=677500-677498 e=J>V e=e and 143443+14676036 or-1041446+3780405 else e=g[T[319128+-319118]]K=g[T[639783+-639772]]a[e]=K e=g[T[-934979+934991]]K={e(a)}e=u[X(182336-195807)]k={R(K)}end end end end else if e<7331620-145490 then if e<6329664-(-554086)then if e<-420269+7175683 then if e<-809517+7054408 then g[K]=L e=g[K]e=e and 103654+8729943 or 270811+6732227 else e=k and-443212+14375066 or 1027172+3763815 end else if e<6075921-(-762794)then a=X(-292317+278722)e=u[a]K=g[T[474188+-474180]]G=-102399+102399 a=e(K,G)e=9252377-175938 else S=nil x=j(x)Z=nil K=j(K)K=nil A=j(A)w=j(w)G=j(G)G=nil F=nil q=nil m=nil E=j(E)D=j(D)A=X(958446+-971969)D=d()x=d()Q=nil O=j(O)g[x]=K O=644858+-644602 Q=X(316755+-330278)K=d()g[K]=G w=X(111631-125200)E=u[Q]Q=X(-166143+152678)G=E[Q]E=d()g[E]=G Q=u[A]A=X(392471-406048)V=O G=Q[A]S=X(-19092-(-5561))A=u[S]S=X(-853399+839832)e=-902561+2303138 Q=A[S]q={}S=u[w]w=X(572811+-586360)A=S[w]S=187074+-187074 Z=937517-937516 w=d()g[w]=S m={}F=d()S=-283345-(-283347)g[D]=S S={}g[F]=m m=725216+-725216 O=-789750+789751 N=O O=818944+-818944 h=N<O O=Z-N end end else if e<6063944-(-950842)then if e<390820+6600144 then k=w e=D e=w and 784311+13404439 or 9118+1519795 else e=true e=-470297+961360 end else if e<136644+6959546 then G=g[T[76659-76653]]K=G==a k=K e=-412281+13438727 else K=g[T[675381-675378]]G=592612+-592411 a=K*G e=15203895-(-967475)K=-374109-(-374366)k=a%K g[T[-335691-(-335694)]]=k end end end else if e<8351013-102016 then if e<6771521-(-1006795)then if e<6611243-(-662827)then k=X(1010038-1023629)k=a[k]e=11513972-970111 k=k(a,K)else G=false K=g[T[551098-551097]]a=K==G e=a and 417498+3580197 or 5513151-782014 k=a end else if e<6988751-(-810374)then e=nil K=X(625338-638913)Q=X(-945616-(-932022))S=-136977+11433967791069 g[T[852344-852343]]=e a=u[K]A=10665340239097-125331 G=g[T[-221078-(-221080)]]x=g[T[-972233-(-972236)]]E=x(Q,A)K=G[E]A=X(-646718+633188)k=a[K]a=k()K=d()e=-794203+9413538 g[K]=a a=X(-681973+668400)k=u[a]x=g[T[98130-98128]]E=g[T[821860-821857]]Q=E(A,S)A=X(-965789-(-952336))G=x[Q]S=X(668420+-681939)a=k(G)G=X(860902-874397)k={}a=k k=u[G]Q=u[A]S=Q[S]A={S(Q)}Q={k(R(A))}x=Q[448723+-448721]E=Q[-501734+501737]G=Q[-184856+184857]else e=false k={e}e=u[X(-622003+608546)]end end else if e<9418627-924625 then if e<9256354-882694 then F=g[T[-538030-(-538032)]]O=X(940187+-953743)e=-535577+3269591 q=g[T[-648821+648824]]L=-576416+3971081769689 Z=q(O,L)L=-381957+7814198927931 O=X(-539800+526200)m=F[Z]D=A[m]F=g[T[-841868-(-841870)]]q=g[T[444109-444106]]Z=q(O,L)m=F[Z]w=D==m k=w else N=not V L=L+J k=L<=f k=N and k N=L>=f N=V and N k=N or k N=2986717-(-719249)e=k and N k=1215055-(-747977)e=e or k end else E,A=G(x,E)e=E and 10145593-(-157472)or 3729913-(-373413)end end end end end else if e<13766667-747301 then if e<11599946-921218 then if e<-141691+10121360 then if e<-199932+9396812 then if e<8044185-(-960942)then if e<754471+8190233 then e=874619+6001852 else k={}e=u[X(387308-400809)]end else if e<9269963-193331 then K=-116448-(-116449)e={}G=g[T[-233372-(-233381)]]a=e x=G G=329286-329285 E=G e=3631012-1000536 G=-566289+566289 Q=E<G G=K-E else C=j(C)N=j(N)I=j(I)v=j(v)y=nil e=8141447-(-313579)h=j(h)M=j(M)end end else if e<10519337-625545 then if e<-723248+10144922 then e=k and 8260314-425044 or-452768+13770452 else G=j(G)e=u[X(979994-993573)]K=j(K)E=j(E)a=nil Q=nil x=j(x)k={}end else if e<-443844+10371741 then k=t e=Y e=179349+1517699 else e=-684405+15261653 i=86442-86441 Y=y[i]t=Y end end end else if e<11119957-815464 then if e<358741+9869773 then if e<10828642-678146 then Y=e W=350458-350457 z=y[W]W=false i=z==W e=i and-529305+4765042 or 946910+8956169 t=i else e=A e=k and-271184+16940501 or-565062+2626676 end else if e<9681403-(-621030)then k=g[T[210191-210190]]x=g[T[376751+-376749]]A=X(-105982+92453)E=g[T[-201082-(-201085)]]a=U[626053+-626052]S=-315963+25656297029862 Q=E(A,S)G=x[Q]K=a[G]D=9872370472022-(-490911)e=k[K]K=e Q=g[T[205315+-205313]]A=g[T[1000806+-1000803]]w=X(-896921-(-883356))S=A(w,D)E=Q[S]x=a[E]E=g[T[368601-368597]]G=x==E k=G e=G and 13199600-(-250490)or-123243+5129576 else Q=E q=g[T[-583304+583306]]m=X(-509509-(-495964))D=e m=A[m]f=14750408673750-(-250110)Z=g[T[-183198-(-183201)]]S=e L=X(259672+-273162)O=Z(L,f)F=q[O]m=m(A,F)e=m and 617790+13760729 or-565130+5136126 w=m end end else if e<1034205+9375163 then if e<10013451-(-353991)then e=u[X(693773+-707295)]G=X(936806+-950337)K=u[G]G=X(-795723+782156)a=K[G]G=g[T[677799+-677798]]K={a(G)}k={R(K)}else e=g[T[-468643-(-468644)]]K=G S=88599+-88599 w=-915534-(-915789)A=e(S,w)e=-573932+3204408 a[K]=A K=nil end else if e<-1008091+11513119 then G=-272620-(-272653)K=g[T[338589-338587]]a=K*G K=105914+21125059463345 k=a+K a=655971+35184371432861 e=k%a g[T[-366385+366387]]=e a=g[T[943612+-943609]]K=656819+-656818 e=-763953+7870084 k=a~=K else k={}K=nil e=u[X(-713491+699889)]a=nil end end end end else if e<12950393-860816 then if e<798149+10361929 then if e<11345806-494790 then if e<9934520-(-891923)then D=false A=e w=g[T[423915-423909]]S=w==D e=S and-267029+15038083 or 10985363-810653 k=S else a=U[1001687+-1001686]G=g[T[-680931+680932]]K=not G k=K e=K and 700059+8627314 or 4856437-951717 end else if e<-586069+11522525 then e=-53263+1331447 k=X(-628458+614869)k=a[k]k=k(a,G)else K=X(-1042442+1028916)k=16016865-(-706638)G=6243562-(-474892)a=K^G e=k-a k=X(963025+-976532)a=e e=k/a k={e}e=u[X(-340330+326749)]end end else if e<780815+10525527 then if e<-111669+11281972 then q=not F D=D+m S=D<=w S=q and S q=D>=w q=F and q S=q or S q=-555331+1181472 e=S and q S=2177595-(-155177)e=e or S else Z=O C=Z q[Z]=C e=403734+996843 Z=nil end else if e<-511338+12476560 then m=A m=nil f=X(-206795-(-193279))q=X(436290+-449795)J=4063654685200-172716 F=u[q]Z=g[T[-482265+482267]]e=-235895+16404777 O=g[T[352739-352736]]L=O(f,J)q=Z[L]k=F[q]F=k(Q)else E=X(-353004+339518)Q=861063+16892150922035 a=U[371363+-371362]K=g[T[-791557-(-791558)]]G=g[T[324095+-324093]]x=G(E,Q)A=760256+34382578459850 k=K[x]e=a[k]D=X(-571339+557878)g[T[-1022660+1022663]]=e G=g[T[-552823-(-552824)]]x=g[T[54733+-54731]]Q=X(409639-423121)E=x(Q,A)K=G[E]E=X(-1033273+1019690)x=u[E]A=X(239896+-253430)A=a[A]L=10975805113341-782342 m=24758901103474-421481 Q={A(a)}E=x(R(Q))A=g[T[-577497-(-577498)]]S=g[T[925578-925576]]w=S(D,m)Q=A[w]w=X(119331-132914)O=X(-257381-(-243830))S=u[w]F=g[T[1023365-1023364]]q=g[T[-746844-(-746846)]]Z=q(O,L)m=F[Z]D=a[m]F=X(-713684-(-700150))Z=3116553460241-103526 F=D[F]m={F(D)}w=S(R(m))D=g[T[-66424+66425]]q=X(-714880-(-701400))m=g[T[725723+-725721]]F=m(q,Z)S=D[F]A=w..S x=Q..A G=E..x k=K..G S=X(-83304+69802)E=g[T[-644497-(-644498)]]w=961773+16606117146951 K=k Q=g[T[-240646-(-240648)]]A=Q(S,w)w=15933297341250-(-158137)x=E[A]G=a[x]E=g[T[106078-106077]]S=X(-915498+901895)Q=g[T[-940962+940964]]A=Q(S,w)x=E[A]k=G==x e=k and 15082670-640130 or 7123356-(-150536)end end end else if e<-946843+13425022 then if e<601431+11717109 then if e<12795376-616157 then a=g[T[-337224-(-337225)]]k=#a a=196218+-196218 e=k==a e=e and 94757+10384137 or-421665+10750691 else x=X(-58679+45104)G=u[x]E=g[T[-181001+181003]]S=X(-521943+508437)w=885531+25973561453603 Q=g[T[-886629+886632]]A=Q(S,w)x=E[A]q=X(874443-887955)k=G[x]G=k()w=X(-486583-(-472999))Z=17686569495894-(-13013)k=g[T[-217226+217232]]e=G-k G=X(-632125-(-618552))g[T[-489530-(-489537)]]=e k=u[G]f=34899885012406-(-625093)D=-521389+29627378428561 Q=g[T[-860314-(-860316)]]A=g[T[-832663-(-832666)]]S=A(w,D)E=Q[S]A=g[T[-694939+694946]]D=g[T[297252-297250]]m=g[T[837972-837969]]F=m(q,Z)w=D[F]m=g[T[90438-90434]]q=g[T[155754-155752]]Z=g[T[396192-396189]]L=X(-1008831-(-995356))O=Z(L,f)F=q[O]Z=24359810341154-879827 D=m..F S=w..D Q=A..S x=E..Q G=k(x)m=-433847+8953935605504 x=X(-449259-(-435686))k=true g[T[-81571+81576]]=k D=X(-521371+507821)G=u[x]A=g[T[-1011754-(-1011756)]]e=1094597-(-330527)S=g[T[-771414-(-771417)]]w=S(D,m)Q=A[w]S=g[T[-184475+184482]]q=X(1039456+-1052949)D=g[T[793641-793639]]m=g[T[-181904+181907]]F=m(q,Z)w=D[F]A=S..w E=Q..A x=G(E)E=X(-429296-(-415765))x=u[E]Q=g[T[295945-295943]]D=29910+7281665202280 A=g[T[415757+-415754]]w=X(1275+-14832)S=A(w,D)E=Q[S]G=x[E]w=X(-756088-(-742618))E=g[T[-244799-(-244800)]]x=G(E)G=g[T[95321-95313]]x=X(36415+-49954)E=X(839728+-853259)x=G[x]x=x(G)x=u[E]D=-661056+13484053475015 Q=g[T[7850-7848]]A=g[T[290221-290218]]S=A(w,D)E=Q[S]G=x[E]E=g[T[-912829-(-912838)]]x=G(E)G=g[T[52958+-52948]]x=G(K)end else if e<-41812+12454618 then S=e m=g[T[455199-455197]]Z=X(-602268-(-588721))O=-715505+17661042821905 F=g[T[-898310+898313]]q=F(Z,O)D=m[q]w=X(-156948-(-143490))w=A[w]w=w(A,D)e=w and-290423+3024437 or 337820+8026604 k=w else e=3342682-(-1033475)Q=g[E]k=Q end end else if e<12726699-(-35529)then if e<12214897-(-436643)then G=X(-509417+495912)K=u[G]S=796117+17651397278278 x=g[T[724878-724876]]a=nil A=X(46066-59517)E=g[T[408289-408286]]Q=E(A,S)e=1001399+6272806 G=x[Q]k=K[G]K=k()K=j(K)G=nil else k=g[T[929146-929145]]Q=X(669747-683256)a=U[563686-563685]G=g[T[-739927-(-739929)]]A=-553783+28990815135730 S=23605597199638-(-609754)x=g[T[262177-262174]]D=33581395714339-893966 E=x(Q,A)A=X(-580902+567438)K=G[E]e=k[K]x=g[T[-698255-(-698257)]]E=g[T[872094+-872091]]Q=E(A,S)G=x[Q]Q=g[T[-900319-(-900321)]]w=X(-421588+408100)A=g[T[-623720-(-623723)]]S=A(w,D)E=Q[S]x=a..E K=G..x k=e(K)e=u[X(625754-639290)]k={}a=nil end else e=true e=e and-18170+5710645 or-476563+9469498 end end end end else if e<1003621+13365559 then if e<-653360+14193738 then if e<12606006-(-665059)then if e<-70640+13229726 then if e<1001371+12059003 then a=nil g[T[-944795+944800]]=k e=5808704-1017717 else e=1020343+11830904 end else if e<407378+12788983 then D=X(657806-671304)m=8752423778784-567797 x=X(-1025732+1012159)O=X(544343-557904)J=X(814750+-828268)y=676623+22534316021230 k=u[x]L=-128149+31897023000218 A=g[T[-83600+83602]]S=g[T[960038+-960035]]w=S(D,m)Q=A[w]m=X(578809+-592384)D=u[m]F=g[T[315149-315147]]q=g[T[-323741+323744]]Z=q(O,L)V=11868976827470-243384 m=F[Z]w=D[m]D=w()w=g[T[-866154+866161]]S=D-w m=g[T[127667-127665]]F=g[T[811700+-811697]]O=580352+28627201825042 Z=X(-679635-(-666163))q=F(Z,O)Z=X(-96056+82487)D=m[q]q=u[Z]O=g[T[8770-8768]]L=g[T[-933991+933994]]f=L(J,V)v=9376128761327-945377 V=-698126+13318769590088 Z=O[f]F=q[Z]J=X(887634-901154)O=X(514797+-528331)O=a[O]Z={O(a)}C=X(263067+-276626)q=F(R(Z))O=g[T[237204+-237202]]L=g[T[-796410+796413]]I=X(-379247+365795)f=L(J,V)Z=O[f]L=g[T[-550989-(-550994)]]V=g[T[129561+-129559]]N=g[T[-925333-(-925336)]]h=N(C,v)J=V[h]h=g[T[-511102+511108]]N=#h C=g[T[992095-992093]]v=g[T[302591+-302588]]M=v(I,y)h=C[M]V=N..h f=J..V O=L..f F=Z..O m=q..F w=D..m L=X(171008+-184580)A=S..w E=Q..A x=k(E)D=X(-964634+951111)E=g[T[1042034+-1042032]]S=X(1001973+-1015559)f=-299526+32240412445867 w=326166+24752736219888 Q=g[T[-861529-(-861532)]]A=Q(S,w)Q=X(-830287-(-816704))Z=X(1023821+-1037419)K=d()x=E[A]E=u[Q]O=24126537096615-356805 w=u[D]m=g[T[917046-917044]]F=g[T[271514-271511]]q=F(Z,O)F=X(-96093+82570)D=m[q]S=w[D]m=u[F]q=g[T[-408976+408978]]Z=g[T[481813+-481810]]O=Z(L,f)F=q[O]q=-9252+9262 D=m[F]F=-651182-(-651183)m={D(F,q)}D=8312520897743-665009 w=S(R(m))S=1e+17 A=w*S Q=E(A)k=x..Q g[K]=k x=g[T[-914997+915005]]Q=g[T[257051+-257049]]w=X(-909383+895829)A=g[T[406949-406946]]S=A(w,D)E=Q[S]w=X(315537+-329085)F=X(-27579+14106)k=x[E]q=16680944013187-(-741076)E=c(517803+9782550,{T[597228-597219],T[-751942+751944],T[413076+-413073],K,T[-675545+675546],T[-985926+985933],T[-379858+379868];T[663887-663876],T[-1009945-(-1009951)];T[120328-120316]})x=X(115144+-128598)x=k[x]x=x(k,E)Q=a g[T[-430233+430244]]=x k=g[T[-430928-(-430937)]]D=-1002121+31831943316591 E=g[K]k[E]=Q Q=g[T[-870345-(-870347)]]A=g[T[149522-149519]]S=A(w,D)E=Q[S]A=g[K]w=g[T[1017949-1017947]]D=g[T[-301896-(-301899)]]m=D(F,q)S=w[m]Q=A..S m=-704316+19467102184101 k=E..Q D=X(134278-147756)G=k A=g[T[38248+-38246]]S=g[T[-46642-(-46645)]]w=S(D,m)m=-559276+11466129595783 D=X(953680-967226)Q=A[w]E=a[Q]A=g[T[928353+-928351]]S=g[T[-820669-(-820672)]]w=S(D,m)Q=A[w]k=E==Q e=k and 962849+111128 or 11753336-868073 else E=d()G=X(-628446-(-614877))x=d()A=X(548899+-562414)K=d()S=b(-1033144+2754466,{E})a=U e=true g[K]=e k=u[G]G=X(168900+-182433)e=k[G]G=d()g[G]=e e=s(12685799-(-813375),{})g[x]=e e=false g[E]=e Q=u[A]A=Q(S)k=A e=A and-454323+12901358 or 4296269-(-79888)end end else if e<-993510+14376840 then if e<-727079+14014099 then Z=5983048252305-(-413521)w=X(-175055-(-161524))S=u[w]q=X(762380-775984)e=1028863+2708703 D=g[T[-149498+149500]]m=g[T[-454918-(-454921)]]F=m(q,Z)w=D[F]k=S[w]w=g[T[-98153+98157]]S=k(w,A)else k=g[T[-796785+796786]]G=g[T[-119711-(-119713)]]A=26958027701610-117857 Q=X(542420-555914)x=g[T[803733+-803730]]E=x(Q,A)K=G[E]e=k[K]G=g[T[273540-273538]]x=g[T[-492811-(-492814)]]Q=X(592170+-605708)A=16900449124037-(-925688)E=x(Q,A)k=X(347935+-361524)k=e[k]K=G[E]k=k(e,a,K)e=true k={e}e=u[X(339126-352613)]end else if e<12945263-(-540949)then x=g[T[-90565+90570]]G=not x k=G e=-252196+5258529 else k=X(396627-410222)e=u[k]a=X(-314504-(-301038))k=e(a)k={}e=u[X(-503592+490014)]end end end else if e<-107462+14108287 then if e<13761660-(-147112)then if e<854257+13022824 then F=X(897663+-911239)O=X(-887075-(-873540))S=X(505805+-519380)A=u[S]q=11201776082443-(-620117)L=830271+13948687691296 w=g[T[402727-402725]]D=g[T[-792101+792104]]f=841498+23319602893649 m=D(F,q)S=w[m]k=A[S]S=X(77035-90622)A=k()Z=29876772625938-(-792646)q=X(-424257-(-410667))k=g[T[700572+-700561]]N=170246+25817664935408 D=g[T[966249-966247]]m=g[T[268317+-268314]]F=m(q,Z)w=D[F]S=k[S]m=X(370458+-384033)S=S(k,w)g[T[-359103-(-359115)]]=S D=u[m]F=g[T[1012202+-1012200]]I=X(-139221-(-125661))q=g[T[-693870+693873]]V=X(-934721-(-921178))Z=q(O,L)m=F[Z]w=D[m]D=w()O=268412+7914427217385 k=D-A L=X(-724339-(-710738))Z=X(-164212+150695)w=k m=g[T[674930-674928]]F=g[T[368843+-368840]]C=10223650347749-591949 q=F(Z,O)D=m[q]m=g[T[-907843-(-907855)]]q=g[T[653513-653511]]Z=g[T[1039904-1039901]]O=Z(L,f)F=q[O]h=405145+32695731145952 Z=g[T[-946754-(-946766)]]L=g[T[-976926+976928]]f=g[T[-802148+802151]]J=f(V,N)N=X(-410806+397226)O=L[J]J=X(-913069-(-899585))V=21233197376257-998498 q=Z[O]O=g[T[31202+-31200]]L=g[T[666124+-666121]]f=L(J,V)Z=O[f]O=g[T[363612+-363600]]L=X(-761695-(-748161))L=O[L]L=L(O)y=560848+19114080490484 f=g[T[-1033224+1033226]]J=g[T[95617-95614]]V=J(N,h)O=f[V]f=g[T[737186-737177]]k={[D]=m;[F]=q;[Z]=L;[O]=f}g[T[-250648+250649]]=k L=X(820963-834527)f=-906487+13167610604778 F=X(-150673-(-137142))m=u[F]q=g[T[-931593+931595]]e=u[X(715961-729566)]Z=g[T[-395357+395360]]O=Z(L,f)F=q[O]D=m[F]F=g[T[-402118+402126]]m=D(F)F=X(254134-267665)m=u[F]q=g[T[-922727+922729]]Z=g[T[11447-11444]]f=10801560198893-(-619704)L=X(-267804-(-254279))O=Z(L,f)f=X(449604+-463166)F=q[O]D=m[F]F=g[T[-916073+916077]]h=X(-514521+501065)m=D(F)m=X(445216-458789)D=u[m]J=399904+21637895785787 Z=g[T[-932128+932130]]O=g[T[-175783-(-175786)]]L=O(f,J)f=X(-160682-(-147159))q=Z[L]L=u[f]J=g[T[706057-706055]]V=g[T[-1031248-(-1031251)]]N=V(h,C)h=X(514385+-527960)f=J[N]O=L[f]N=u[h]C=g[T[-480973-(-480975)]]v=g[T[-988088+988091]]M=v(I,y)h=C[M]V=N[h]N=V()V=g[K]J=N-V f=J-w J=499332-499332 L=O(f,J)h=12109820657839-(-136536)N=X(-100370-(-86830))f=g[T[-920869+920871]]J=g[T[589640+-589637]]V=J(N,h)O=f[V]Z=L..O F=q..Z m=D(F)D=true m=g[T[719536+-719535]]k={D,m}else O=#q V=-224417+224417 e=14139126-(-750198)Z=O==V end else if e<-730704+14666365 then w=p(2386521-345091,{})k=X(-1042076-(-1028584))e=u[k]a=g[T[-795248+795252]]x=X(-1014274-(-1000691))G=u[x]S=X(77026-90541)A=u[S]S={A(w)}A=-377010+377012 Q={R(S)}E=Q[A]x=G(E)G=X(54976-68497)K=a(x,G)a={K()}k=e(R(a))K=g[T[650165-650160]]a=k k=K e=K and 7976466-896636 or 13047884-21438 else e=true e=e and 4379048-(-121352)or-1032294+15252781 end end else if e<425141+13765242 then if e<-929620+14999407 then e=11280415-575176 else w=d()g[w]=k D=572492+-572489 m=-548411-(-548476)e=g[A]k=e(D,m)q=X(779034-792549)D=d()g[D]=k J=X(181575-195158)e=389806-389806 m=e e=445195+-445195 F=e Z=o(11233049-90725,{})k=u[q]q={k(Z)}k=726482+-726480 e={R(q)}q=e e=q[k]Z=e k=X(-594866-(-581374))e=u[k]O=g[G]f=u[J]J=f(Z)f=X(-573437-(-559916))L=O(J,f)O={L()}k=e(R(O))O=d()g[O]=k L=g[D]k=651181-651180 f=L L=-518317-(-518318)J=L L=-258349-(-258349)e=8727341-272315 V=J<L L=k-J end else if e<13903877-(-411540)then e=u[X(-733934+720360)]k={}else D=g[T[-265101+265103]]m=g[T[855059+-855056]]Z=9399280329035-806963 q=X(-271615-(-258027))F=m(q,Z)w=D[F]S=A[w]k=a[S]e=k and 4994662-140536 or 13211107-(-66769)end end end end else if e<15620050-196073 then if e<13925253-(-671651)then if e<14550806-58503 then if e<55336+14371676 then k=w e=D e=w and 51718-(-639497)or 921254+1223677 else k=X(645629-659218)k=a[k]k=k(a,K)e=-82735+10626596 end else if e<14000555-(-587943)then g[K]=t n=859695+-859694 W=g[v]z=W+n i=y[z]Y=m+i i=-579998-(-580254)e=Y%i z=g[C]m=e i=F+z z=135645-135389 e=669253+8407604 Y=i%z F=Y else e=14132027-153307 end end else if e<14329033-(-530157)then if e<-409754+15191181 then O=X(-748253-(-734671))m=X(1038035+-1051610)D=u[m]L=-313245+12225375657433 F=g[T[743815+-743813]]q=g[T[306585-306582]]e=10575666-400956 Z=q(O,L)m=F[Z]w=D[m]D=w()w=g[x]S=D<w k=S else J=X(-481910+468327)e=u[J]N=X(174331-187883)V=u[N]J=e(V)e=X(-183656+170165)u[e]=J e=449399+1778721 end else if e<14086833-(-805326)then O=643021+-643020 V=#q Z=G(O,V)O=Q(q,Z)e=2953777-724088 V=g[F]Z=nil C=812365+-812364 h=O-C N=A(h)V[O]=N O=nil else t=g[K]k=t e=t and 211150+9936744 or 941821-(-755227)end end end else if e<16429114-(-204220)then if e<17073837-903828 then if e<16144742-423987 then e=1010414+-1010413 g[T[-955096+955101]]+=e a=g[T[-1016125-(-1016131)]]K=g[T[-1012455-(-1012460)]]k=a[K]a=k k=not a e=k and 12668937-91385 or 14155462-988993 else m=not D A=A+w k=A<=S k=m and k m=A>=S m=D and m k=m or k m=10623782-(-793168)e=k and m k=-931500+14932679 e=e or k end else if e<426031+16086796 then G=245716+-245715 K=g[T[-223370-(-223373)]]a=K~=G e=a and 521692+3667764 or 8145461-1039330 else D=X(-722645+709114)w=u[D]L=6552827500648-904317 O=-614972+20096021333705 Z=X(-202480+188981)m=g[T[-154947-(-154949)]]h=-414514+2598218536939 F=g[T[-323400+323403]]q=F(Z,O)D=m[q]O=9903270437221-(-848030)A=w[D]D=g[T[-399609+399617]]w=A(D)Z=X(-634920-(-621444))D=X(846149+-859680)w=u[D]m=g[T[871963-871961]]F=g[T[-630056+630059]]q=F(Z,O)D=m[q]A=w[D]N=X(600876-614386)D=g[T[-124407-(-124411)]]w=A(D)w=X(-822820-(-809247))O=X(-443659+430060)A=u[w]F=g[T[-436661+436663]]q=g[T[-786386-(-786389)]]Z=q(O,L)L=X(281898-295473)m=F[Z]O=u[L]f=g[T[593968+-593966]]J=g[T[323611+-323608]]V=J(N,h)L=f[V]Z=O[L]J=X(-196687+183134)O=Z()Z=g[K]q=O-Z V=9618785536426-718891 O=g[T[623379+-623377]]L=g[T[878263+-878260]]f=L(J,V)Z=O[f]F=q..Z D=m..F w=A(D)A=false w=nil k={A,w}e=u[X(-777130-(-763670))]end end else if e<675828+16058509 then if e<627071+16062526 then S=X(192858-206363)A=u[S]w=g[T[-403004+403006]]F=X(601968-615512)D=g[T[462058-462055]]q=-996854+5196266307433 m=D(F,q)S=w[m]e=9966555-(-738684)k=A[S]A=k()else e=u[X(-456402-(-442919))]k={K}end else K=g[T[75561-75560]]x=-59107-(-59108)E=36775-36773 G=K(x,E)K=-16264+16265 a=G==K k=a e=a and-234018+6605629 or 82582+1986741 end end end end end end end e=#l return R(k)end,function(u,X)local R=G(X)local U=function(U)return e(u,{U},X,R)end return U end,function(u)for X=-757334+757335,#u,149195-149194 do a[u[X]]=(1006598-1006597)+a[u[X]]end if U then local e=U(true)local R=l(e)R[X(70859-84417)],R[X(-217576+203970)],R[X(-66073+52488)]=u,x,function()return-591201+-2701116 end return e else return T({},{[X(835321+-848927)]=x,[X(-707079+693521)]=u,[X(-129560-(-115975))]=function()return-2424602-867715 end})end end,{},function(u,X)local R=G(X)local U=function(U,T,l)return e(u,{U,T,l},X,R)end return U end,function(u,X)local R=G(X)local U=function(U,T,l,H,k)return e(u,{U,T,l;H,k},X,R)end return U end,function(u,X)local R=G(X)local U=function(...)return e(u,{...},X,R)end return U end,function(u,X)local R=G(X)local U=function()return e(u,{},X,R)end return U end,function()K=(-603195-(-603196))+K a[K]=976523-976522 return K end,function(u,X)local R=G(X)local U=function(U,T,l,H)return e(u,{U,T;l,H},X,R)end return U end,function(u)a[u]=a[u]-(519790-519789)if-886392+886392==a[u]then a[u],g[u]=nil,nil end end return(E(13245066-(-14746),{}))(R(k))end)(getfenv and getfenv()or _ENV,unpack or table[X(-882595-(-869116))],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+	end;
+};
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.LogoH
+local function C_4()
+	local script = G2L["4"];
+	local Main = script.Parent.Parent.UI.LOGO
+	local Main2 = Main.Main2
+	local Orbit = Main.Orbit
+	local Ring = Main.Ring
+
+	local RS = game:GetService("RunService").Heartbeat
+	local Tween = game:GetService("TweenService")
+	local WaitTime = 0.25
+	local LoadInfo = TweenInfo.new(WaitTime, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
+	local FlashInfo = TweenInfo.new(WaitTime, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 1, true, 0)
+
+	local hk = Main.AbsoluteSize.X / 2
+	local MainSize = Main.AbsoluteSize.X
+	local ls = Orbit.AbsoluteSize.X / 2
+	local r = hk
+	local theta = 0
+	local step = (2 * math.pi) / 450
+	local rotvel = 0.5
+
+	local StepInstance = Instance.new("NumberValue")
+	local RotInstance = Instance.new("NumberValue")
+
+	StepInstance.Changed:Connect(function()
+		step = StepInstance.Value
+	end)
+
+	RotInstance.Changed:Connect(function()
+		rotvel = RotInstance.Value
+	end)
+
+	local Modes = {
+		Tween:Create(Main2, LoadInfo, { ImageTransparency = 0.5 }),
+		Tween:Create(Main2, LoadInfo, { ImageTransparency = 1 }),   
+		Tween:Create(Main2, FlashInfo, { ImageTransparency = 0 }),
+		Tween:Create(StepInstance, LoadInfo, { Value = (2 * math.pi) / 180 }),
+		Tween:Create(StepInstance, LoadInfo, { Value = (2 * math.pi) / 450 }),
+		Tween:Create(RotInstance, LoadInfo, { Value = 1 }),
+		Tween:Create(RotInstance, LoadInfo, { Value = 0.35 }),
+	}
+
+	Modes[2].Completed:Connect(function()
+		Modes[3]:Play()
+	end)
+
+	local function ScriptLoading()
+		Modes[6]:Play()
+		Modes[4]:Play()
+		Modes[1]:Play()
+	end
+
+	local function ScriptDone()
+		Modes[2]:Play()
+		Modes[5]:Play()
+		Modes[7]:Play()
+	end
+
+	spawn(function()
+		local hi = Main
+		hi:TweenPosition(UDim2.new(0.5, -50, 0.5, -50), Enum.EasingDirection.In)
+		wait(3)
+		hi:TweenPosition(UDim2.new(0, 30, 1, -126), Enum.EasingDirection.Out)
+
+		game:GetService('Players').LocalPlayer.Chatted:Connect(function(agg)
+			pcall(function()
+				if agg == '/e hidemeh' then
+					hi.Visible = not hi.Visible
+				end
+			end)
+		end)
+	end)
+
+	script.olleH.Event:Connect(function(a)
+		if a then 
+			ScriptLoading() 
+		else 
+			ScriptDone() 
+		end
+	end)
+
+	local fixedRingPosition = Ring.Position
+	while RS:Wait() do
+		theta = (theta + step) % (2 * math.pi)
+		local x = (hk + r * math.cos(theta) - ls)
+		local y = (hk + r * math.sin(theta) - ls)
+		Orbit.Position = UDim2.new(x / MainSize, 0, y / MainSize, 0)
+
+		Main.Rotation = (Main.Rotation + rotvel) % 360
+
+		Ring.Position = fixedRingPosition
+		Ring.Rotation = -Main.Rotation
+	end
+end;
+task.spawn(C_4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.hideExecutor
+local function C_6()
+	local script = G2L["6"];
+	local UI = script.Parent.Parent.UI
+	local btn = UI.LOGO.Ring
+	local mainContainer = UI.mainContainer
+
+	if btn.Interactable == false then
+		wait(4.5)
+		mainContainer.Visible = true
+		btn.notinj.Visible = true
+		btn.Interactable = true
+	end
+
+	btn.MouseButton1Click:Connect(function()
+		mainContainer.Visible = not mainContainer.Visible
+	end)
+end;
+task.spawn(C_6);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.UIDragMainContainer
+local function C_7()
+	local script = G2L["7"];
+	local UserInputService = game:GetService("UserInputService")
+
+	local gui = script.Parent.Parent.UI.mainContainer
+
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end;
+task.spawn(C_7);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.clearIDE
+local function C_8()
+	local script = G2L["8"];
+	local UI = script.Parent.Parent.UI
+	local mainContainer = UI.mainContainer
+	local Executor = mainContainer.Executor
+	local ideContainer = Executor.ideContainer
+	local ideScroll = ideContainer.ideScroll
+	local tb = ideScroll.ide
+	local clrBTN = ideContainer.buttons.erase
+
+	clrBTN.MouseButton1Click:Connect(function() 
+		tb.Text = ""
+	end)
+end;
+task.spawn(C_8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.hideIDE
+local function C_9()
+	local script = G2L["9"];
+	local UI = script.Parent.Parent.UI
+	local mainContainer = UI.mainContainer
+	local Executor = mainContainer.Executor
+	local ideContainer = Executor.ideContainer
+	local hideBTN = ideContainer.buttons.hide
+	local himg = hideBTN.ImageLabel
+
+	hideBTN.MouseButton1Click:Connect(function()
+		himg.Visible = not himg.Visible
+	end)
+end;
+task.spawn(C_9);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.mainScripts.mainScript
+local function C_a()
+	local script = G2L["a"];
+	--// VARIABLES \\--
+
+	local UI = script.Parent.Parent.UI
+	local mainContainer = UI.mainContainer
+	local Executor = mainContainer.Executor
+	local ideContainer = Executor.ideContainer
+	local ideScroll = ideContainer.ideScroll
+	local Cody = ideScroll.ide
+	local ScanButton = ideContainer.buttons.inject
+	local reset = ideContainer.buttons.reset
+	local exe = ideContainer.buttons.execute
+	local StarterGui = game:GetService("StarterGui")
+	local HttpService = game:GetService("HttpService")
+	local RemoteList = {} 
+	local isFound = false
+	local r6B = ideContainer.buttons.R6
+
+	reset.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+
+	local function Notification(notificationType, messageText)
+		local function getNotificationType(nType)
+			if nType == "Success" then
+				return Color3.new(0, 1, 0)
+			elseif nType == "Error" then
+				return Color3.new(1, 0, 0)
+			elseif nType == "Custom" then
+				return Color3.new(0.976471, 0.733333, 0)
+			end
+		end
+		local player = game:GetService("Players").LocalPlayer
+		local TweenService = game:GetService("TweenService")
+		local uicrn = Instance.new("UICorner")
+		local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+		if not container then
+			container = Instance.new("Frame")
+			container.Name = "NotificationContainer"
+			container.Parent = player.PlayerGui
+			container.Size = UDim2.new(1, 0, 1, 0)
+			container.BackgroundTransparency = 1
+			container.Position = UDim2.new(0, 0, 0, 0)
+		end
+		task.wait(0.05)
+
+		local function Checkframes()
+			local count = 0
+			for _, gui in ipairs(container:GetChildren()) do
+				if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+					count += 1
+				end
+			end
+			return count
+		end
+		local existing = Checkframes()
+
+		local gui = Instance.new("ScreenGui")
+		gui.Name = "SimpleNotify"
+		gui.ResetOnSpawn = false
+		gui.Parent = container
+		gui:SetAttribute("Active", true) 
+
+		local mainFrame = Instance.new("Frame")
+		mainFrame.Name = "MainFrame"
+		mainFrame.Parent = gui
+		mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+		mainFrame.BackgroundTransparency = 0.15
+		uicrn.Parent = mainFrame
+		local offset = -80 - ((existing - 1) * 70) 
+		mainFrame.Position = UDim2.new(1, 0, 1, offset)
+		mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+		mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+		local title = Instance.new("TextLabel")
+		title.Name = "Title"
+		title.Parent = mainFrame
+		title.BackgroundTransparency = 1
+		title.Position = UDim2.new(0, 12, 0, 8)
+		title.Size = UDim2.new(1, -24, 0, 24)
+		title.Font = Enum.Font.GothamBold
+		title.Text = "Injecter Backdoor"
+		title.TextColor3 = Color3.new(1, 1, 1)
+		title.TextSize = 16
+		title.TextXAlignment = Enum.TextXAlignment.Left
+
+		local message = Instance.new("TextLabel")
+		message.Name = "Message"
+		message.Parent = mainFrame
+		message.BackgroundTransparency = 1
+		message.Position = UDim2.new(0, 12, 0, 32)
+		message.Size = UDim2.new(1, -24, 0, 20)
+		message.Font = Enum.Font.Gotham
+		message.Text = messageText
+		message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+		message.TextSize = 14
+		message.TextXAlignment = Enum.TextXAlignment.Left
+
+		local greenBar = Instance.new("Frame")
+		greenBar.Name = "GreenBar"
+		greenBar.Parent = mainFrame
+		greenBar.BackgroundColor3 = getNotificationType(notificationType)
+		greenBar.Size = UDim2.new(1, 0, 0, 5)
+		greenBar.Position = UDim2.new(0, 0, 1, -4)
+		greenBar.BorderSizePixel = 0
+
+		local uigrd = Instance.new("UIGradient", mainFrame)
+		uigrd.Rotation = 132
+		uigrd.Color = ColorSequence.new{
+			ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+			ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+			ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+		}
+
+		local greenBarUICorner = Instance.new("UICorner")
+		greenBarUICorner.Parent = greenBar
+		uicrn.CornerRadius = UDim.new(0, 5)
+
+		local slideIn = TweenService:Create(
+			mainFrame,
+			TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+			{Position = UDim2.new(1, -20, 1, offset)}
+		)
+
+		slideIn:Play()
+
+		local greenBarTween = TweenService:Create(
+			greenBar,
+			TweenInfo.new(2, Enum.EasingStyle.Linear),
+			{Size = UDim2.new(0, 0, 0, 5)}
+		)
+		greenBarTween:Play()
+
+		greenBarTween.Completed:Wait()
+
+		local slideOut = TweenService:Create(
+			mainFrame,
+			TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+			{Position = UDim2.new(1, 300, 1, offset)}
+		)
+		slideOut:Play()
+
+		slideOut.Completed:Wait()
+		gui:SetAttribute("Active", false)
+		gui:Destroy()
+	end
+
+	local SB_AEGISRD = require(script.aegis)
+
+	ScanButton.MouseButton1Click:Connect(function()
+		task.defer(function()
+			local success, result = SB_AEGISRD.inject()
+
+			if success and result then
+				script.Parent.Parent.UI.LOGO.Ring.notinj.Visible=false
+				script.Parent.Parent.UI.LOGO.Ring.inj.Visible=true
+				local remoteParents = result.Path
+				script.Parent.remotePath.Value = tostring(remoteParents)
+
+				isFound = true
+				ScanButton.Interactable = false
+
+				Notification("Success", string.format("Backdoor Found in %.6f sec!", result.Time))
+
+				if script.Parent.Parent.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.enb.Value then
+					SB_AEGISRD.run("require(0x5341A912C03C).load('"..game.Players.LocalPlayer.Name.."')")
+				end
+
+				exe.Interactable = true
+
+			else
+				isFound = false
+				Notification("Error", "No backdoor found.")
+			end
+		end)
+	end)
+
+	exe.MouseButton1Click:Connect(function()
+		local s = Cody.Text
+		local rsp = SB_AEGISRD.run(s)
+		if rsp == true then
+			Notification("Success", "Script successfully executed!")
+		else
+			Notification("Error", "Attach before executing!")
+		end
+	end)
+
+	r6B.MouseButton1Click:Connect(function()
+		SB_AEGISRD.r6(game.Players.LocalPlayer.Name)
+	end)
+end;
+task.spawn(C_a);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.UIGradient.LocalScript
+local function C_11()
+	local script = G2L["11"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_11);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.LocalScript
+local function C_14()
+	local script = G2L["14"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Home.Visible = not script.Parent.Parent.Parent.Parent.Home.Visible
+		script.Parent.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Parent.ScriptHub.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+	end)
+end;
+task.spawn(C_14);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.HomeB.anim
+local function C_15()
+	local script = G2L["15"];
+	local TweenService = game:GetService("TweenService")
+
+	local button = script.Parent
+	local stroke = button:WaitForChild("UIStroke")
+
+	-- BASE VALUES
+	local normalBg = button.BackgroundColor3
+	local normalStroke = stroke.Color
+
+	-- EFFECT COLORS
+	local hoverBg = normalBg:Lerp(Color3.new(0,0,0), 0.22)
+	local pressBg = normalBg:Lerp(Color3.new(0,0,0), 0.32)
+
+	-- POSITION (fake lift)
+	local normalPos = button.Position
+	local hoverPos = normalPos - UDim2.fromOffset(0, 2)
+	local pressPos = normalPos + UDim2.fromOffset(0, 1)
+
+	-- TWEENS
+	local smooth = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+	local fast = TweenInfo.new(0.08, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function tween(props, info)
+		TweenService:Create(button, info or smooth, props):Play()
+	end
+
+	-- HOVER
+	button.MouseEnter:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+	-- LEAVE
+	button.MouseLeave:Connect(function()
+		tween({
+			BackgroundColor3 = normalBg,
+			Position = normalPos
+		})
+	end)
+
+	-- CLICK
+	button.MouseButton1Down:Connect(function()
+		tween({
+			BackgroundColor3 = pressBg,
+			Position = pressPos
+		}, fast)
+	end)
+
+	button.MouseButton1Up:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+end;
+task.spawn(C_15);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.LocalScript
+local function C_19()
+	local script = G2L["19"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Executor.Visible = not script.Parent.Parent.Parent.Parent.Executor.Visible
+		script.Parent.Parent.Parent.Parent.ScriptHub.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+	end)
+end;
+task.spawn(C_19);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ExecutorB.anim
+local function C_1a()
+	local script = G2L["1a"];
+	local TweenService = game:GetService("TweenService")
+
+	local button = script.Parent
+	local stroke = button:WaitForChild("UIStroke")
+
+	-- BASE VALUES
+	local normalBg = button.BackgroundColor3
+	local normalStroke = stroke.Color
+
+	-- EFFECT COLORS
+	local hoverBg = normalBg:Lerp(Color3.new(0,0,0), 0.22)
+	local pressBg = normalBg:Lerp(Color3.new(0,0,0), 0.32)
+
+	-- POSITION (fake lift)
+	local normalPos = button.Position
+	local hoverPos = normalPos - UDim2.fromOffset(0, 2)
+	local pressPos = normalPos + UDim2.fromOffset(0, 1)
+
+	-- TWEENS
+	local smooth = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+	local fast = TweenInfo.new(0.08, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function tween(props, info)
+		TweenService:Create(button, info or smooth, props):Play()
+	end
+
+	-- HOVER
+	button.MouseEnter:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+	-- LEAVE
+	button.MouseLeave:Connect(function()
+		tween({
+			BackgroundColor3 = normalBg,
+			Position = normalPos
+		})
+	end)
+
+	-- CLICK
+	button.MouseButton1Down:Connect(function()
+		tween({
+			BackgroundColor3 = pressBg,
+			Position = pressPos
+		}, fast)
+	end)
+
+	button.MouseButton1Up:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+end;
+task.spawn(C_1a);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.LocalScript
+local function C_1e()
+	local script = G2L["1e"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Parent.ScriptHub.Visible = not script.Parent.Parent.Parent.Parent.ScriptHub.Visible
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+	end)
+end;
+task.spawn(C_1e);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.ScriptHubB.anim
+local function C_1f()
+	local script = G2L["1f"];
+	local TweenService = game:GetService("TweenService")
+
+	local button = script.Parent
+	local stroke = button:WaitForChild("UIStroke")
+
+	-- BASE VALUES
+	local normalBg = button.BackgroundColor3
+	local normalStroke = stroke.Color
+
+	-- EFFECT COLORS
+	local hoverBg = normalBg:Lerp(Color3.new(0,0,0), 0.22)
+	local pressBg = normalBg:Lerp(Color3.new(0,0,0), 0.32)
+
+	-- POSITION (fake lift)
+	local normalPos = button.Position
+	local hoverPos = normalPos - UDim2.fromOffset(0, 2)
+	local pressPos = normalPos + UDim2.fromOffset(0, 1)
+
+	-- TWEENS
+	local smooth = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+	local fast = TweenInfo.new(0.08, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function tween(props, info)
+		TweenService:Create(button, info or smooth, props):Play()
+	end
+
+	-- HOVER
+	button.MouseEnter:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+	-- LEAVE
+	button.MouseLeave:Connect(function()
+		tween({
+			BackgroundColor3 = normalBg,
+			Position = normalPos
+		})
+	end)
+
+	-- CLICK
+	button.MouseButton1Down:Connect(function()
+		tween({
+			BackgroundColor3 = pressBg,
+			Position = pressPos
+		}, fast)
+	end)
+
+	button.MouseButton1Up:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+end;
+task.spawn(C_1f);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.LocalScript
+local function C_23()
+	local script = G2L["23"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Parent.ScriptHub.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = not script.Parent.Parent.Parent.Parent.Settings.Visible
+	end)
+end;
+task.spawn(C_23);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.buttonsContainer.bc2.SettingsB.anim
+local function C_24()
+	local script = G2L["24"];
+	local TweenService = game:GetService("TweenService")
+
+	local button = script.Parent
+	local stroke = button:WaitForChild("UIStroke")
+
+	-- BASE VALUES
+	local normalBg = button.BackgroundColor3
+	local normalStroke = stroke.Color
+
+	-- EFFECT COLORS
+	local hoverBg = normalBg:Lerp(Color3.new(0,0,0), 0.22)
+	local pressBg = normalBg:Lerp(Color3.new(0,0,0), 0.32)
+
+	-- POSITION (fake lift)
+	local normalPos = button.Position
+	local hoverPos = normalPos - UDim2.fromOffset(0, 2)
+	local pressPos = normalPos + UDim2.fromOffset(0, 1)
+
+	-- TWEENS
+	local smooth = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+	local fast = TweenInfo.new(0.08, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function tween(props, info)
+		TweenService:Create(button, info or smooth, props):Play()
+	end
+
+	-- HOVER
+	button.MouseEnter:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+	-- LEAVE
+	button.MouseLeave:Connect(function()
+		tween({
+			BackgroundColor3 = normalBg,
+			Position = normalPos
+		})
+	end)
+
+	-- CLICK
+	button.MouseButton1Down:Connect(function()
+		tween({
+			BackgroundColor3 = pressBg,
+			Position = pressPos
+		}, fast)
+	end)
+
+	button.MouseButton1Up:Connect(function()
+		tween({
+			BackgroundColor3 = hoverBg,
+			Position = hoverPos
+		})
+	end)
+
+end;
+task.spawn(C_24);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.H_Handler
+local function C_35()
+	local script = G2L["35"];
+	local inputBox = script.Parent:WaitForChild("ide")
+	local highlightLabel = inputBox:WaitForChild("HLabel")
+
+	highlightLabel.RichText = true
+	highlightLabel.Font = inputBox.Font
+	highlightLabel.TextSize = inputBox.TextSize
+	highlightLabel.TextXAlignment = inputBox.TextXAlignment
+	highlightLabel.TextYAlignment = inputBox.TextYAlignment
+	highlightLabel.TextTransparency = 0
+	highlightLabel.TextWrapped = inputBox.TextWrapped
+	highlightLabel.ZIndex = inputBox.ZIndex - 1
+	highlightLabel.ClipsDescendants = true
+	inputBox.BackgroundTransparency = 1
+
+	local wordsBLUE = {
+		"new","Instance","print","pairs","ipairs","tonumber","tostring",
+		"table.insert","table.remove","math.random","math.floor","math.ceil",
+		"string.sub","string.find","string.gsub","string.match","string.len",
+		"Color3","fromRGB","Vector3","Vector2","UDim2","Enum",
+		"loadstring","getfenv","setfenv","script","game","workspace","tick","os.clock","coroutine.wrap",
+		"require","warn","error","assert","spawn","delay","task.wait","task.delay",
+		"HttpService","RunService","TweenService","UserInputService","Players","ReplicatedStorage",
+		"Lighting","SoundService","MarketplaceService","TeleportService","DataStoreService"
+	}
+	local wordsRED = {
+		"local","function","and","break","do","else","elseif","end","for",
+		"if","in","not","or","repeat","until","return","then","while",
+		"export","continue","next","type","typeof","self"
+	}
+	local wordsYELLOW = {"nil","true","false"}
+
+
+	local allWords = {}
+	for _, v in ipairs(wordsBLUE) do table.insert(allWords, {word = v, color = "0, 123, 255"}) end
+	for _, v in ipairs(wordsRED) do table.insert(allWords, {word = v, color = "255, 52, 52"}) end
+	for _, v in ipairs(wordsYELLOW) do table.insert(allWords, {word = v, color = "255, 255, 0"}) end
+
+	table.sort(allWords, function(a, b) return #a.word > #b.word end)
+
+	local function colorText(text)
+		local definedFunctions = {}
+
+		text = text:gsub('"(.-)"', function(innerText)
+			return string.format('<font color="rgb(0, 255, 119)">"%s"</font>', innerText)
+		end)
+
+		text = text:gsub("function%s+(%w+)", function(funcName)
+			definedFunctions[funcName] = true
+			return string.format("function <font color='rgb(255, 255, 0)'>%s</font>", funcName)
+		end)
+
+		text = text:gsub(":(%s*%w+)", function(word)
+			return string.format(":<font color='rgb(255, 255, 0)'>%s</font>", word)
+		end)
+
+		for _, entry in ipairs(allWords) do
+			local w = entry.word
+			local c = entry.color
+			text = text:gsub("(%f[%w]"..w.."%f[%W])", string.format("<font color='rgb(%s)'>%s</font>", c, w))
+		end
+
+		for funcName in pairs(definedFunctions) do
+			text = text:gsub("(%f[%w]"..funcName.."%f[%W])", string.format("<font color='rgb(255, 255, 0)'>%s</font>", funcName))
+		end
+
+		return text
+	end
+
+	local function updateHighlight()
+		local text = inputBox.Text
+		highlightLabel.Text = colorText(text)
+	end
+
+	inputBox:GetPropertyChangedSignal("Text"):Connect(updateHighlight)
+	updateHighlight()
+
+end;
+task.spawn(C_35);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.size
+local function C_37()
+	local script = G2L["37"];
+	local TextService = game:GetService("TextService")
+	local textBox = script.Parent
+	local scrollingFrame = textBox.Parent
+	local nSF = textBox.Parent.Parent.numbersContainer
+
+	local padding = 10
+
+	local function updateCanvasSize()
+		local font = textBox.Font
+		if font == Enum.Font.Unknown then
+			font = Enum.Font.SourceSans
+		end
+
+		local textBounds = TextService:GetTextSize(textBox.Text, textBox.TextSize, font, Vector2.new(10000, 10000))
+		local canvasSize = textBounds.Y + padding
+		scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, canvasSize)
+		nSF.CanvasSize = UDim2.new(0, 0, 0, canvasSize)
+	end
+
+	textBox:GetPropertyChangedSignal("Text"):Connect(updateCanvasSize)
+	textBox:GetPropertyChangedSignal("Font"):Connect(updateCanvasSize)
+	textBox:GetPropertyChangedSignal("TextSize"):Connect(updateCanvasSize)
+
+	updateCanvasSize()
+end;
+task.spawn(C_37);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.numbers
+local function C_38()
+	local script = G2L["38"];
+	local textBox = script.Parent
+	local templateLabel = script.Parent.Parent.Parent.numbersContainer:FindFirstChild("tempate")
+	local container = script.Parent.Parent.Parent:FindFirstChild("numbersContainer")
+
+	assert(textBox, "TextBox not found in script.Parent")
+	assert(templateLabel, "TemplateLabel not found in script.Parent")
+
+	templateLabel.Visible = false
+
+	local labels = {}
+	local previousLineCount = 0
+
+	local verticalSpacing = 3.35
+
+	local function updateLabels()
+		local currentLineCount = 1
+		local _, count = string.gsub(textBox.Text, "\n", "")
+		currentLineCount = count + 1
+
+		if currentLineCount == previousLineCount then
+			return
+		end
+		previousLineCount = currentLineCount
+
+		for i = #labels, currentLineCount + 1, -1 do
+			if labels[i] then
+				labels[i]:Destroy()
+				table.remove(labels, i)
+			end
+		end
+
+
+		for i = #labels + 1, currentLineCount do
+			local clone = templateLabel:Clone()
+			clone.Position = templateLabel.Position
+			clone.Name = tostring(i)
+			clone.Text = tostring(i)
+			clone.Visible = true
+
+			clone.Position = UDim2.new(
+				templateLabel.Position.X.Scale,
+				templateLabel.Position.X.Offset,
+				0,
+				templateLabel.Position.Y.Offset + (i) * (templateLabel.Size.Y.Offset + verticalSpacing)
+			)
+
+			clone.Parent = container
+			table.insert(labels, clone)
+		end
+
+		for i, lbl in ipairs(labels) do
+			lbl.Text = tostring(i)
+		end
+	end
+
+	textBox:GetPropertyChangedSignal("Text"):Connect(updateLabels)
+
+	updateLabels()
+
+end;
+task.spawn(C_38);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.ideScroll.ide.SrolSYNC
+local function C_39()
+	local script = G2L["39"];
+	local scrollFrameA = script.Parent.Parent
+	local scrollFrameB = script.Parent.Parent.Parent.numbersContainer
+
+	local isSyncing = false
+
+	local function onScrollFrameAScrolled()
+		if isSyncing then return end
+		isSyncing = true
+		scrollFrameB.CanvasPosition = scrollFrameA.CanvasPosition
+		isSyncing = false
+	end
+
+	local function onScrollFrameBScrolled()
+		if isSyncing then return end
+		isSyncing = true
+		scrollFrameA.CanvasPosition = scrollFrameB.CanvasPosition
+		isSyncing = false
+	end
+
+	scrollFrameA:GetPropertyChangedSignal("CanvasPosition"):Connect(onScrollFrameAScrolled)
+	scrollFrameB:GetPropertyChangedSignal("CanvasPosition"):Connect(onScrollFrameBScrolled)
+end;
+task.spawn(C_39);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.UIGradient.LocalScript
+local function C_3f()
+	local script = G2L["3f"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_3f);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.galaxyThemeGradient.LocalScript
+local function C_42()
+	local script = G2L["42"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_42);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.lunarThemeGradient.LocalScript
+local function C_44()
+	local script = G2L["44"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_44);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.erase.LocalScript
+local function C_56()
+	local script = G2L["56"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+
+	local defaultIconColor = Color3.new(1, 1, 1)
+	local hoverIconColor = Color3.fromRGB(237, 31, 31)
+
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function onHover()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = hoverIconColor}):Play()
+	end
+
+	local function onLeave()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = defaultIconColor}):Play()
+	end
+
+	button.ImageColor3 = defaultIconColor
+
+	button.MouseEnter:Connect(onHover)
+	button.MouseLeave:Connect(onLeave)
+
+end;
+task.spawn(C_56);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.execute.LocalScript
+local function C_58()
+	local script = G2L["58"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+
+	local defaultIconColor = Color3.new(1, 1, 1)
+	local hoverIconColor = Color3.fromRGB(49, 206, 1)
+
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function onHover()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = hoverIconColor}):Play()
+	end
+
+	local function onLeave()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = defaultIconColor}):Play()
+	end
+
+	button.ImageColor3 = defaultIconColor
+
+	button.MouseEnter:Connect(onHover)
+	button.MouseLeave:Connect(onLeave)
+
+end;
+task.spawn(C_58);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.hide.LocalScript
+local function C_5a()
+	local script = G2L["5a"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+
+	local defaultIconColor = Color3.new(1, 1, 1)
+	local hoverIconColor = Color3.fromRGB(237, 223, 30)
+
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function onHover()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = hoverIconColor}):Play()
+	end
+
+	local function onLeave()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = defaultIconColor}):Play()
+	end
+
+	button.ImageColor3 = defaultIconColor
+
+	button.MouseEnter:Connect(onHover)
+	button.MouseLeave:Connect(onLeave)
+
+end;
+task.spawn(C_5a);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.inject.LocalScript
+local function C_5e()
+	local script = G2L["5e"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+
+	local defaultIconColor = Color3.new(1, 1, 1)
+	local hoverIconColor = Color3.fromRGB(26, 30, 237)
+
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function onHover()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = hoverIconColor}):Play()
+	end
+
+	local function onLeave()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = defaultIconColor}):Play()
+	end
+
+	button.ImageColor3 = defaultIconColor
+
+	button.MouseEnter:Connect(onHover)
+	button.MouseLeave:Connect(onLeave)
+
+end;
+task.spawn(C_5e);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.LocalScript
+local function C_60()
+	local script = G2L["60"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.saveScriptFrame.Visible = true
+	end)
+end;
+task.spawn(C_60);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.ideContainer.buttons.saveScript.LocalScript
+local function C_61()
+	local script = G2L["61"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+
+	local defaultIconColor = Color3.new(1, 1, 1)
+	local hoverIconColor = Color3.fromRGB(221, 0, 237)
+
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+	local function onHover()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = hoverIconColor}):Play()
+	end
+
+	local function onLeave()
+		TweenService:Create(button, tweenInfo, {ImageColor3 = defaultIconColor}):Play()
+	end
+
+	button.ImageColor3 = defaultIconColor
+
+	button.MouseEnter:Connect(onHover)
+	button.MouseLeave:Connect(onLeave)
+
+end;
+task.spawn(C_61);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.saveScriptSystem
+local function C_6c()
+	local script = G2L["6c"];
+	local buttonNameTextBox = script.Parent.Parent.ideContainer.saveScriptFrame.scriptName.TextBox
+	local scriptContentTextBox = script.Parent.Parent.ideContainer.ideScroll.ide
+	local buttonsContainer = script.Parent.ScrollingFrame
+
+	local function Notification(notificationType, messageText)
+		local function getNotificationType(nType)
+			if nType == "Success" then
+				return Color3.new(0, 1, 0)
+			elseif nType == "Error" then
+				return Color3.new(1, 0, 0)
+			elseif nType == "Custom" then
+				return Color3.new(0.976471, 0.733333, 0)
+			end
+		end
+		local player = game:GetService("Players").LocalPlayer
+		local TweenService = game:GetService("TweenService")
+		local uicrn = Instance.new("UICorner")
+		local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+		if not container then
+			container = Instance.new("Frame")
+			container.Name = "NotificationContainer"
+			container.Parent = player.PlayerGui
+			container.Size = UDim2.new(1, 0, 1, 0)
+			container.BackgroundTransparency = 1
+			container.Position = UDim2.new(0, 0, 0, 0)
+		end
+		task.wait(0.05)
+
+		local function Checkframes()
+			local count = 0
+			for _, gui in ipairs(container:GetChildren()) do
+				if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+					count += 1
+				end
+			end
+			return count
+		end
+		local existing = Checkframes()
+
+		local gui = Instance.new("ScreenGui")
+		gui.Name = "SimpleNotify"
+		gui.ResetOnSpawn = false
+		gui.Parent = container
+		gui:SetAttribute("Active", true) 
+
+		local mainFrame = Instance.new("Frame")
+		mainFrame.Name = "MainFrame"
+		mainFrame.Parent = gui
+		mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+		mainFrame.BackgroundTransparency = 0.15
+		uicrn.Parent = mainFrame
+		local offset = -80 - ((existing - 1) * 70) 
+		mainFrame.Position = UDim2.new(1, 0, 1, offset)
+		mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+		mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+		local title = Instance.new("TextLabel")
+		title.Name = "Title"
+		title.Parent = mainFrame
+		title.BackgroundTransparency = 1
+		title.Position = UDim2.new(0, 12, 0, 8)
+		title.Size = UDim2.new(1, -24, 0, 24)
+		title.Font = Enum.Font.GothamBold
+		title.Text = "Injecter Backdoor"
+		title.TextColor3 = Color3.new(1, 1, 1)
+		title.TextSize = 16
+		title.TextXAlignment = Enum.TextXAlignment.Left
+
+		local message = Instance.new("TextLabel")
+		message.Name = "Message"
+		message.Parent = mainFrame
+		message.BackgroundTransparency = 1
+		message.Position = UDim2.new(0, 12, 0, 32)
+		message.Size = UDim2.new(1, -24, 0, 20)
+		message.Font = Enum.Font.Gotham
+		message.Text = messageText
+		message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+		message.TextSize = 14
+		message.TextXAlignment = Enum.TextXAlignment.Left
+
+		local greenBar = Instance.new("Frame")
+		greenBar.Name = "GreenBar"
+		greenBar.Parent = mainFrame
+		greenBar.BackgroundColor3 = getNotificationType(notificationType)
+		greenBar.Size = UDim2.new(1, 0, 0, 5)
+		greenBar.Position = UDim2.new(0, 0, 1, -4)
+		greenBar.BorderSizePixel = 0
+
+		local uigrd = Instance.new("UIGradient", mainFrame)
+		uigrd.Rotation = 132
+		uigrd.Color = ColorSequence.new{
+			ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+			ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+			ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+		}
+
+		local greenBarUICorner = Instance.new("UICorner")
+		greenBarUICorner.Parent = greenBar
+		uicrn.CornerRadius = UDim.new(0, 5)
+
+		local slideIn = TweenService:Create(
+			mainFrame,
+			TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+			{Position = UDim2.new(1, -20, 1, offset)}
+		)
+
+		slideIn:Play()
+
+		local greenBarTween = TweenService:Create(
+			greenBar,
+			TweenInfo.new(2, Enum.EasingStyle.Linear),
+			{Size = UDim2.new(0, 0, 0, 5)}
+		)
+		greenBarTween:Play()
+
+		greenBarTween.Completed:Wait()
+
+		local slideOut = TweenService:Create(
+			mainFrame,
+			TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+			{Position = UDim2.new(1, 300, 1, offset)}
+		)
+		slideOut:Play()
+
+		slideOut.Completed:Wait()
+		gui:SetAttribute("Active", false)
+		gui:Destroy()
+	end
+
+	local function ensureScriptsFolder()
+		if not game:GetService("ReplicatedStorage"):FindFirstChild("SavedScripts") then
+			local folder = Instance.new("Folder")
+			folder.Name = "SavedScripts"
+			folder.Parent = game:GetService("ReplicatedStorage")
+		end
+	end
+
+	ensureScriptsFolder()
+
+	local savedScripts = {}
+	local buttonSpacing = -12
+	local buttonHeight = 26
+	local initialXScale = 0.073
+	local initialYScale = 0.01
+	local buttonWidth = 161
+
+	local function createStyledButton(buttonName, scriptContent, buttonIndex)
+		local buttonContainer = Instance.new("Frame")
+		buttonContainer.Name = buttonName
+		buttonContainer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		buttonContainer.BackgroundTransparency = 0.85
+		buttonContainer.Size = UDim2.new(0, buttonWidth, 0, buttonHeight)
+		buttonContainer.Parent = buttonsContainer
+
+		local corner = Instance.new("UICorner", buttonContainer)
+		corner.CornerRadius = UDim.new(0, 4)
+		local stroke = Instance.new("UIStroke", buttonContainer)
+		stroke.Transparency = 0.5
+		stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		stroke.Thickness = 2
+		stroke.Color = Color3.fromRGB(40, 40, 40)
+
+		local textLabel = Instance.new("TextLabel")
+		textLabel.Name = "ScriptNameLabel"
+		textLabel.Size = UDim2.new(1, -26, 1, 0)
+		textLabel.Position = UDim2.new(0, 6, 0, 0)
+		textLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		textLabel.BackgroundTransparency = 1
+		textLabel.Text = buttonName
+		textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		textLabel.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+		textLabel.TextSize = 14
+		textLabel.TextXAlignment = Enum.TextXAlignment.Left
+		textLabel.Parent = buttonContainer
+
+		local iconButton = Instance.new("ImageButton")
+		iconButton.Name = "IconButton"
+		iconButton.BackgroundTransparency = 1
+		iconButton.Size = UDim2.new(0, 24, 0, 24)
+		iconButton.Position = UDim2.new(0, 4, 0.5, -12)
+		iconButton.Image = ""
+		iconButton.Parent = buttonContainer
+
+		local TweenService = game:GetService("TweenService")
+		local defaultColor = Color3.new(1,1,1)
+		local hoverColor = Color3.fromRGB(0, 255, 0)
+		local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+		iconButton.MouseEnter:Connect(function()
+			TweenService:Create(iconButton, tweenInfo, {ImageColor3 = hoverColor}):Play()
+		end)
+		iconButton.MouseLeave:Connect(function()
+			TweenService:Create(iconButton, tweenInfo, {ImageColor3 = defaultColor}):Play()
+		end)
+
+		iconButton.MouseButton1Click:Connect(function()
+			scriptContentTextBox.Text = scriptContent
+		end)
+
+		local clickOverlay = Instance.new("TextButton")
+		clickOverlay.BackgroundTransparency = 1
+		clickOverlay.Size = UDim2.new(1, 0, 1, 0)
+		clickOverlay.Position = UDim2.new(0, 0, 0, 0)
+		clickOverlay.Text = ""
+		clickOverlay.Parent = buttonContainer
+
+		clickOverlay.MouseButton1Click:Connect(function()
+			scriptContentTextBox.Text = scriptContent
+		end)
+
+		-- Delete button
+		local deleteButton = Instance.new("ImageButton")
+		deleteButton.Name = "DeleteButton"
+		deleteButton.Size = UDim2.new(0, 20, 0, 20)
+		deleteButton.Position = UDim2.new(1, -22, 0.5, -10)
+		deleteButton.BackgroundTransparency = 1
+		deleteButton.Image = "rbxassetid://111831798368263"
+		deleteButton.Parent = buttonContainer
+
+		deleteButton.MouseEnter:Connect(function()
+			TweenService:Create(deleteButton, tweenInfo, {ImageColor3 = Color3.fromRGB(255,0,0)}):Play()
+		end)
+		deleteButton.MouseLeave:Connect(function()
+			TweenService:Create(deleteButton, tweenInfo, {ImageColor3 = Color3.new(1,1,1)}):Play()
+		end)
+
+		deleteButton.MouseButton1Click:Connect(function()
+			savedScripts[buttonName] = nil
+			buttonContainer:Destroy()
+			Notification("Custom", "Script Deleted")
+		end)
+
+		if buttonIndex == 1 then
+			buttonContainer.Position = UDim2.new(initialXScale, 0, initialYScale, 0)
+		else
+			local totalPreviousHeight = (buttonHeight + buttonSpacing) * (buttonIndex - 1)
+			local yOffset = initialYScale + (totalPreviousHeight / buttonsContainer.AbsoluteSize.Y)
+			buttonContainer.Position = UDim2.new(initialXScale, 0, yOffset, 0)
+		end
+
+		return buttonContainer
+	end
+
+	local function saveButtonAndScript(buttonName, scriptContent)
+		savedScripts[buttonName] = scriptContent
+	end
+
+	local function onCreateButtonClick()
+		local buttonName = buttonNameTextBox.Text .. ".lua"
+		local scriptContent = scriptContentTextBox.Text
+
+		if buttonName == "" then return end
+
+		saveButtonAndScript(buttonName, scriptContent)
+
+		local buttonCount = 0
+		for _, child in pairs(buttonsContainer:GetChildren()) do
+			if child:IsA("TextButton") then
+				buttonCount = buttonCount + 1
+			end
+		end
+
+		createStyledButton(buttonName, scriptContent, buttonCount + 1)
+		Notification("Success", "Script Successfully Saved.")
+	end
+
+	local function loadSavedScripts()
+		local buttonIndex = 1
+		for buttonName, scriptContent in pairs(savedScripts) do
+			createStyledButton(buttonName, scriptContent, buttonIndex)
+			buttonIndex = buttonIndex + 1
+		end
+	end
+
+	local function onSaveScriptClick()
+		script.Parent.Parent.ideContainer.saveScriptFrame.Visible = true
+	end
+
+	local createButton = script.Parent.Parent.ideContainer.saveScriptFrame.scriptName.saveButton
+	local isSaving = false
+
+	createButton.MouseButton1Click:Connect(function()
+		if isSaving then return end
+		isSaving = true
+
+		script.Parent.Parent.ideContainer.saveScriptFrame.Visible = false
+		onCreateButtonClick()
+
+		isSaving = false
+	end)
+
+	local saveButton = script.Parent.Parent.ideContainer.buttons.saveScript
+	saveButton.MouseButton1Click:Connect(onSaveScriptClick)
+
+	loadSavedScripts()
+end;
+task.spawn(C_6c);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.savedScriptsContainer.lunarThemeGradient.LocalScript
+local function C_6e()
+	local script = G2L["6e"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_6e);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Executor.AC.AC_Handler
+local function C_74()
+	local script = G2L["74"];
+	local IconMap = {
+		Globals = "rbxassetid://122898308967020",
+		Services = "rbxassetid://84757727963014",
+		Functions = "rbxassetid://93462321869104",
+		Event = "rbxassetid://124182880981997",
+		Enums = "rbxassetid://106992449064152"
+	}
+
+	local Function = {
+		"asset","c?o?l?l?e?c?t?g?a?r?b?a?g?e?","error","gcinfo","g?e?t?f?e?n?v?","getmetatable","ipairs","loadstring","newproxy","next","pairs","pcall","print","rawequal",
+		"rawget","rawlen","rawset","require","select","s?e?t?f?e?n?v?","setmatatable","tonumber","tostring",
+		"type","unpack","xpcall", "warn","wait","W?a?i?t?","spawn","delay","tick","time","typeof","y?p?c?a?l?l?","s?t?a?t?s?","S?t?a?t?s?","UserSettings","S?p?a?w?n?","V?e?r?s?i?o?n?","v?e?r?s?i?o?n?"
+	}
+
+	local Properties = {
+		"Name",
+		"Parent",
+		"ClassName",
+		"Archivable",
+		"Position",
+		"Size",
+		"AnchorPoint",
+		"Rotation",
+		"Visible",
+		"ZIndex",
+		"AutomaticSize",
+		"BackgroundColor3",
+		"BackgroundTransparency",
+		"BorderSizePixel",
+		"Text",
+		"TextSize",
+		"TextColor3",
+		"TextTransparency",
+		"Font",
+		"FontFace",
+		"TextWrapped",
+		"TextScaled",
+		"TextXAlignment",
+		"TextYAlignment",
+		"Image",
+		"ImageColor3",
+		"ImageTransparency",
+		"ScaleType",
+		"Active",
+		"Selectable"
+	}
+
+	local Event = {
+		"Changed",
+		"ChildAdded",
+		"ChildRemoved",
+		"DescendantAdded",
+		"DescendantRemoving",
+		"AncestryChanged",
+		"PlayerAdded",
+		"PlayerRemoving",
+		"CharacterAdded",
+		"CharacterRemoving",
+		"InputBegan",
+		"InputChanged",
+		"InputEnded",
+		"RenderStepped",
+		"Stepped",
+		"Heartbeat",
+		"Activated",
+		"MouseEnter",
+		"MouseLeave",
+		"MouseButton1Down",
+		"MouseButton1Up",
+		"MouseButton1Click",
+		"TouchTap",
+		"Focused",
+		"FocusLost"
+	}
+
+	local Enums = {
+		"Enum",
+		"Enum.KeyCode",
+		"Enum.UserInputType",
+		"Enum.Material",
+		"Enum.Font",
+		"Enum.TextXAlignment",
+		"Enum.TextYAlignment",
+		"Enum.EasingStyle",
+		"Enum.EasingDirection",
+		"Enum.CameraType",
+		"Enum.CameraMode",
+		"Enum.RenderPriority",
+		"Enum.SurfaceType",
+		"Enum.NormalId",
+		"Enum.MeshType",
+		"Enum.ScaleType",
+		"Enum.AutomaticSize",
+		"Enum.FillDirection",
+		"Enum.HorizontalAlignment",
+		"Enum.VerticalAlignment"
+	}
+
+	local Services = {
+		"Players",
+		"Workspace",
+		"Lighting",
+		"ReplicatedStorage",
+		"ServerStorage",
+		"ServerScriptService",
+		"StarterGui",
+		"StarterPack",
+		"StarterPlayer",
+		"SoundService",
+		"TweenService",
+		"RunService",
+		"UserInputService",
+		"ContextActionService",
+		"HttpService",
+		"TextService",
+		"TeleportService",
+		"DataStoreService",
+		"MarketplaceService",
+		"PhysicsService",
+		"PathfindingService",
+		"CollectionService",
+		"Debris",
+		"Chat",
+		"InsertService",
+		"LocalizationService",
+		"ProximityPromptService",
+		"GroupService",
+		"BadgeService",
+		"MemoryStoreService",
+		"PolicyService",
+		"Selection",
+		"TestService",
+		"AssetService",
+		"VoiceChatService",
+		"Players",
+		"Teams"
+	}
+
+	local Globals = {
+		"_G",
+		"_VERSION",
+	}
+
+	local TextService = game:GetService("TextService")
+	local UserInputService = game:GetService("UserInputService")
+	local CAS = game:GetService("ContextActionService")
+	local RunService = game:GetService("RunService")
+	local GuiService = game:GetService("GuiService")
+
+	local ScrollingFrame = script.Parent
+	local Template = ScrollingFrame:WaitForChild("TextButton")
+	local InputBox = ScrollingFrame.Parent.ideContainer.ideScroll.ide
+	local ListLayout = ScrollingFrame:FindFirstChildOfClass("UIListLayout")
+
+	Template.Visible = false
+	ScrollingFrame.Visible = false
+	ScrollingFrame.AutomaticCanvasSize = Enum.AutomaticSize.None
+	ScrollingFrame.CanvasSize = UDim2.new()
+
+	local MAX_VISIBLE = 5
+	local ITEM_HEIGHT = 19
+	local WIDTH = 248
+	local PADDING_Y = 4
+	local UIS = game:GetService("UserInputService")
+	local IsApplying = false
+
+	local NORMAL_COLOR = Color3.fromRGB(255, 255, 255)
+
+	local AllItems = {}
+	local Buttons = {}
+	local SelectedIndex = 0
+
+	for _, v in ipairs(Function) do
+		table.insert(AllItems, { Name = v, Type = "Functions" })
+	end
+	for _, v in ipairs(Properties) do
+		table.insert(AllItems, { Name = v, Type = "Globals" })
+	end
+	for _, v in ipairs(Enums) do
+		table.insert(AllItems, { Name = v, Type = "Enums" })
+	end
+	for _, v in ipairs(Event) do
+		table.insert(AllItems, { Name = v, Type = "Event" })
+	end
+	for _, v in ipairs(Services) do
+		table.insert(AllItems, { Name = v, Type = "Services" })
+	end
+	for _, v in ipairs(Globals) do
+		table.insert(AllItems, { Name = v, Type = "Globals" })
+	end
+
+	-- ===== Utils =====
+
+	local function Clear()
+		for _, b in ipairs(Buttons) do
+			b:Destroy()
+		end
+		table.clear(Buttons)
+		SelectedIndex = 0
+	end
+
+	local function getCurrentWord(text, cursor)
+		text = text:sub(1, cursor - 1)
+		return text:match("([%w_%.]+)$") or ""
+	end
+
+	local function applySelection(word)
+		local cursor = InputBox.CursorPosition
+		if cursor <= 0 then return end
+
+		local text = InputBox.Text
+		local left = text:sub(1, cursor - 1)
+		local right = text:sub(cursor)
+
+		left = left:gsub("([%w_%.]+)$", "")
+
+		InputBox.Text = left .. word .. right
+		InputBox.CursorPosition = #left + #word + 1
+	end
+
+	-- ===== UI =====
+
+	local function UpdatePosition()
+		if not InputBox:IsFocused() then
+			ScrollingFrame.Visible = false
+			return
+		end
+
+		local cursor = InputBox.CursorPosition
+		if cursor <= 0 then return end
+
+		local before = InputBox.Text:sub(1, cursor - 1)
+
+		local lines = string.split(before, "\n")
+		local lastLine = lines[#lines]
+
+		local font = InputBox.Font
+		if font == Enum.Font.Unknown then
+			font = Enum.Font.Gotham -- fallback font
+		end
+
+		local textSize = TextService:GetTextSize(
+			lastLine,
+			InputBox.TextSize,
+			font,
+			Vector2.new(1e6, 1e6)
+		)
+
+		local paddingX = 2
+		local paddingY = 0
+
+		local absX =
+			InputBox.AbsolutePosition.X
+			+ paddingX
+			+ textSize.X
+
+		local absY =
+			InputBox.AbsolutePosition.Y
+			+ paddingY
+			+ ((#lines - 1) * InputBox.TextSize)
+			+ InputBox.TextSize
+			+ 4
+
+		local parent = ScrollingFrame.Parent
+		local localX = absX - parent.AbsolutePosition.X
+		local localY = absY - parent.AbsolutePosition.Y
+
+		ScrollingFrame.Position = UDim2.fromOffset(localX, localY)
+	end
+
+	local function UpdateSize()
+		local count = #Buttons
+		if count == 0 then
+			ScrollingFrame.Visible = false
+			return
+		end
+
+		if count <= MAX_VISIBLE then
+			ScrollingFrame.Size = UDim2.fromOffset(
+				WIDTH,
+				ListLayout.AbsoluteContentSize.Y
+			)
+			ScrollingFrame.CanvasSize = ScrollingFrame.Size
+			ScrollingFrame.ScrollBarImageTransparency = 1
+			ScrollingFrame.CanvasPosition = Vector2.zero
+		else
+			local viewHeight = MAX_VISIBLE * ITEM_HEIGHT + PADDING_Y
+			ScrollingFrame.Size = UDim2.fromOffset(WIDTH, viewHeight)
+			ScrollingFrame.CanvasSize = UDim2.fromOffset(
+				0,
+				ListLayout.AbsoluteContentSize.Y
+			)
+			ScrollingFrame.ScrollBarImageTransparency = 0
+		end
+	end
+
+	local function ScrollToSelected()
+		local btn = Buttons[SelectedIndex]
+		if not btn then return end
+
+		local y = btn.AbsolutePosition.Y - ScrollingFrame.AbsolutePosition.Y
+		local viewTop = ScrollingFrame.CanvasPosition.Y
+		local viewBottom = viewTop + ScrollingFrame.AbsoluteWindowSize.Y
+
+		if y < viewTop then
+			ScrollingFrame.CanvasPosition = Vector2.new(0, y)
+		elseif y + btn.AbsoluteSize.Y > viewBottom then
+			ScrollingFrame.CanvasPosition = Vector2.new(
+				0,
+				y + btn.AbsoluteSize.Y - ScrollingFrame.AbsoluteWindowSize.Y
+			)
+		end
+	end
+
+	local function CreateItem(name, itemType)
+		local btn = Template:Clone()
+		btn.Visible = true
+		btn.Parent = ScrollingFrame
+
+		btn.TextLabel.Text = name
+		btn.ImageLabel.Image = IconMap[itemType] or ""
+
+		btn.MouseButton1Click:Connect(function()
+			local i = table.find(Buttons, btn)
+			if not i then return end
+
+			SelectedIndex = i
+			applySelection(btn.TextLabel.Text)
+			ScrollingFrame.Visible = false
+			Clear()
+		end)
+
+		table.insert(Buttons, btn)
+	end
+
+	-- ===== Autocomplete =====
+
+	local function UpdateAutocomplete()
+		Clear()
+
+		local cursor = InputBox.CursorPosition
+		if cursor <= 0 then
+			ScrollingFrame.Visible = false
+			return
+		end
+
+		local word = getCurrentWord(InputBox.Text, cursor)
+		if word == "" then
+			ScrollingFrame.Visible = false
+			return
+		end
+
+		word = word:lower()
+
+		local exactMatch = false
+
+		for _, item in ipairs(AllItems) do
+			local name = tostring(item.Name)
+			local lowerName = name:lower()
+
+			if lowerName == word then
+				exactMatch = true
+				break
+			end
+
+			if lowerName:sub(1, #word) == word then
+				CreateItem(name, item.Type)
+			end
+		end
+
+		-- hide autocomplete if full word is typed
+		if exactMatch then
+			ScrollingFrame.Visible = false
+			Clear()
+			return
+		end
+
+		if #Buttons == 0 then
+			ScrollingFrame.Visible = false
+			return
+		end
+
+		SelectedIndex = 1
+		UpdatePosition()
+		UpdateSize()
+		ScrollingFrame.Visible = true
+	end
+
+	InputBox:GetPropertyChangedSignal("Text"):Connect(UpdateAutocomplete)
+	InputBox:GetPropertyChangedSignal("CursorPosition"):Connect(UpdatePosition)
+	RunService.RenderStepped:Connect(UpdatePosition)
+end;
+task.spawn(C_74);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.userINFO
+local function C_7d()
+	local script = G2L["7d"];
+	local user = game.Players.LocalPlayer.Name
+	local Players = game:GetService("Players")
+	local localPlayer = Players.LocalPlayer
+	local imgLabel = script.Parent.ImageLabel
+
+	local function geturicon()
+		local userId = localPlayer.UserId
+		local thumbnailType = Enum.ThumbnailType.HeadShot
+		local thumbnailSize = Enum.ThumbnailSize.Size420x420
+
+		local success, thumbnailUrl = pcall(function()
+			return Players:GetUserThumbnailAsync(userId, thumbnailType, thumbnailSize)
+		end)
+
+		if success then
+			return thumbnailUrl
+		else
+			warn("Failed to get profile picture: " .. tostring(thumbnailUrl))
+			return nil
+		end
+	end
+
+	local profilePictureUrl = geturicon()
+	imgLabel.Image = profilePictureUrl
+	script.Parent.wlcmsg.Text = "Welcome, <font color='#d815ff'>" .. user .. "</font>"
+end;
+task.spawn(C_7d);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.UIGradient.LocalScript
+local function C_80()
+	local script = G2L["80"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_80);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.galaxyThemeGradient.LocalScript
+local function C_87()
+	local script = G2L["87"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_87);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Home.lunarThemeGradient.LocalScript
+local function C_89()
+	local script = G2L["89"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_89);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Decal.LocalScript
+local function C_98()
+	local script = G2L["98"];
+	local IDTextBox = script.Parent.Parent.Parent.ID 
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = IDTextBox.Text
+		print("Button clicked. ID: " .. ID)
+
+		if ID == "" then
+			print("Error: ID is empty.")
+			return
+		end
+
+		local command = [[
+	        for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Part") then
+				local decal1 =Instance.new("Decal")
+				local decal2 =Instance.new("Decal")
+				local decal3 =Instance.new("Decal")
+				local decal4 =Instance.new("Decal")
+				local decal5 =Instance.new("Decal")
+				local decal6 =Instance.new("Decal")
+				decal1.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal2.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal3.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal4.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal5.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal6.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				decal1.Parent = v
+				decal2.Parent = v
+				decal3.Parent = v
+				decal4.Parent = v
+				decal5.Parent = v
+				decal6.Parent = v
+				decal1.Face = "Front"
+				decal2.Face = "Top"
+				decal3.Face = "Left"
+				decal4.Face = "Right"
+				decal5.Face = "Bottom"
+				decal6.Face = "Back"
+			end
+		end
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Model") then
+				for i,z in pairs (v:GetChildren()) do
+					if z:IsA("Part") then
+						local decal7 =Instance.new("Decal")
+						local decal8 =Instance.new("Decal")
+						local decal9 =Instance.new("Decal")
+						local decal10 =Instance.new("Decal")
+						local decal11 =Instance.new("Decal")
+						local decal12 =Instance.new("Decal")
+						decal7.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				        decal8.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				        decal9.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				        decal10.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				        decal11.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+				        decal12.Texture = "http://www.roblox.com/asset/?id=" ]]..ID..[[
+						decal7.Parent = z
+						decal8.Parent = z
+						decal9.Parent = z
+						decal10.Parent = z
+						decal11.Parent = z
+						decal12.Parent = z
+						decal7.Face = "Front"
+						decal8.Face = "Top"
+						decal9.Face = "Left"
+						decal10.Face = "Right"
+						decal11.Face = "Bottom"
+						decal12.Face = "Back"
+					end
+				end
+			end
+		end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_98);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Particles.LocalScript
+local function C_9c()
+	local script = G2L["9c"];
+	local IDTextBox = script.Parent.Parent.Parent.ID
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = IDTextBox.Text
+		print("ID: " .. ID)
+
+		if ID == "" then
+			print("Error: ID is empty.")
+			return
+		end
+
+		local command = [[
+	        local ID = "]] .. ID .. [["
+	        for _, player in pairs(game.Players:GetPlayers()) do
+	            if player.Character and player.Character:FindFirstChild("Head") then
+	                local emit = Instance.new("ParticleEmitter")
+	                emit.Parent = player.Character.Head
+	                emit.Texture = "http://www.roblox.com/asset/?id=" .. ID
+	                emit.VelocitySpread = 100000
+	            end
+	        end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_9c);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.666.LocalScript
+local function C_a0()
+	local script = G2L["a0"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+		for i,v in next,workspace:children''do
+			if(v:IsA'BasePart')then
+				local me=v;
+				local bbg=Instance.new('BillboardGui',me);
+				bbg.Name='stuf';
+				bbg.Adornee=me;
+				bbg.Size=UDim2.new(2.5,0,2.5,0)
+				--bbg.StudsOffset=Vector3.new(0,2,0)
+				local tlb=Instance.new'TextLabel';
+				tlb.Text='666 666 666 666 666 666';
+				tlb.Font='SourceSansBold';
+				tlb.FontSize='Size48';
+				tlb.TextColor3=Color3.new(1,0,0);
+				tlb.Size=UDim2.new(1.25,0,1.25,0);
+				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+				tlb.BackgroundTransparency=1;
+				tlb.Parent=bbg;
+			end;end;
+		local function xds(dd)
+			for i,v in next,dd:children''do
+				if(v:IsA'BasePart')then
+					v.BrickColor=BrickColor.new'Really black';
+					v.TopSurface='Smooth';
+					v.BottomSurface='Smooth';
+					local s=Instance.new('SelectionBox',v);
+					s.Adornee=v;
+					s.Color=BrickColor.new'Really red';
+					local a=Instance.new('PointLight',v);
+					a.Color=Color3.new(1,0,0);
+					a.Range=15;
+					a.Brightness=5;
+					local f=Instance.new('Fire',v);
+					f.Size=19;
+					f.Heat=22;
+				end;
+	
+				local dec = 'http://www.roblox.com/asset/?id=19399245';
+				local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
+				--coroutine.wrap(function()
+				--for ,_ in pairs(fac) do
+				--local ddec = Instance.new("Decal", v)
+				--ddec.Face = 
+				--ddec.Texture = dec
+				--end end)()
+				if #(v:GetChildren())>0 then
+					xds(v) 
+				end
+			end
+		end
+		xds(game.Workspace)
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_a0);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Hint.LocalScript
+local function C_a4()
+	local script = G2L["a4"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt
+
+		local command = [[
+		    local h = Instance.new("Hint", game.Workspace)
+		    h.Text = ']] .. txt.Text .. [['
+		    wait(6)
+		    h:Destroy()
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_a4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Message.LocalScript
+local function C_a8()
+	local script = G2L["a8"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt
+
+		local command = [[
+		    local m = Instance.new("Message", game.Workspace)
+		    m.Text = ']] .. txt.Text .. [['
+		    wait(6)
+		    m:Destroy()
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_a8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Disco.LocalScript
+local function C_ac()
+	local script = G2L["ac"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+		    local Lighting = game:GetService("Lighting")
+		    local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+	
+		    local function zigzag(X) 
+			    return math.acos(math.cos(X*math.pi))/math.pi
+		    end
+	
+		    local Counter = 0
+	
+		    Lighting.TimeOfDay = "12:00"
+	
+		    while wait(0.1) do 
+			    ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
+			    Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
+			    Counter += 0.01
+		    end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_ac);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Skybox.LocalScript
+local function C_b0()
+	local script = G2L["b0"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = script.Parent.Parent.Parent.ID.Text
+
+		local command = [[
+	        local ID = "]] .. ID .. [["
+	        local Skybox = true
+	        if Skybox == true then
+	            local sky = Instance.new("Sky")
+	            sky.SkyboxBk = "http://www.roblox.com/asset/?id=" .. ID
+	            sky.SkyboxDn = "http://www.roblox.com/asset/?id=" .. ID
+	            sky.SkyboxFt = "http://www.roblox.com/asset/?id=" .. ID
+	            sky.SkyboxLf = "http://www.roblox.com/asset/?id=" .. ID
+	            sky.SkyboxRt = "http://www.roblox.com/asset/?id=" .. ID
+	            sky.SkyboxUp = "http://www.roblox.com/asset/?id=" .. ID
+	        end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_b0);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Sound.LocalScript
+local function C_b4()
+	local script = G2L["b4"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = script.Parent.Parent.Parent.ID.Text
+
+		local command = [[
+		      local tubers93 = Instance.new("Sound")
+		      tubers93.Parent = game:GetService("Workspace")
+		      tubers93.SoundId = "rbxassetid://]] .. ID .. [["
+		      tubers93.Playing = true
+		      tubers93.Looped = true
+		      tubers93.Pitch = 0.9
+		      tubers93.Volume = 10
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_b4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedHint.LocalScript
+local function C_b8()
+	local script = G2L["b8"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt.Text
+
+		local command = [[
+		      local function write(text,object)
+			if object:IsA("Hint") == true then
+				local count = object:FindFirstChild("Count")
+				if count == nil then
+					count = Instance.new("NumberValue")
+					count.Parent = object
+					count.Name = "Count"
+					count.Value = count.Value + 1
+				else
+					count.Value = count.Value + 1
+				end
+				local startcount = count.Value
+				for i = 1,#text do
+					if count.Value == startcount then
+						local letter = string.sub(text,i,i)
+						object.Text = string.sub(text,1,i)
+						wait(0.001)
+					else
+						break
+					end
+				end
+			end
+		end
+		local bro = Instance.new("Hint",workspace)
+		write("]] .. txt .. [[",bro)
+		wait(6)
+		bro:Destroy()
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_b8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.AnimatedMessage.LocalScript
+local function C_bc()
+	local script = G2L["bc"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt.Text
+
+		local command = [[
+		      local function write(text,object)
+			if object:IsA("Message") == true then
+				local count = object:FindFirstChild("Count")
+				if count == nil then
+					count = Instance.new("NumberValue")
+					count.Parent = object
+					count.Name = "Count"
+					count.Value = count.Value + 1
+				else
+					count.Value = count.Value + 1
+				end
+				local startcount = count.Value
+				for i = 1,#text do
+					if count.Value == startcount then
+						local letter = string.sub(text,i,i)
+						object.Text = string.sub(text,1,i)
+						wait(0.001)
+					else
+						break
+					end
+				end
+			end
+		end
+		local broM = Instance.new("Message",workspace)
+		write("]] .. txt .. [[",broM)
+		wait(6)
+		broM:Destroy()
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_bc);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.JohnDoe.LocalScript
+local function C_c0()
+	local script = G2L["c0"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+	        require(2845929020).ooga("]] .. game.Players.LocalPlayer.Name .. [[")
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_c0);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Jumpscare.LocalScript
+local function C_c4()
+	local script = G2L["c4"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = tostring(script.Parent.Parent.Parent.ID.Text)
+
+		local command = [[
+		    for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= k and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+				spawn(function()
+					local gui = Instance.new("ScreenGui",v.PlayerGui)
+					local funny = Instance.new("ImageLabel",gui)
+					funny.Image = "rbxassetid://]] .. ID .. [["
+					funny.Size = UDim2.new(1,0,1,0)
+					funny.ImageColor3 = Color3.new(255, 255, 255)
+					local s = Instance.new("Sound",gui)
+					s.SoundId = "rbxassetid://0"
+					s.Volume = 99999999999999999
+					s.Pitch = 1
+					s:Play()
+					local yes = Instance.new("DistortionSoundEffect",s)
+					yes.Level = 0.5
+					yes.Priority = 0
+					wait(4)
+					gui:Destroy()
+				end)
+			end
+		end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_c4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.RandomC.LocalScript
+local function C_c8()
+	local script = G2L["c8"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+		      for i,fee in pairs(workspace:GetDescendants()) do
+			    if fee:IsA("BasePart") then
+				   fee.BrickColor = BrickColor.random()
+			    end
+		      end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_c8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Shutdown.LocalScript
+local function C_cc()
+	local script = G2L["cc"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt.Text
+
+		local command = [[
+	    for i,v in pairs(game.Players:GetPlayers()) do
+			v:Kick("]] .. txt .. [[")
+		end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_cc);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.UnAnchor.LocalScript
+local function C_d0()
+	local script = G2L["d0"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+		for i,v in pairs(game.Workspace:GetDescendants()) do
+			if v:IsA("BasePart") then	
+				v.Anchored = false
+			end
+		end
+	
+	
+		for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
+	
+	
+		for i,v in pairs(game.ReplicatedFirst:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_d0);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.popups.LocalScript
+local function C_d4()
+	local script = G2L["d4"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = tostring(script.Parent.Parent.Parent.ID.Text)
+
+		local command = [[
+		    for i,v in pairs(game.Players:GetPlayers()) do
+			while true do
+				wait(0.4)
+				local kill = Instance.new("ScreenGui",v.PlayerGui)
+				local kill2 = Instance.new("ImageLabel",kill)
+				kill2.Size = UDim2.new(0,491,0,372)
+				kill2.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
+				kill2.Image = "http://www.roblox.com/asset/?id=]].. ID .. [["
+			end
+		end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_d4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.Exser.LocalScript
+local function C_d8()
+	local script = G2L["d8"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = script.Parent.Parent.Parent.ID
+
+		local command = [[
+		    require(74482062740292):pls("]] .. game.Players.LocalPlayer.Name .. [[")
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_d8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminInsert.LocalScript
+local function C_dc()
+	local script = G2L["dc"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt.Text
+
+		local command = [[
+		      require(11629849037)()
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_dc);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.HdAdminRank.LocalScript
+local function C_e0()
+	local script = G2L["e0"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+	        require(11560761226).HD("]] .. game.Players.LocalPlayer.name .. [[")
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_e0);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.c00lgui.LocalScript
+local function C_e4()
+	local script = G2L["e4"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local command = [[
+		      require(14125553864):Fire("]] .. game.Players.LocalPlayer.Name .. [[","c00lkidd")
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_e4);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.ScrollingFrame.youareanidiot.LocalScript
+local function C_e8()
+	local script = G2L["e8"];
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.Parent.txt.Text
+
+		local command = [[
+	        local Players = game:GetService("Players")
+	        local txtt = "]] .. txt .. [["
+	        if txtt == "all" then
+	            for _, player in pairs(Players:GetPlayers()) do
+	                require(8222129769).youareanidiot(player.Name)
+	            end
+	        else
+	            require(8222129769).youareanidiot(txtt)
+	        end
+	    ]]
+
+		local function Notification(notificationType, messageText)
+			local function getNotificationType(nType)
+				if nType == "Success" then
+					return Color3.new(0, 1, 0)
+				elseif nType == "Error" then
+					return Color3.new(1, 0, 0)
+				elseif nType == "Custom" then
+					return Color3.new(0.976471, 0.733333, 0)
+				end
+			end
+			local player = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local uicrn = Instance.new("UICorner")
+			local container = player.PlayerGui:FindFirstChild("NotificationContainer")
+			if not container then
+				container = Instance.new("Frame")
+				container.Name = "NotificationContainer"
+				container.Parent = player.PlayerGui
+				container.Size = UDim2.new(1, 0, 1, 0)
+				container.BackgroundTransparency = 1
+				container.Position = UDim2.new(0, 0, 0, 0)
+			end
+			task.wait(0.05)
+
+			local function Checkframes()
+				local count = 0
+				for _, gui in ipairs(container:GetChildren()) do
+					if gui:IsA("ScreenGui") and gui:GetAttribute("Active") then
+						count += 1
+					end
+				end
+				return count
+			end
+			local existing = Checkframes()
+
+			local gui = Instance.new("ScreenGui")
+			gui.Name = "SimpleNotify"
+			gui.ResetOnSpawn = false
+			gui.Parent = container
+			gui:SetAttribute("Active", true) 
+
+			local mainFrame = Instance.new("Frame")
+			mainFrame.Name = "MainFrame"
+			mainFrame.Parent = gui
+			mainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+			mainFrame.BackgroundTransparency = 0.15
+			uicrn.Parent = mainFrame
+			local offset = -80 - ((existing - 1) * 70) 
+			mainFrame.Position = UDim2.new(1, 0, 1, offset)
+			mainFrame.Size = UDim2.new(0, 260, 0, 60) 
+			mainFrame.AnchorPoint = Vector2.new(1, 1) 
+
+			local title = Instance.new("TextLabel")
+			title.Name = "Title"
+			title.Parent = mainFrame
+			title.BackgroundTransparency = 1
+			title.Position = UDim2.new(0, 12, 0, 8)
+			title.Size = UDim2.new(1, -24, 0, 24)
+			title.Font = Enum.Font.GothamBold
+			title.Text = "Injecter Backdoor"
+			title.TextColor3 = Color3.new(1, 1, 1)
+			title.TextSize = 16
+			title.TextXAlignment = Enum.TextXAlignment.Left
+
+			local message = Instance.new("TextLabel")
+			message.Name = "Message"
+			message.Parent = mainFrame
+			message.BackgroundTransparency = 1
+			message.Position = UDim2.new(0, 12, 0, 32)
+			message.Size = UDim2.new(1, -24, 0, 20)
+			message.Font = Enum.Font.Gotham
+			message.Text = messageText
+			message.TextColor3 = Color3.new(0.8, 0.8, 0.8)
+			message.TextSize = 14
+			message.TextXAlignment = Enum.TextXAlignment.Left
+
+			local greenBar = Instance.new("Frame")
+			greenBar.Name = "GreenBar"
+			greenBar.Parent = mainFrame
+			greenBar.BackgroundColor3 = getNotificationType(notificationType)
+			greenBar.Size = UDim2.new(1, 0, 0, 5)
+			greenBar.Position = UDim2.new(0, 0, 1, -4)
+			greenBar.BorderSizePixel = 0
+
+			local uigrd = Instance.new("UIGradient", mainFrame)
+			uigrd.Rotation = 132
+			uigrd.Color = ColorSequence.new{
+				ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 27, 255)),
+				ColorSequenceKeypoint.new(0.515, Color3.fromRGB(49, 49, 49)),
+				ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 248, 0))
+			}
+
+			local greenBarUICorner = Instance.new("UICorner")
+			greenBarUICorner.Parent = greenBar
+			uicrn.CornerRadius = UDim.new(0, 5)
+
+			local slideIn = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{Position = UDim2.new(1, -20, 1, offset)}
+			)
+
+			slideIn:Play()
+
+			local greenBarTween = TweenService:Create(
+				greenBar,
+				TweenInfo.new(2, Enum.EasingStyle.Linear),
+				{Size = UDim2.new(0, 0, 0, 5)}
+			)
+			greenBarTween:Play()
+
+			greenBarTween.Completed:Wait()
+
+			local slideOut = TweenService:Create(
+				mainFrame,
+				TweenInfo.new(0.4, Enum.EasingStyle.Quad),
+				{Position = UDim2.new(1, 300, 1, offset)}
+			)
+			slideOut:Play()
+
+			slideOut.Completed:Wait()
+			gui:SetAttribute("Active", false)
+			gui:Destroy()
+		end
+
+		local pathString = script.Parent.Parent.Parent.Parent.Parent.Parent.mainScripts.remotePath.Value
+		local current = game
+		for part in string.gmatch(pathString, "[^.]+") do
+			current = current:FindFirstChild(part)
+			if not current then
+				warn("Path not found:", part)
+				return
+			end
+		end
+
+		if current == game then
+			Notification("Error", "Please attach before using script hub.")
+		else
+			current:FireServer(command, "aegislock")
+			Notification("Success", script.Parent.Name.." executed.")
+		end
+	end)
+end;
+task.spawn(C_e8);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.UIGradient.LocalScript
+local function C_ee()
+	local script = G2L["ee"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_ee);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.galaxyThemeGradient.LocalScript
+local function C_f1()
+	local script = G2L["f1"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_f1);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.ScriptHub.lunarThemeGradient.LocalScript
+local function C_f3()
+	local script = G2L["f3"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_f3);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.UIGradient.LocalScript
+local function C_fd()
+	local script = G2L["fd"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_fd);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.anim
+local function C_105()
+	local script = G2L["105"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = true
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			UI.LOGO.Visible = false
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			UI.LOGO.Visible = true
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_105);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.noIcon.TextButton.UIStroke.LocalScript
+local function C_108()
+	local script = G2L["108"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_108);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.anim
+local function C_112()
+	local script = G2L["112"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = false
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			UI.mainContainer.Home.UIGradient.Enabled = true
+			UI.mainContainer.Executor.ideContainer.UIGradient.Enabled = true
+			UI.mainContainer.ScriptHub.UIGradient.Enabled = true
+			UI.mainContainer.Settings.UIGradient.Enabled = true
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			UI.mainContainer.Home.UIGradient.Enabled = false
+			UI.mainContainer.Executor.ideContainer.UIGradient.Enabled = false
+			UI.mainContainer.ScriptHub.UIGradient.Enabled = false
+			UI.mainContainer.Settings.UIGradient.Enabled = false
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_112);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.normalTheme.TextButton.UIStroke.LocalScript
+local function C_115()
+	local script = G2L["115"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_115);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.anim
+local function C_11f()
+	local script = G2L["11f"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = true
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			UI.mainContainer.Home.galaxyThemeGradient.Enabled = true
+			UI.mainContainer.Executor.ideContainer.galaxyThemeGradient.Enabled = true
+			UI.mainContainer.ScriptHub.galaxyThemeGradient.Enabled = true
+			UI.mainContainer.Settings.galaxyThemeGradient.Enabled = true
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			UI.mainContainer.Home.galaxyThemeGradient.Enabled = false
+			UI.mainContainer.Executor.ideContainer.galaxyThemeGradient.Enabled = false
+			UI.mainContainer.ScriptHub.galaxyThemeGradient.Enabled = false
+			UI.mainContainer.Settings.galaxyThemeGradient.Enabled = false
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_11f);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.galaxyTheme.TextButton.UIStroke.LocalScript
+local function C_122()
+	local script = G2L["122"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_122);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.anim
+local function C_12b()
+	local script = G2L["12b"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = true
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			UI.mainContainer.Home.lunarThemeGradient.Enabled = true
+			UI.mainContainer.Executor.ideContainer.lunarThemeGradient.Enabled = true
+			UI.mainContainer.ScriptHub.lunarThemeGradient.Enabled = true
+			UI.mainContainer.Settings.lunarThemeGradient.Enabled = true
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			UI.mainContainer.Home.lunarThemeGradient.Enabled = false
+			UI.mainContainer.Executor.ideContainer.lunarThemeGradient.Enabled = false
+			UI.mainContainer.ScriptHub.lunarThemeGradient.Enabled = false
+			UI.mainContainer.Settings.lunarThemeGradient.Enabled = false
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_12b);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.lunarTheme.TextButton.UIStroke.LocalScript
+local function C_12e()
+	local script = G2L["12e"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_12e);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.anim
+local function C_137()
+	local script = G2L["137"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = false
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			script.Parent.enb.Value = true
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			script.Parent.enb.Value = false
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_137);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.gameLogger.TextButton.UIStroke.LocalScript
+local function C_13a()
+	local script = G2L["13a"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_13a);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.KillExecutor.TextButton.LocalScript
+local function C_146()
+	local script = G2L["146"];
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end;
+task.spawn(C_146);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.anim
+local function C_14f()
+	local script = G2L["14f"];
+	local TweenService = game:GetService("TweenService")
+	local button = script.Parent
+	local frame = button:WaitForChild("Frame")
+	local originalColor = Color3.fromRGB(223, 0, 0)
+	local targetColor = Color3.new(0, 1, 0)
+	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.UI
+
+	local tweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local goalUp = {Position = UDim2.new(0.653, 0, 0.231, 0)}
+	local goalDown = {Position = UDim2.new(0.111, 0, 0.231, 0)}
+
+	local tweenUp = TweenService:Create(frame, tweenInfo, goalUp)
+	local tweenDown = TweenService:Create(frame, tweenInfo, goalDown)
+
+	local colorTweenInfo = TweenInfo.new(
+		0.5,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.Out
+	)
+
+	local colorTweenToGreen = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = targetColor})
+	local colorTweenToOriginal = TweenService:Create(button, colorTweenInfo, {BackgroundColor3 = originalColor})
+
+	local isMovingUp = false
+
+	button.MouseButton1Click:Connect(function()
+		if isMovingUp then
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Executor.ideContainer.ideScroll.H_Handler.Enabled = true
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Executor.ideContainer.ideScroll.ide.TextTransparency = 1
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Executor.ideContainer.ideScroll.ide.Text = ""
+			tweenUp:Play()
+			colorTweenToGreen:Play()
+		else
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Executor.ideContainer.ideScroll.H_Handler.Enabled = false
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Executor.ideContainer.ideScroll.ide.TextTransparency = 0
+			tweenDown:Play()
+			colorTweenToOriginal:Play()
+		end
+		isMovingUp = not isMovingUp
+	end)
+end;
+task.spawn(C_14f);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.ScrollingFrame.Frame.syntaxHighlight.TextButton.UIStroke.LocalScript
+local function C_152()
+	local script = G2L["152"];
+	local c=false
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		if c==false then
+			script.Parent.Color=Color3.fromRGB(83, 5, 5)
+			c=true
+		elseif c==true then
+			script.Parent.Color=Color3.fromRGB(24, 58, 0)
+			c=false
+		end
+	end)
+end;
+task.spawn(C_152);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.galaxyThemeGradient.LocalScript
+local function C_157()
+	local script = G2L["157"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_157);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.mainContainer.Settings.lunarThemeGradient.LocalScript
+local function C_159()
+	local script = G2L["159"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_159);
+-- StarterGui.Injecter_Backdoor.injecter_v1.2.6.UI.LOGO.Ring.UIGradient.LocalScript
+local function C_163()
+	local script = G2L["163"];
+	while true do
+		wait(0.1)
+		script.Parent.Rotation += 1
+	end
+end;
+task.spawn(C_163);
+
+return G2L["1"], require;
